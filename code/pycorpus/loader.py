@@ -9,17 +9,21 @@ from collections import Counter
 
 class FileXml:
     '''
-    classdocs
+    Allows to load an xml file from the corpus
     '''
 
 
     def __init__(self, path):
         '''
         Constructor
+        path is the file path
+        root is the xml root of the file
+        sections is a list of list. Each item of the list is a section. In each of these items, there is a sublist containing all the sentences
+        sectionDesc contains the section names
+        abstract is the list of abstract sentences
         '''
         self.path=path
         self.root = xml.etree.ElementTree.parse(self.path).getroot()
-        self.num_section=0
         self.sections=[]
         self.sectionDesc=[]
         self.abstract=[]
@@ -41,9 +45,15 @@ class FileXml:
         return text
     
     def getTextFromSection(self,i):
+        '''
+        Return the plain text of section i
+        '''
         return reduce(lambda x, y: x+y, self.sections[i])
     
     def getDistributionFromSection(self,i):
+        '''
+        Return the word distribution of section i
+        '''
         text=self.getTextFromSection(i)
         tokens=word_tokenize(text)
         return Counter(tokens)
