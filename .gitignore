@@ -1,4 +1,8 @@
 *~
+*.metadata*
+*.project*
+*.setting*
+*.pydev*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
