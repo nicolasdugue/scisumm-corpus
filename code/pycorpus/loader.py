@@ -5,6 +5,8 @@ Created on Mar 31, 2016
 '''
 import xml.etree.ElementTree
 from nltk import word_tokenize
+from collections import Counter
+
 class FileXml:
     '''
     classdocs
@@ -30,10 +32,29 @@ class FileXml:
                 for sentences in child:
                     section.append(sentences.text)
                 self.sections.append(section)
-                self.sectionDesc.append(child.title)
+                self.sectionDesc.append(child.get("title"))
                 
     def __str__(self):
         text= self.path + "\nAbstract : "+ str(self.abstract) + "\nSections : " + str(self.sectionDesc)
         for i in range(len(self.sectionDesc)):
-            text+="\n Section " + self.sectionDesc[i] + " : "+ str(len(self.sections))
+            text+="\n Section " + self.sectionDesc[i] + " : "+ str(len(self.sections[i])) + " sentences recorded"
         return text
+    
+    def getTextFromSection(self,i):
+        return reduce(lambda x, y: x+y, self.sections[i])
+    
+    def getDistributionFromSection(self,i):
+        text=self.getTextFromSection(i)
+        tokens=word_tokenize(text)
+        return Counter(tokens)
+    
+    def getAllText(self):
+        text=""
+        for i in range(len(self.sectionDesc)):
+            text+= self.getTextFromSection(i)
+        return text
+    
+    def getDistribution(self):
+        text=self.getAllText()
+        tokens=word_tokenize(text)
+        return Counter(tokens)
