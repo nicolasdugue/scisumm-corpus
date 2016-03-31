@@ -21,8 +21,6 @@ mais également nltk (présuppose d'avoir installé pip) :
 *   /test_load_file utilise pycorpus pour charger un fichier
 
 
-@hazemalsaied Tu peux donc compléter pyfmax/fmax.py et créer des fonctions qui calculent la feature f-mesure (en créant d'abord des fonction pour obtenir la somme des valeurs d'un cluster etc), puis utiliser test_isko.py pour tester si cela fonctionne.
-
 
 
 
