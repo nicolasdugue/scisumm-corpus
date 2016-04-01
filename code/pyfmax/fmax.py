@@ -22,6 +22,15 @@ class MatrixClustered:
 		self.matrix_csc = csc_matrix(matrix)
 
 		self.clustering=clustering
+		
+		self.clusters=[]
+		for idx,elmt in enumerate(self.clustering):
+			elmt=int(elmt)
+			taille=(len(self.clusters) -1) 
+			if elmt >= taille:
+				for i in range(elmt - taille):
+					self.clusters.append([])
+			self.clusters[elmt].append(idx)
 
 		self.labels_row=labels_row
 
@@ -49,5 +58,5 @@ class MatrixClustered:
 		"""
 		toString()
     		"""
-		return "Matrix CSR (ordered by rows) :\n" + str(self.matrix_csr)+ "\nMatrix CSC (ordered by columns): \n"+ str(self.matrix_csc) + "\nColumns labels (features) " + str(self.labels_col) + "\nRows labels (objects) " + str(self.labels_row) + "\nClusters " + str(self.clustering)
+		return "Matrix CSR (ordered by rows) :\n" + str(self.matrix_csr)+ "\nMatrix CSC (ordered by columns): \n"+ str(self.matrix_csc) + "\nColumns labels (features) " + str(self.labels_col) + "\nRows labels (objects) " + str(self.labels_row) + "\nClustering :  " + str(self.clustering)+"\nClusters : "+str(self.clusters)
 		
