@@ -19,3 +19,6 @@ matrix=np.loadtxt("exemple_isko/matrix_isko")
 #Create a MatrixClustered object using fm namespace which refers to fmax.py in package pyfmax
 obj=fm.MatrixClustered(matrix, clustering,labels_col=labels_col)
 print obj
+
+print obj.sum_cluster(0)
+print obj.sum_cluster(1)

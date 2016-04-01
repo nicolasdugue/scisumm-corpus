@@ -51,8 +51,21 @@ class MatrixClustered:
 	def sum_col(self, i):
 		"""
 		Get the sum of column i
+		Used in Feature Precision (Predominance)
     		"""
 		return self.sum_cols[i]
+	
+	def sum_cluster(self, i):
+		"""
+		Get the sum of cluster i
+		Used in feature recall
+    	"""
+		cluster=self.clusters[i]
+		sum=0
+		for row in cluster:
+			sum+=self.sum_row(row)
+		return sum
+    	
 
 	def __str__(self):
 		"""
