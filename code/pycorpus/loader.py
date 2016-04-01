@@ -88,4 +88,19 @@ class Corpus:
         
     def __str__(self):
         return "Citing paper :" + str(self.citances)+"\nCited papers : " + str(self.cited)
+    
+    def checkXmlOfCited(self):
+        for cited in self.cited :
+            try :
+                FileXml(cited)
+            except xml.etree.ElementTree.ParseError as e:
+                print cited + " - " + str(e)
+                
+    def checkXmlOfCiting(self):
+        for group_of_citing in self.citances :
+            for citances in group_of_citing:
+                try :
+                    FileXml(citances)
+                except xml.etree.ElementTree.ParseError as e:
+                    print citances + " - " + str(e)
      

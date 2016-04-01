@@ -13,3 +13,5 @@ print file.getDistribution()
 
 corpus=loader.Corpus("../data")
 print corpus
+corpus.checkXmlOfCited()
+corpus.checkXmlOfCiting()
