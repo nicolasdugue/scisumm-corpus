@@ -89,8 +89,8 @@ class Corpus:
         self.cited=[]
         directories=listdir(path)
         for directory in directories:
-            list_citances=[f for f in listdir(join(path,directory, "Citance_XML")) if "~" not in f]
-            reference=[f for f in listdir(join(path,directory, "Reference_XML")) if "~" not in f]
+            list_citances=[f for f in listdir(join(path,directory, "Citance_XML")) if "~" not in f and "xml" in f]
+            reference=[f for f in listdir(join(path,directory, "Reference_XML")) if "~" not in f and "xml" in f]
             self.cited.append(join(path,directory, "Reference_XML", reference[0]))
             self.citances.append(map(lambda x: join(path,directory, "Citance_XML", x), list_citances))
         
