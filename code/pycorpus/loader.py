@@ -6,6 +6,8 @@ Created on Mar 31, 2016
 import xml.etree.ElementTree
 from nltk import word_tokenize
 from collections import Counter
+from os import listdir
+from os.path import join
 
 class FileXml:
     '''
@@ -30,7 +32,7 @@ class FileXml:
         for child in self.root:
             if child.tag == 'ABSTRACT':
                 for sentences in child:
-                     self.abstract.append(sentences.text)
+                    self.abstract.append(sentences.text)
             else:
                 section=[]
                 for sentences in child:
@@ -68,3 +70,22 @@ class FileXml:
         text=self.getAllText()
         tokens=word_tokenize(text)
         return Counter(tokens)
+    
+class Corpus:
+    '''
+    Allows to handle a whole corpus
+    '''
+
+    def __init__(self, path):
+        self.citances=[]
+        self.cited=[]
+        directories=listdir(path)
+        for directory in directories:
+            list_citances=listdir(join(path,directory, "Citance_XML"))
+            reference=listdir(join(path,directory, "Reference_XML"))
+            self.cited.append(join(path,directory, "Reference_XML", reference[0]))
+            self.citances.append(map(lambda x: join(path,directory, "Citance_XML", x), list_citances))
+        
+    def __str__(self):
+        return "Citing paper :" + str(self.citances)+"\nCited papers : " + str(self.cited)
+     

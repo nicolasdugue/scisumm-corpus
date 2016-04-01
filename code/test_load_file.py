@@ -10,3 +10,6 @@ print file
 print file.getTextFromSection(0)
 print file.getDistributionFromSection(0)
 print file.getDistribution()
+
+corpus=loader.Corpus("../data")
+print corpus
