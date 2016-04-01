@@ -72,6 +72,9 @@ class FileXml:
         return text
     
     def getDistribution(self):
+        '''
+        Return the word distribution of all text
+        '''
         text=self.getAllText()
         tokens=word_tokenize(text)
         return Counter(tokens)
