@@ -145,5 +145,5 @@
 			<S sid ="135" ssid = "48">If the SA is NEUTRAL, the link will point to itself and the score is a recommendation to itself.</S>
 			<S sid ="136" ssid = "49">Otherwise, the link connects two different messages and represents the recommendation degree of the parent to the child message.</S>
 	</SECTION>
-	<SECTION title="Experiments 5.1 Experimental Setup. " number = "5">
+	<SECTION title="Experiments 5.1 Experimental Setup. " number = "5"></SECTION>
 </PAPER>

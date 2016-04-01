@@ -90,5 +90,5 @@
 			<S sid ="80" ssid = "11">For the 5The software used to create the DT is available fromhttp://www.jobimtext.org WP-based runs, the clustering based on PMI produced more clusters and therefore scored higher onthe F1 measure than the LLR-based run.</S>
 			<S sid ="81" ssid = "12">From anexploratory analysis of the created clusters, we assume that the WP-based runs have a higher chanceto find more rare senses in this specific task, sincethe gold standard was also based on Wikipedia disambiguation pages.</S>
 	</SECTION>
-	<SECTION title="Conclusion. " number = "5">
+	<SECTION title="Conclusion. " number = "5"></SECTION>
 </PAPER>

@@ -250,5 +250,5 @@
 			<S sid ="228" ssid = "9">We could not detect any difference in the posterior distributions over trees produced by thesesamplers, despite devoting considerable computational resources to the problem.</S>
 			<S sid ="229" ssid = "10">This suggests thatfor these kinds of problems at least, tightness isnot of practical concern for Bayesian inference ofPCFGs.</S>
 	</SECTION>
-	<SECTION title="Acknowledgements">
+	<SECTION title="Acknowledgements"></SECTION>
 </PAPER>

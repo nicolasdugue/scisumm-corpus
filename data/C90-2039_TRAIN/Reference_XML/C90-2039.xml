@@ -224,5 +224,5 @@
 			<S sid ="209" ssid = "8">Thus, the efficiency gain fi&apos;om this method is high when the overall FS unification failure rate of the application process is high.</S>
 			<S sid ="210" ssid = "9">The combined method Inakes each FS unification efficient and also reduces garbage collection and page swapping occurrences by avoiding memory wastage, thus increasing the total efficiency of li&apos;S unification-based natural language processing systems such aa analysis and generation systems based on IlI&apos;SG.</S>
 	</SECTION>
-	<SECTION title="Acknowledgement">
+	<SECTION title="Acknowledgement"></SECTION>
 </PAPER>

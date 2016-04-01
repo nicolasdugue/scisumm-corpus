@@ -25,7 +25,12 @@ class FileXml:
         abstract is the list of abstract sentences
         '''
         self.path=path
-        self.root = xml.etree.ElementTree.parse(self.path).getroot()
+        file=open(path)
+        content=""
+        self.root=""
+        content=file.read()
+        self.root = xml.etree.ElementTree.fromstring("<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>"+ content)
+            
         self.sections=[]
         self.sectionDesc=[]
         self.abstract=[]
@@ -81,8 +86,8 @@ class Corpus:
         self.cited=[]
         directories=listdir(path)
         for directory in directories:
-            list_citances=listdir(join(path,directory, "Citance_XML"))
-            reference=listdir(join(path,directory, "Reference_XML"))
+            list_citances=[f for f in listdir(join(path,directory, "Citance_XML")) if "~" not in f]
+            reference=[f for f in listdir(join(path,directory, "Reference_XML")) if "~" not in f]
             self.cited.append(join(path,directory, "Reference_XML", reference[0]))
             self.citances.append(map(lambda x: join(path,directory, "Citance_XML", x), list_citances))
         
