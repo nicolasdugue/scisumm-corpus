@@ -20,6 +20,6 @@ matrix=np.loadtxt("exemple_isko/matrix_isko")
 obj=fm.MatrixClustered(matrix, clustering,labels_col=labels_col)
 print obj
 print 'the first step has finished'
+print obj.getRelevantFeatures()
 print obj.calculateAllFF()
-#print obj.__sum_cluster(0)
-#print obj.__sum_cluster(1)
+

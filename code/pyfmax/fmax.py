@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from scipy.sparse import csr_matrix, csc_matrix
+from scipy.optimize.optimize import Result
 
 class MatrixClustered:
 	"""
@@ -35,66 +36,55 @@ class MatrixClustered:
 		self.labels_row = labels_row
 
 		self.labels_col = labels_col
-
+		print self.matrix_csr.toarray()
+		print self.matrix_csc.toarray()
 		self.sum_rows = self.matrix_csr.sum(axis=1)
 
 		self.sum_cols = self.matrix_csc.sum(axis=0)
-
-	def calculateFR(self, featureIndex, clusterNum):
-		"""
-		    Calculate Feature Recall 
 		
-		    Attributes
-		    ----------
-		   	featureIndex : int 
-		   		the index of the given feature inside labels_col array.
-		   		
-			clusterNum : int 
-				the index of the given cluster inside @clusters array
+		self.fMeasureArray = self.calculateAllFF()
 
-			Returns
-		    -------	
-				 the Feature Recall for the given feature on determined cluster
-    	"""
-		return  self.__sumFeatureForCluster(clusterNum, featureIndex) / self.__sum_col(0)[0, featureIndex]
+	def test(self):
+		docs = [["hello", "world", "hello"], ["goodbye", "cruel", "world"]]
+		indptr = [0]
+		indices = []
+		data = []
+		vocabulary = {}
+		for d in docs:
+		    for term in d:
+		        index = vocabulary.setdefault(term, len(vocabulary))
+		        indices.append(index)
+		        data.append(1)
+		    indptr.append(len(indices))
+		
+		csr_matrix((data, indices, indptr), dtype=int).toarray()
 	
-	def calculateFP(self, featureIndex, clusterNum):
+	def getRelevantFeatures(self):
 		"""
-		    Calculate Feature Precision 
+		    get features which represent and discriminate classes    
 		
-		    Attributes
-		    ----------
-		   	featureIndex : int 
-		   		the index of the given feature inside labels_col array.
-		   		
-			clusterNum : int 
-				the index of the given cluster inside @clusters array
-
 			Returns
 		    -------	
-				 the Feature Precision for the given feature on determined cluster
+				 boolean array whose row are indices of the classes and columns are features 
+				 if result[clusterIndex, featureIndex] is true then the feature represent and discriminate the class 
     	"""
-		return self.__sumFeatureForCluster(clusterNum, featureIndex) / self.__sum_cluster(clusterNum) 
-	
-	def calculateFF(self, featureIndex, clusterNum):
-		"""
-		    Calculate Feature F-Measure 
-		
-		    Attributes
-		    ----------
-		   	featureIndex : int 
-		   		the index of the given feature inside labels_col array.
-		   		
-			clusterNum : int 
-				the index of the given cluster inside @clusters array
-
-			Returns
-		    -------	
-				 the Feature F-Measure for the given feature on determined cluster
-    	"""
-		FPrecision = self.calculateFP(featureIndex, clusterNum)
-		FRecall = self.calculateFR(featureIndex, clusterNum)
-		return  2 * FRecall * FPrecision / (FRecall + FPrecision)
+		result = []  
+		fMeasureArray = self.fMeasureArray  # self.calculateAllFF()
+		self.clustersCardinality = self.__calculateClustersCardinality()
+		self.hatedFFf = self.__calculateHatedFFf()
+		self.hatedFFd = self.__calculateHatedFFd()
+		# iteration over classes
+		for clusterIndex in xrange(0, len(self.clusters)):
+			resultRow = []
+			# iteration over features
+			for featureIndex in xrange(0, len(self.labels_col)):
+				FF = fMeasureArray[clusterIndex] [featureIndex] 
+				if FF > self.hatedFFf[featureIndex] and FF > self.hatedFFd : 
+					resultRow.append(True)
+				else: 
+					resultRow.append(False)
+			result.append(resultRow)
+		return result
 	
 	def calculateAllFF(self):
 		"""
@@ -110,10 +100,138 @@ class MatrixClustered:
 		for clusterIndex in xrange(0, len(self.clusters)) :
 			clusterRow = []
 			for featureIndex in xrange(0, len(self.labels_col)) :
-				clusterRow.append(self.calculateFF(featureIndex, clusterIndex)[0, 0])
+				clusterRow.append(self.__calculateFF(featureIndex, clusterIndex)[0, 0])
 			ffArray.append(clusterRow)
 		return ffArray
+	
+	def __calculateFF(self, featureIndex, clusterNum):
+		"""
+		    Calculate Feature F-Measure 
+		
+		    Attributes
+		    ----------
+		   	featureIndex : int 
+		   		the index of the given feature inside labels_col array.
+		   		
+			clusterNum : int 
+				the index of the given cluster inside clusters array
+
+			Returns
+		    -------	
+				 the Feature F-Measure for the given feature on determined cluster
+    	"""
+		FPrecision = self.__calculateFP(featureIndex, clusterNum)
+		FRecall = self.__calculateFR(featureIndex, clusterNum)
+		return  2 * FRecall * FPrecision / (FRecall + FPrecision)
+	
+	def __calculateFR(self, featureIndex, clusterNum):
+		"""
+		    Calculate Feature Recall 
+		
+		    Attributes
+		    ----------
+		   	featureIndex : int 
+		   		the index of the given feature inside labels_col array.
+		   		
+			clusterNum : int 
+				the index of the given cluster inside clusters array
+
+			Returns
+		    -------	
+				 the Feature Recall for the given feature on determined cluster
+    	"""
+		return  self.__sumFeatureForCluster(clusterNum, featureIndex) / self.__sum_col(0)[0, featureIndex]
+	
+	def __calculateFP(self, featureIndex, clusterNum):
+		"""
+		    Calculate Feature Precision 
+		
+		    Attributes
+		    ----------
+		   	featureIndex : int 
+		   		the index of the given feature inside labels_col array.
+		   		
+			clusterNum : int 
+				the index of the given cluster inside clusters array
+
+			Returns
+		    -------	
+				 the Feature Precision for the given feature on determined cluster
+    	"""
+		return self.__sumFeatureForCluster(clusterNum, featureIndex) / self.__sum_cluster(clusterNum) 
 		 
+	def __calculateHatedFFd(self):
+		"""
+		    Calculate the hated FFd
+	
+			Returns
+		    -------	
+				  the value of hated  FFd for all features 
+		"""
+		# iteration over features
+		tempSum = 0
+		for featureIndex in xrange(0, len(self.labels_col)):
+			tempSum += self.hatedFFf[featureIndex]
+		return tempSum / self.__calculateFeaturesCardinality() 
+		
+	
+	def __calculateHatedFFf(self):
+		"""
+		    Calculate the hated FFd for a given feature
+			
+			Attributes
+		    ----------
+			featureIndex : int 
+		   		the index of the given feature inside labels_col array.
+
+			Returns
+		    -------	
+				  the value of hated FFd for a given feature 
+    	"""
+		rowResult = []
+		for featureIndex in xrange(0,len(self.labels_col)):
+			tempSum = 0
+			for cluster in self.clusters :
+				tempSum += self.__calculateFF(featureIndex, self.clusters.index(cluster))
+			tepResult = (tempSum / self.clustersCardinality[featureIndex])
+			rowResult.append(tepResult[0,0])
+			#result.append(rowResult)
+		return rowResult
+	
+	def __calculateClustersCardinality(self):
+		"""
+		    Calculate the cardinality of clusters for a given feature
+			
+			Attributes
+		    ----------
+			featureIndex : int 
+		   		the index of the given feature inside labels_col array.
+
+			Returns
+		    -------	
+				  the cardinality of clusters for a given feature 
+    	"""
+		result = []
+		for featureIndex in xrange(0,len(self.labels_col)):
+			cardinality = 0
+			for cluster in self.clusters : 
+				for row in cluster :
+					if self.matrix_csc[row, featureIndex] != 0 :
+						cardinality += 1
+						break
+			result.append(cardinality)
+		return  result
+	
+	def __calculateFeaturesCardinality(self):
+		"""
+		    Calculate the cardinality of features
+
+			Returns
+		    -------	
+				  the cardinality of features 
+    	"""
+		return len(self.labels_col)
+	
 	def __sum_row(self, i):
 		"""
 			Auxiliary Function.
@@ -160,6 +278,8 @@ class MatrixClustered:
 		for row in cluster:
 			sum += self.matrix_csc[row, featureIndex] 
 		return sum
+	
+
 
 	def __str__(self):
 		"""
