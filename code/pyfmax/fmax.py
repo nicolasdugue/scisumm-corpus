@@ -4,7 +4,7 @@
 from scipy.sparse import csr_matrix, csc_matrix
 from scipy.optimize.optimize import Result
 
-class MatrixClustered:
+class FeatureMaximizer:
 	"""
 		This class allows to define a matrix which rows (objects) were clustered
 		Labels can be used to describe rows (objects) and columns (features)
