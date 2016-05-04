@@ -21,7 +21,7 @@ pour executer le code il faut exécuter le fichier test_load_file.py qui provoqu
 ##La structure
 ------------
 
-*   ##TextSummarizer: cette classe est dans le fichier summarizer et elle est responsible de provoquer toutes les foctions principales du résumé, elle enveloppe les documents de corpus dans une structure bien organisée et composée des classes suivantes:
+*   ## TextSummarizer: cette classe est dans le fichier summarizer et elle est responsible de provoquer toutes les foctions principales du résumé, elle enveloppe les documents de corpus dans une structure bien organisée et composée des classes suivantes:
 
     *   ##Paper
     *   ##Section
@@ -38,7 +38,7 @@ pour executer le code il faut exécuter le fichier test_load_file.py qui provoqu
 
 *   ##FeatureMaximization: située dans le fichier fm.py est responsable de calculer les matrices de FR, FP, FF. ces matrices sont calculées lors de l'initialisation. les autres matrices sont calculées quand on provoque getRelevantFeatures pour calculer les caracarestiques pertinentes
 
-    - le resultat du prgramme est enregistré dans le console, les mots pertinents, les phrases gagnates avec des méta données, le poids, le nombre de mots gagnats, le nombre de mots ayant un poids non-zero ..
+    - le resultat du prgramme est enregistré dans le console: les mots pertinents, les phrases gagnates avec des méta données: le poids, le nombre de mots gagnats, le nombre de mots ayant un poids non-zero ..
 
 ** vieux commentaire de Nicolas :
 
