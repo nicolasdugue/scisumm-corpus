@@ -1,6 +1,6 @@
 ## Le Résumé Automatique, La Maximisation de Caracarestiques
 
-##L'installation
+###L'installation
 ------------
 
 
@@ -16,31 +16,34 @@ http://www.nltk.org/install.html
     sudo pip install -U nltk
 
 
-pour executer le code il faut exécuter le fichier test_load_file.py qui provoque la fonction summarize de la classe :
+> pour executer le code il faut exécuter le fichier test_load_file.py qui provoque la fonction summarize de la classe :
 
-##La structure
+###La structure
 ------------
 
-*   ## TextSummarizer: cette classe est dans le fichier summarizer et elle est responsible de provoquer toutes les foctions principales du résumé, elle enveloppe les documents de corpus dans une structure bien organisée et composée des classes suivantes:
+*   TextSummarizer: cette classe est dans le fichier summarizer et elle est responsible de provoquer toutes les foctions principales du résumé.
+    elle enveloppe les documents de corpus dans une structure bien organisée et composée des classes suivantes:
 
-    *   ##Paper
-    *   ##Section
-    *   ##Sentence
-    *   ##Word
+    *   Paper
+    *   Section
+    *   Sentence
+    *   Word
 
     - toutes ces classes se trouvent dans le fichier coprpus.py, elles sont toutes composées de quelque attribues avec leur getter et setter et une fonction pour l'initiation.
     -l'iinitiation est la plus importante fonction pour comprendre la façon dans la quelle je crée cette structure.
     -l'initiateur de la classe Word contient la plupart des operations comme le traitement linguistique de NLTK.
     -la classe Word contient deux listes, les indices et les phrases. les deux listes sont associées et alignées. par exemple, le premier index représente la position du mot dans la premiere phrase.
 
-*   la classe ##MatricesBuilder, située dans le fichier matrices.py est responsable de créer les matrices demandées pour la maximisation de caractaristiques
+*   la classe MatricesBuilder, située dans le fichier matrices.py est responsable de créer les matrices demandées pour la maximisation de caractaristiques
     bref, elle fait les donées d'éntrée pour la classe :
 
-*   ##FeatureMaximization: située dans le fichier fm.py est responsable de calculer les matrices de FR, FP, FF. ces matrices sont calculées lors de l'initialisation. les autres matrices sont calculées quand on provoque getRelevantFeatures pour calculer les caracarestiques pertinentes
+*   FeatureMaximization: située dans le fichier fm.py est responsable de calculer les matrices de FR, FP, FF. ces matrices sont calculées lors de l'initialisation. les autres matrices sont calculées quand on provoque getRelevantFeatures pour calculer les caracarestiques pertinentes
 
     - le resultat du prgramme est enregistré dans le console: les mots pertinents, les phrases gagnates avec des méta données: le poids, le nombre de mots gagnats, le nombre de mots ayant un poids non-zero ..
 
-** vieux commentaire de Nicolas :
+> le fichier test_isko.py ne fonctionne plus, il a besoin d'adaption avec la nouvelle forme de la classe de FM
+
+> vieux commentaire de Nicolas :
 
 *   /exemple_isko contient les fichiers qui représentent l'exemple utilisé dans nos articles pour expliquer la feature f-mesure (homme/femme avec tailles pieds, cheveux, nez)
 
