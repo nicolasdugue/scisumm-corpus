@@ -13,6 +13,7 @@ class MatricesBuilder:
         The object of this class is used to encapsulate the occurrence array
         of the passed article to the feature maximizatin
     """
+    titleWords = []
 
     def __init__(self, paper):
         """

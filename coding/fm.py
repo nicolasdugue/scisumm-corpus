@@ -31,6 +31,34 @@ class FeatureMaximization:
         self.clustersCardinality = self.__calculateClustersCardinality()
         self.hatedFFf = self.__calculateHatedFFf()
         self.hatedFFd = self.__calculateHatedFFd()
+        self.gain = self.__calculateGain()
+
+    def getRelevantFeaturesByContrast(self):
+
+        result = []
+        # iteration over classes
+        for clusterIndex in xrange(0, len(self.occurrenceArray)):
+            resultRow = []
+            # iteration over features
+            relevantWord = 0
+            for featureIndex in xrange(0, len(self.occurrenceArray[0])):
+                if self.gain[clusterIndex][featureIndex] > 1:
+                    sempStr = str(relevantWord) + ' : The word ' + self.occurrenceMap.keys()[featureIndex] \
+                              + ' is relevant for the section ' + str(clusterIndex) + '\n'
+                    self.report += sempStr
+                    # print sempStr
+                    wordObj = self.paper.getWordFromVocabulary(self.occurrenceMap.keys()[featureIndex])
+                    if wordObj is not None:
+                        wordObj.setAsContrastFeature()
+                        print wordObj, '\n'
+                    else:
+                        print "## ERROR ## : couldn't get the associated Word Object of the word #: " + relevantWord
+                    relevantWord += 1
+                    resultRow.append(True)
+                else:
+                    resultRow.append(False)
+            result.append(resultRow)
+        return result
 
     def getRelevantFeatures(self):
         """
@@ -39,34 +67,60 @@ class FeatureMaximization:
             :return: boolean array whose row are indices of the classes and columns are features
             if result[clusterIndex, featureIndex] is true then the feature represent and discriminate the class
         """
-        result = []
+        self.relevantFeatures = []
+        self.relevantFeaturesByContrast = []
         # iteration over classes
         for clusterIndex in xrange(0, len(self.occurrenceArray)):
-            resultRow = []
+            relevantFeaturesRow = []
+            relevantFeaturesByContrastRow = []
             # iteration over features
             relevantWord = 0
             for featureIndex in xrange(0, len(self.occurrenceArray[0])):
                 FF = self.ff[clusterIndex][featureIndex]
+                wordObj = self.paper.getWordFromVocabulary(self.occurrenceMap.keys()[featureIndex])
                 if FF > self.hatedFFf[featureIndex] and FF > self.hatedFFd:
                     sempStr = str(relevantWord) + ' : The word ' + self.occurrenceMap.keys()[featureIndex] \
                                    + ' is relevant for the section ' + str(clusterIndex) + '\n'
                     self.report += sempStr
-                    print sempStr
-                    wordObj = self.paper.getWordFromVocabulary(self.occurrenceMap.keys()[featureIndex])
+                    # print sempStr
                     if wordObj is not None:
                         wordObj.setAsFeature()
                     relevantWord += 1
-                    resultRow.append(True)
+                    relevantFeaturesRow.append(True)
                 else:
-                    resultRow.append(False)
-            result.append(resultRow)
-        return result
+                    relevantFeaturesRow.append(False)
+                if self.gain[clusterIndex][featureIndex] > 1:
+                    relevantFeaturesByContrastRow.append(True)
+                    if wordObj is not None:
+                        wordObj.setAsContrastFeature()
+                else:
+                    relevantFeaturesByContrastRow.append(False)
+                if (wordObj is not None) and (wordObj.isFeature() or wordObj.isContrastFeature()):
+                    print wordObj
+            self.relevantFeaturesByContrast.append(relevantFeaturesByContrastRow)
+            self.relevantFeatures.append(relevantFeaturesRow)
+        return self.relevantFeatures
+
+    def __calculateGain(self):
+        """
+            Calculate the Gain for each feature on each cluster
+
+            :return: a two dimension array (clusterIndex * FeatureIndex) presenting the value of the gain
+            for all features on all clusters
+        """
+        self.gian = []
+        for i in xrange(0, len(self.occurrenceArray)):
+            row = []
+            for j in xrange(0, len(self.occurrenceArray[0])):
+                row.append(float(self.ff[i][j]) / self.hatedFFf[j])
+            self.gian.append(row)
+        return self.gian
 
     def __calculateHatedFFf(self):
         """
             Calculate the hated FFd for a given feature
 
-            :return: the value of hated FFd for a given feature
+            :return: a one dimension array presenting the value of hated FFd for all features
         """
         rowResult = []
         for featureIndex in xrange(0, len(self.occurrenceArray[0])):
@@ -81,7 +135,7 @@ class FeatureMaximization:
         """
             Calculate the hated FFd
 
-            :return: the value of hated  FFd for all features
+            :return: a Float representing the value of hated  FFd ,
         """
         # iteration over features
         tempSum = 0
