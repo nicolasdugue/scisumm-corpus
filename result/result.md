@@ -803,7 +803,7 @@
 1 - **Research** ,Feature
 
 #The Summary
-**we take 5 percent of the important sentences for making the summary**
+**ze take 5 percent of the important and long sentences for making the summary**
 
 OF COLING92, NANTES, AuG, 2328, 1992 This paper proposes an extension to Aithaci&apos;sV&apos; type that incorporates three kinds of the primitive negative descriptions described below into the 0-type.
 
@@ -826,3 +826,859 @@ AltKaci&apos;s term structure, the basis of the tit-type, is defined by assignin
 .arcs ::= arcs U node . arcs; ovturn(node2); end Figure 5: A Destructive Graph Unification Functionso that a covers an additional type symbol.
 
 In this paper, FSs have been augmented, using a promising method of for AltKaci&apos;s type, to allow three kinds of negative descriptions of them to be treated.In a formalization of typed feature structures, neg ative descriptions can be decomposed into three kinds of negations: negations of type symbols, negations of feature existences, and negations of feature-address value agreements.
+
+
+/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/scipy/spatial/distance.py:287: RuntimeWarning: invalid value encountered in double_scalars
+  dist = 1.0 - np.dot(u, v) / (norm(u) * norm(v))
+
+#analysing the annotation 1
+
+##The Citing Sentences :
+While an improvement over simple destructive unification, Tomabechi's approach still suffers from what Kogure (Kogure, 1990) calls redundant copying.
+
+###The Corpus Reference Sentences :
+1.0
+
+
+**21** : itowever, the problem with his method is that a unitication result graph consists only of newly created structures.
+
+1.0
+
+
+**22** : This is unnecessary because there are often input snbgraphs that can be used as part of the result graph without any modification, or as sharable parts between one of the input graphs and the result graph.
+
+0.98827166792
+
+
+**23** : Copying sharable parts is called redundant copying.
+
+
+###Our Reference Sentences :
+0.257253382033
+
+**194** : Unification The unification operation for augmented tk-terms or augmented TFSs has been implemented using graphunification techniques.
+
+
+0.316278989552
+
+**213** : To simplify the explanation, the destructive version of graph unification is used above.
+
+
+0.360849090372
+
+**214** : Other versions based on more efficient graph unification methods such as Wroblewski's and Kogure's method [23, 16) have also been developed.
+
+
+0.366603940438
+
+**215** : Furthermore, it is easy to modify other graph unification inethods[21, 61 to allow augmented 1TSs.
+
+
+0.400128494568
+
+**196** : The unification oper ation for such DGs corresponds to a graph merging operation.
+
+
+
+#analysing the annotation 2
+
+##The Citing Sentences :
+The extension is classified into class (1) above.Based on this paper's formalization, unification algorithms have been developed using graph unification techniques[23, 16].
+
+###The Corpus Reference Sentences :
+0.372468353304
+
+
+**0** : Strategic Lazy Incremental Copy Graph Unification
+
+
+###Our Reference Sentences :
+0.252788071412
+
+**44** : The extension is classified into class (1) above.Based on this paper's formalization, unification al gorithms have been developed using graph unificationtechniques[23, 16].
+
+
+0.452815742089
+
+**198** : In a destructive graph unification method, winch is very simple, such a graph is represented by the data structures in Figure 4.
+
+
+0.483832312905
+
+**213** : To simplify the explanation, the destructive version of graph unification is used above.
+
+
+0.503475594639
+
+**214** : Other versions based on more efficient graph unification methods such as Wroblewski's and Kogure's method [23, 16) have also been developed.
+
+
+0.50531293874
+
+**194** : Unification The unification operation for augmented tk-terms or augmented TFSs has been implemented using graphunification techniques.
+
+
+
+#analysing the annotation 3
+
+##The Citing Sentences :
+Other versions based on more efficient graph unification methods such as Wroblewski's and Kogure's method [23, 16] have also been developed.
+
+###The Corpus Reference Sentences :
+0.196785800727
+
+
+**0** : Strategic Lazy Incremental Copy Graph Unification
+
+
+###Our Reference Sentences :
+0.110528439076
+
+**214** : Other versions based on more efficient graph unification methods such as Wroblewski's and Kogure's method [23, 16) have also been developed.
+
+
+0.187257215387
+
+**198** : In a destructive graph unification method, winch is very simple, such a graph is represented by the data structures in Figure 4.
+
+
+0.207188896699
+
+**213** : To simplify the explanation, the destructive version of graph unification is used above.
+
+
+0.258009369345
+
+**215** : Furthermore, it is easy to modify other graph unification inethods[21, 61 to allow augmented 1TSs.
+
+
+0.29728164565
+
+**196** : The unification oper ation for such DGs corresponds to a graph merging operation.
+
+
+
+#analysing the annotation 4
+
+##The Citing Sentences :
+This is inefficient with many copy operations due to unfications of unnecessary features that do not contribute to successful unification [6].
+
+###The Corpus Reference Sentences :
+0.741512481829
+
+
+**205** : Furthermore, structure sharing increases the portion of token identical substructures of FSs which makes it efficient to keep unification results of substructures of FSs and reuse them.
+
+1.0
+
+
+**206** : This reduces repeated calculation of substructures.
+
+
+###Our Reference Sentences :
+0.189267211423
+
+**76** : OF COLING92, NANTES, AUG. 2328, 1992 3.1 Typed Feature Structures as.
+
+
+0.208989686868
+
+**146** : Such an inconsistency is called a feature inconsistency.
+
+
+0.247694927216
+
+**156** : This is also true for feature incon sistency and tag inconsistency.
+
+
+0.291551305299
+
+**73** : &apos;Fenn structures are first augmented with structures representing in features and disagreement of feature address values.
+
+
+0.33239976086
+
+**22** : In order to treat feature domains of complex FSsand to treat taxonomic hierarchies of symbolic feature values, type (or sort) hierarchies have been in troduced, allowing definition of typed (or sorted) feature-structures (Ms).
+
+
+
+##The Citing Sentences :
+Thus treatments such as strategic unification [6] have been developed.
+
+###The Corpus Reference Sentences :
+0.535066559359
+
+
+**205** : Furthermore, structure sharing increases the portion of token identical substructures of FSs which makes it efficient to keep unification results of substructures of FSs and reuse them.
+
+1.0
+
+
+**206** : This reduces repeated calculation of substructures.
+
+
+###Our Reference Sentences :
+0.189267211423
+
+**76** : OF COLING92, NANTES, AUG. 2328, 1992 3.1 Typed Feature Structures as.
+
+
+0.208989686868
+
+**146** : Such an inconsistency is called a feature inconsistency.
+
+
+0.247694927216
+
+**156** : This is also true for feature incon sistency and tag inconsistency.
+
+
+0.291551305299
+
+**73** : &apos;Fenn structures are first augmented with structures representing in features and disagreement of feature address values.
+
+
+0.306093482112
+
+**194** : Unification The unification operation for augmented tk-terms or augmented TFSs has been implemented using graphunification techniques.
+
+
+
+#analysing the annotation 5
+
+##The Citing Sentences :
+This observation is the basis for a reordering method proposed by Kogure [1990].
+
+###The Corpus Reference Sentences :
+0.938725440995
+
+
+**3** : The other, called ti~e strategic incremental copy graph unification method, uses an early failure finding strategy which first tries to unify ;ubstructures tending to fail in unification; this method is; based on stochastic data on tim likelihood of failure and ,'educes unnecessary computation.
+
+
+###Our Reference Sentences :
+0.693518079786
+
+**46** : </bodyText> <sectionHeader confidence="0.650502" genericHeader="method">
+
+
+0.819102083449
+
+**221** : It is also shown that the first kind can be treated by extending type symbol lattices to include complement type symbols.&apos;Die proposed formalization can provide efficient al AcrEs 05 COLING92, NANTES, 2328 Â°art 1992 3 8 5 PROC.
+
+
+0.822609093578
+
+**216** : This paper has proposed an augmentation of feature structures (FSs) which introduces negative in formation into FSs in unification-based formalisms.Unification-based linguistic formalisms use lbs to describe linguistic objects and phenomena.
+
+
+0.849810928954
+
+**214** : Other versions based on more efficient graph unification methods such as Wroblewski's and Kogure's method [23, 16) have also been developed.
+
+
+0.930390015386
+
+**198** : In a destructive graph unification method, winch is very simple, such a graph is represented by the data structures in Figure 4.
+
+
+
+#analysing the annotation 6
+
+##The Citing Sentences :
+Thus for any automatic counting scheme some constant shuffling and reshuffling of the conjunct order needs to be applied until the order stabilizes (see also [Kogure 1990]).
+
+###The Corpus Reference Sentences :
+1.0
+
+
+**186** : in this method, theretbre, the failure tendency information is acquired by a learning process.
+
+1.0
+
+
+**187** : That is, the SING unification method applied in an analysis system uses the failure tendency information acquired by a learning analysis process.
+
+0.831321566047
+
+
+**188** : in the learning process, when FS unification is applied, feature treatment orders are randomized for the sake of random extraction.
+
+
+###Our Reference Sentences :
+0.608409923362
+
+**170** : The subsumption order on IP are defined by [Ii] &lt; [12] if ti &lt;12 is well-defined.Lattice operations on P can be defined to be com patible with the above subsumption order relation as follows.
+
+
+0.722156793484
+
+**162** : The subsumption orders on W.TT and on sP are defined as follows.
+
+
+0.831896953137
+
+**204** : The func tion finally treats arcs in order to make the result graph right-congruent.
+
+
+0.914109398202
+
+**214** : Other versions based on more efficient graph unification methods such as Wroblewski's and Kogure's method [23, 16) have also been developed.
+
+
+0.918161073677
+
+**81** : a partial order &lt;7 on T such that (a) I. is the least and T is the greatest element, and (b) every pair of type symbols a, b E 7 have a least upper bound or join, which is denoted by a VT b and a greatest lower bound or meet, which is denoted by a AT b, 3.
+
+
+
+#analysing the annotation 7
+
+##The Citing Sentences :
+The lazy copying approach ([Kogure, 1990], and [Emele, 1991] for lazy copying in TFS with historical backtracking) copies only overlapping parts of the structure.
+
+###The Corpus Reference Sentences :
+0.602810230776
+
+
+**39** : This paper proposes an FS unification method that allows structure sharing with constant m'der node access time.
+
+0.389203132111
+
+
+**40** : This method achieves structure sharing by introducing lazy copying to Wroblewski's incremental copy graph unification method.
+
+1.0
+
+
+**78** : Then, the unification of tl anti t2 is defined as their greatest lower bound or the meet.
+
+
+###Our Reference Sentences :
+0.340587698531
+
+**28** : Asubsumption relation is defined on these term structures.
+
+
+0.600125758346
+
+**216** : This paper has proposed an augmentation of feature structures (FSs) which introduces negative in formation into FSs in unification-based formalisms.Unification-based linguistic formalisms use lbs to describe linguistic objects and phenomena.
+
+
+0.610726685479
+
+**195** : A term structure is repre sented as a directed graph by assigning a graph nodeto each K-class as in Figure 2.
+
+
+0.615352214286
+
+**224** : Logic-based frameworks can be used to obtain the data structures for this paper&apos;s formalization.Unification algorithms for augmented terms or augmented TFSs have been developed using graph uni fication techniques.
+
+
+0.640794453742
+
+**219** : It is shown that the second andthird kinds can be treated by augmenting term struc tures to include structures representing such kinds of descriptions.
+
+
+
+#analysing the annotation 8
+
+##The Citing Sentences :
+At least two schemes have been proposed recently ])a.~ed Ul)OU this observation (namely [Kogure.
+
+###The Corpus Reference Sentences :
+1.0
+
+
+**0** : Strategic Lazy Incremental Copy Graph Unification
+
+
+###Our Reference Sentences :
+0.346568857752
+
+**197** : This takes two DGs and merges hi-classes of the same feature-address into a K-class.
+
+
+0.700634007608
+
+**205** : For treating arcs, the function Unify assumes two functions, Shared_Arc_Pairs and Comylemeni_Arcs.
+
+
+0.768489671184
+
+**202** : The function Unify takes two input nodes and puts them in a K.-class by letting one input be the forward field values.
+
+
+0.776883638935
+
+**211** : Unification of two nodes which have each other in their dnodes yields 1 because of tag inconsistency.
+
+
+0.784524304089
+
+**201** : By traversing two DGs&apos; nodeswith the same feature-address simultaneously, calcu lating the union of their K-classes, and copying arcs, their unification can be calculated as in Figure 5.
+
+
+
+##The Citing Sentences :
+1990] and [Emele, 1991]); however, both schemes are I)ased upon the increlllent'al Col)yiug sehellle all(l ~-LS ([e- scribed in [Tomal)eehi, 1991] incremental copying schemes inherently suffcr fi'om Early Copying as defined in that article.
+
+###The Corpus Reference Sentences :
+1.0
+
+
+**0** : Strategic Lazy Incremental Copy Graph Unification
+
+
+###Our Reference Sentences :
+0.108417539493
+
+**79** : A signature is formally defined as follows, Definition 1 A signature is a quadruple (7, &lt;7 V) consisting of: 1.
+
+
+0.155756545699
+
+**162** : The subsumption orders on W.TT and on sP are defined as follows.
+
+
+0.287115075692
+
+**142** : To treat, such inconsistency, a relation 41 on 311.1.TY is defined as follows.
+
+
+0.300727075056
+
+**149** : lien cc, the three kinds of inconsistency are treatedintegratedly by a relation ff on W.FT defined as fol lows.
+
+
+0.315979425779
+
+**72** : Next, augmented 0,-terms and 0-types are defined.
+
+
+
+#analysing the annotation 9
+**Not valid annotation**
+
+#analysing the annotation 10
+
+##The Citing Sentences :
+2In the large-scale HPSG-based spoken Japanese analysis system developed at ATR, sometimes 98 percent of the elapsed time is devoted to graph unification ([Kogure, 1990]).
+
+###The Corpus Reference Sentences :
+0.551774868036
+
+
+**205** : Furthermore, structure sharing increases the portion of token identical substructures of FSs which makes it efficient to keep unification results of substructures of FSs and reuse them.
+
+
+###Our Reference Sentences :
+0.105780837112
+
+**213** : To simplify the explanation, the destructive version of graph unification is used above.
+
+
+0.129352844443
+
+**198** : In a destructive graph unification method, winch is very simple, such a graph is represented by the data structures in Figure 4.
+
+
+0.13981124891
+
+**214** : Other versions based on more efficient graph unification methods such as Wroblewski's and Kogure's method [23, 16) have also been developed.
+
+
+0.147556301315
+
+**215** : Furthermore, it is easy to modify other graph unification inethods[21, 61 to allow augmented 1TSs.
+
+
+0.192674666812
+
+**196** : The unification oper ation for such DGs corresponds to a graph merging operation.
+
+
+
+#analysing the annotation 11
+
+##The Citing Sentences :
+That is, unless some new scheme for reducing excessive copying is introduced such as scucture-sharing of an unchanged shared-forest ([Kogure, 1990]).
+
+###The Corpus Reference Sentences :
+1.0
+
+
+**11** : For example, a spoken Present.
+
+1.0
+
+
+**14** : Japanese analysis system based on llPSG[Kogure 891 uses 90% - 98% of the elapsed time in FS unification.
+
+
+###Our Reference Sentences :
+0.976475805018
+
+**201** : By traversing two DGs&apos; nodeswith the same feature-address simultaneously, calcu lating the union of their K-classes, and copying arcs, their unification can be calculated as in Figure 5.
+
+
+0.984701775366
+
+**183** : Let A : fat, , aN1 be the set of atoms of 7, that is, type symbols which cover 1.4 If there arenon-atomic type symbols which cover only one sym bol, for each such symbol a, a new atom is added &apos;A lattice is called complemented if its all elements have complements.[3] &apos;a is said to cover 13 if b &lt;7 a and b &lt;7 c &lt;-r a implies c = b. r1(p) VT T2(P), (10c) 01(P) n 02(0, and (10d) -{u3(q) I q E (Disagrâ,,,(p) (Oil.
+
+
+0.995311403785
+
+**107** : (8) XEx(p) Augmented terms are hereafter referred to simply as terms unless stated otherwise.
+
+
+1.0
+
+**216** : This paper has proposed an augmentation of feature structures (FSs) which introduces negative in formation into FSs in unification-based formalisms.Unification-based linguistic formalisms use lbs to describe linguistic objects and phenomena.
+
+
+1.0
+
+**217** : Because lin guistic information can be described compactly usingdisjunctive and negative descriptions, l&apos;Ss and feature descriptions are required to treat such descrip tions.
+
+
+
+#analysing the annotation 12
+
+##The Citing Sentences :
+A more eNcient unification algorithm would avoid this redundant copying (copying structures that can be shared by the input and resultant graphs) (Kogure, 1990).
+
+###The Corpus Reference Sentences :
+0.626854626035
+
+
+**203** : The LING unification method achieves structure sharing without the O(log d) data access overhead of Pereira's method.
+
+0.806070665642
+
+
+**22** : This is unnecessary because there are often input snbgraphs that can be used as part of the result graph without any modification, or as sharable parts between one of the input graphs and the result graph.
+
+0.992842676709
+
+
+**23** : Copying sharable parts is called redundant copying.
+
+0.14122177722
+
+
+**24** : A better method would nfinimize the copying of sharable varts.
+
+
+###Our Reference Sentences :
+0.563125180363
+
+**198** : In a destructive graph unification method, winch is very simple, such a graph is represented by the data structures in Figure 4.
+
+
+0.63847450896
+
+**195** : A term structure is repre sented as a directed graph by assigning a graph nodeto each K-class as in Figure 2.
+
+
+0.679174439799
+
+**213** : To simplify the explanation, the destructive version of graph unification is used above.
+
+
+0.691383779949
+
+**214** : Other versions based on more efficient graph unification methods such as Wroblewski's and Kogure's method [23, 16) have also been developed.
+
+
+0.694162529142
+
+**215** : Furthermore, it is easy to modify other graph unification inethods[21, 61 to allow augmented 1TSs.
+
+
+
+#analysing the annotation 13
+
+##The Citing Sentences :
+Kogure (1990) proposed a lazy incremental copy graph (LING) unification that uses dependency-directed eol)yiug
+
+###The Corpus Reference Sentences :
+0.577952603397
+
+
+**22** : This is unnecessary because there are often input snbgraphs that can be used as part of the result graph without any modification, or as sharable parts between one of the input graphs and the result graph.
+
+1.0
+
+
+**23** : Copying sharable parts is called redundant copying.
+
+1.0
+
+
+**24** : A better method would nfinimize the copying of sharable varts.
+
+
+###Our Reference Sentences :
+0.104078318392
+
+**213** : To simplify the explanation, the destructive version of graph unification is used above.
+
+
+0.128084978437
+
+**198** : In a destructive graph unification method, winch is very simple, such a graph is represented by the data structures in Figure 4.
+
+
+0.138173521256
+
+**214** : Other versions based on more efficient graph unification methods such as Wroblewski's and Kogure's method [23, 16) have also been developed.
+
+
+0.145933319595
+
+**215** : Furthermore, it is easy to modify other graph unification inethods[21, 61 to allow augmented 1TSs.
+
+
+0.191137586698
+
+**196** : The unification oper ation for such DGs corresponds to a graph merging operation.
+
+
+
+#analysing the annotation 14
+
+##The Citing Sentences :
+A better method would avoid (eliminate) such redundant copying as it is called by [Kogure 90].
+
+###The Corpus Reference Sentences :
+0.838820857068
+
+
+**23** : Copying sharable parts is called redundant copying.
+
+0.0127365961007
+
+
+**24** : A better method would nfinimize the copying of sharable varts.
+
+
+###Our Reference Sentences :
+0.672021143327
+
+**227** : The author would like to thank Ikuo Takeuchi, Akira Shimazu, Shozo Naito, Masahito Kawamori, Mikio Nakano, and other colleagues of the group for their encouragement and thought-provoking discussions.
+
+
+0.884851444188
+
+**117** : here, a is an equivalence relation and a a class is called a coreference class.
+
+
+0.935717171708
+
+**148** : Such an inconsistency is called a tag inconsistency.
+
+
+0.945658648469
+
+**46** : </bodyText> <sectionHeader confidence="0.650502" genericHeader="method">
+
+
+0.946151535547
+
+**141** : Such an inconsistency is called a type inconsis tency.
+
+
+
+#analysing the annotation 15
+
+##The Citing Sentences :
+Similarly, in Kogure's approach, not all redundant copying is avoided in cases where there exists a feature path (a sequence of nodes connected by arcs) to a node that needs to be copied.
+
+###The Corpus Reference Sentences :
+0.996204650874
+
+
+**23** : Copying sharable parts is called redundant copying.
+
+0.998259446999
+
+
+**141** : 5 disables structure sharing, ttowever, this whole copying is not necessary if a lazy evaluation method is used.
+
+0.218413943414
+
+
+**142** : With such a method, it is possible to delay copying a node until either its own contents need to change (e.g., node G3/Ka c !7>) or until it is found to have an arc (sequence) to a node t, hat needs to be copied (e.g., node X G3/<a c> in Fig.
+
+
+###Our Reference Sentences :
+0.0739843836484
+
+**187** : 2328, 1992 node structure 111=111111110M11= rinIMINI/a set o arc structures 11=121111111= IEZZEINIMINI=ED 011=1111111111=12=11M011â 1 MIIIIIIIIIMIEMIE 1/4=11â¢1111ELIMMTIM 111121MIMICIIMEDIEED Figure 4: Data Structures Function Unify(nodel , nodc2) begin node] := Dereference(nodel); riode2 :-= Dereference(ruxle2); if node] = node then return( node 1); nodel . forward := node2 ; node2.tsymbol := node] .tsurnbol AT node2.tsymbol; if node2.tsymbol = _I_ then return(i) node2.ileatures node] .ifeatures U node2 :ilea tures ; if node2.ifeaturesn { arc. feature I arc E node] .arcs U node .nrcs) 0 then returri(1.); node2.dnodes := node!
+
+
+0.190525073731
+
+**188** : .dnodes U node2.dnodes; if {nodel , node2} fl node2.dnodes tt then rettirn(..t.); arcpairs := Shared _Arc_Pairs(nodel , node2); for (arc] , arc2) in Â°repairs do begin value := Unify(orcl :value, arc2.value); if value -= then return(Â±); end; arcs := Coroplement_Ares(node I , node!]); node!]
+
+
+0.196429217588
+
+**207** : The function Complemenl_A re S also takes two nodes and gives a set of arcs whose features exist in the first node but not in the second.
+
+
+0.213258102765
+
+**209** : When unification of two nodes results in a node with an arc with a feature in ifeatures, it yields I because of feature inconsistency.
+
+
+0.305319111609
+
+**208** : An inhibited feature function is implemented using the gestures field of nodes.
+
+
+
+##The Citing Sentences :
+As it has been noticed by [Godden 90] and [Kogure 90], the key idea of avoiding "redundant copying" is to do copying lazily.
+
+###The Corpus Reference Sentences :
+0.776127635796
+
+
+**23** : Copying sharable parts is called redundant copying.
+
+0.896300603643
+
+
+**141** : 5 disables structure sharing, ttowever, this whole copying is not necessary if a lazy evaluation method is used.
+
+0.96847569508
+
+
+**142** : With such a method, it is possible to delay copying a node until either its own contents need to change (e.g., node G3/Ka c !7>) or until it is found to have an arc (sequence) to a node t, hat needs to be copied (e.g., node X G3/<a c> in Fig.
+
+
+###Our Reference Sentences :
+0.0739843836484
+
+**187** : 2328, 1992 node structure 111=111111110M11= rinIMINI/a set o arc structures 11=121111111= IEZZEINIMINI=ED 011=1111111111=12=11M011â 1 MIIIIIIIIIMIEMIE 1/4=11â¢1111ELIMMTIM 111121MIMICIIMEDIEED Figure 4: Data Structures Function Unify(nodel , nodc2) begin node] := Dereference(nodel); riode2 :-= Dereference(ruxle2); if node] = node then return( node 1); nodel . forward := node2 ; node2.tsymbol := node] .tsurnbol AT node2.tsymbol; if node2.tsymbol = _I_ then return(i) node2.ileatures node] .ifeatures U node2 :ilea tures ; if node2.ifeaturesn { arc. feature I arc E node] .arcs U node .nrcs) 0 then returri(1.); node2.dnodes := node!
+
+
+0.190525073731
+
+**188** : .dnodes U node2.dnodes; if {nodel , node2} fl node2.dnodes tt then rettirn(..t.); arcpairs := Shared _Arc_Pairs(nodel , node2); for (arc] , arc2) in Â°repairs do begin value := Unify(orcl :value, arc2.value); if value -= then return(Â±); end; arcs := Coroplement_Ares(node I , node!]); node!]
+
+
+0.196429217588
+
+**207** : The function Complemenl_A re S also takes two nodes and gives a set of arcs whose features exist in the first node but not in the second.
+
+
+0.213258102765
+
+**209** : When unification of two nodes results in a node with an arc with a feature in ifeatures, it yields I because of feature inconsistency.
+
+
+0.305319111609
+
+**208** : An inhibited feature function is implemented using the gestures field of nodes.
+
+
+
+##The Citing Sentences :
+Copying of nodes will be delayed until a destructive change is about to take place.
+
+###The Corpus Reference Sentences :
+0.9927360209
+
+
+**23** : Copying sharable parts is called redundant copying.
+
+0.996668727908
+
+
+**141** : 5 disables structure sharing, ttowever, this whole copying is not necessary if a lazy evaluation method is used.
+
+0.221673852631
+
+
+**142** : With such a method, it is possible to delay copying a node until either its own contents need to change (e.g., node G3/Ka c !7>) or until it is found to have an arc (sequence) to a node t, hat needs to be copied (e.g., node X G3/<a c> in Fig.
+
+
+###Our Reference Sentences :
+0.0739843836484
+
+**187** : 2328, 1992 node structure 111=111111110M11= rinIMINI/a set o arc structures 11=121111111= IEZZEINIMINI=ED 011=1111111111=12=11M011â 1 MIIIIIIIIIMIEMIE 1/4=11â¢1111ELIMMTIM 111121MIMICIIMEDIEED Figure 4: Data Structures Function Unify(nodel , nodc2) begin node] := Dereference(nodel); riode2 :-= Dereference(ruxle2); if node] = node then return( node 1); nodel . forward := node2 ; node2.tsymbol := node] .tsurnbol AT node2.tsymbol; if node2.tsymbol = _I_ then return(i) node2.ileatures node] .ifeatures U node2 :ilea tures ; if node2.ifeaturesn { arc. feature I arc E node] .arcs U node .nrcs) 0 then returri(1.); node2.dnodes := node!
+
+
+0.112555568934
+
+**187** : 2328, 1992 node structure 111=111111110M11= rinIMINI/a set o arc structures 11=121111111= IEZZEINIMINI=ED 011=1111111111=12=11M011â 1 MIIIIIIIIIMIEMIE 1/4=11â¢1111ELIMMTIM 111121MIMICIIMEDIEED Figure 4: Data Structures Function Unify(nodel , nodc2) begin node] := Dereference(nodel); riode2 :-= Dereference(ruxle2); if node] = node then return( node 1); nodel . forward := node2 ; node2.tsymbol := node] .tsurnbol AT node2.tsymbol; if node2.tsymbol = _I_ then return(i) node2.ileatures node] .ifeatures U node2 :ilea tures ; if node2.ifeaturesn { arc. feature I arc E node] .arcs U node .nrcs) 0 then returri(1.); node2.dnodes := node!
+
+
+0.169033628526
+
+**202** : The function Unify takes two input nodes and puts them in a K.-class by letting one input be the forward field values.
+
+
+0.174492254624
+
+**208** : An inhibited feature function is implemented using the gestures field of nodes.
+
+
+0.181968562171
+
+**188** : .dnodes U node2.dnodes; if {nodel , node2} fl node2.dnodes tt then rettirn(..t.); arcpairs := Shared _Arc_Pairs(nodel , node2); for (arc] , arc2) in Â°repairs do begin value := Unify(orcl :value, arc2.value); if value -= then return(Â±); end; arcs := Coroplement_Ares(node I , node!]); node!]
+
+
+
+##The Citing Sentences :
+Kogure uses a revised copynode procedure which maintains copy dependency information in order to avoid immediate copying.
+
+###The Corpus Reference Sentences :
+0.968036414708
+
+
+**23** : Copying sharable parts is called redundant copying.
+
+0.985341450165
+
+
+**141** : 5 disables structure sharing, ttowever, this whole copying is not necessary if a lazy evaluation method is used.
+
+0.995554736385
+
+
+**142** : With such a method, it is possible to delay copying a node until either its own contents need to change (e.g., node G3/Ka c !7>) or until it is found to have an arc (sequence) to a node t, hat needs to be copied (e.g., node X G3/<a c> in Fig.
+
+
+###Our Reference Sentences :
+0.0739843836484
+
+**187** : 2328, 1992 node structure 111=111111110M11= rinIMINI/a set o arc structures 11=121111111= IEZZEINIMINI=ED 011=1111111111=12=11M011â 1 MIIIIIIIIIMIEMIE 1/4=11â¢1111ELIMMTIM 111121MIMICIIMEDIEED Figure 4: Data Structures Function Unify(nodel , nodc2) begin node] := Dereference(nodel); riode2 :-= Dereference(ruxle2); if node] = node then return( node 1); nodel . forward := node2 ; node2.tsymbol := node] .tsurnbol AT node2.tsymbol; if node2.tsymbol = _I_ then return(i) node2.ileatures node] .ifeatures U node2 :ilea tures ; if node2.ifeaturesn { arc. feature I arc E node] .arcs U node .nrcs) 0 then returri(1.); node2.dnodes := node!
+
+
+0.112555568934
+
+**187** : 2328, 1992 node structure 111=111111110M11= rinIMINI/a set o arc structures 11=121111111= IEZZEINIMINI=ED 011=1111111111=12=11M011â 1 MIIIIIIIIIMIEMIE 1/4=11â¢1111ELIMMTIM 111121MIMICIIMEDIEED Figure 4: Data Structures Function Unify(nodel , nodc2) begin node] := Dereference(nodel); riode2 :-= Dereference(ruxle2); if node] = node then return( node 1); nodel . forward := node2 ; node2.tsymbol := node] .tsurnbol AT node2.tsymbol; if node2.tsymbol = _I_ then return(i) node2.ileatures node] .ifeatures U node2 :ilea tures ; if node2.ifeaturesn { arc. feature I arc E node] .arcs U node .nrcs) 0 then returri(1.); node2.dnodes := node!
+
+
+0.169033628526
+
+**202** : The function Unify takes two input nodes and puts them in a K.-class by letting one input be the forward field values.
+
+
+0.174492254624
+
+**208** : An inhibited feature function is implemented using the gestures field of nodes.
+
+
+0.181968562171
+
+**188** : .dnodes U node2.dnodes; if {nodel , node2} fl node2.dnodes tt then rettirn(..t.); arcpairs := Shared _Arc_Pairs(nodel , node2); for (arc] , arc2) in Â°repairs do begin value := Unify(orcl :value, arc2.value); if value -= then return(Â±); end; arcs := Coroplement_Ares(node I , node!]); node!]
+
+
+
+#analysing the annotation 17
+**Not valid annotation**
