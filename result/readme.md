@@ -39,3 +39,7 @@ please notice that we are talking about the dostance, not the **similarity**.
 - **Result1**: We change the threeshold of the contrast to 1.2 instead of 1, i.e reducing the number of significant words.
 
     - **the number of the words has been reduced is moving from 237 to 170.**
+
+- **Result2**: We Add the enhanced list of stop words.
+
+    - **the number of the words has been reduced is moving from 237 to 198, for words extracted using contrast, and from 163 to 140.**
