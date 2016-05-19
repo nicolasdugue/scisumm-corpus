@@ -34,7 +34,7 @@ please notice that we are talking about the dostance, not the **similarity**.
 
 #Index of results according to numbers:
 
-- **OCR correction **: this file contains a corrected copy of the article after applying multiple technique for enhancing the quality of the file.
+- **OCR correction**: this file contains a corrected copy of the article after applying multiple technique for enhancing the quality of the file.
 the bold word is corrected word, beside it, between () you can see the original one.
 This file is the corrected version of C90-2039_TRAIN
 
@@ -47,3 +47,5 @@ This file is the corrected version of C90-2039_TRAIN
 - **Result2**: We Add the enhanced list of stop words.
 
     - **the number of the words has been reduced is moving from 237 to 198, for words extracted using contrast, and from 163 to 140.**
+
+- **Result3**: After adding the corretion, the xml is in higher quality.

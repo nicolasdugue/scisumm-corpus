@@ -1,708 +1,652 @@
-##Total Features Number using contrast: 170
+##Total Features Number using contrast: 154
 
 ### mainpulating the section : 0
 
-1 - **consists**: ,Contrast  ,Feature
-
-2 - **correspond**: ,Contrast  ,Feature
-
-3 - **interpretation**: ,Contrast  ,Feature
-
-4 - **classified**: ,Contrast  ,Feature
-
-5 - **definition**: ,Contrast
-
-6 - **counterparts**: ,Contrast
-
-7 - **one**: ,Contrast  ,Feature
-
-8 - **classes**: ,Contrast  ,Feature
-
-9 - **based**: ,Contrast  ,Feature
-
-10 - **feature-structure**: ,Contrast
-
-11 - **feature-value**: ,Contrast  ,Feature
-
-12 - **Disjunctive**: ,Contrast  ,Feature
-
-13 - **interface**: ,Contrast
-
-14 - **simple**: ,Contrast  ,Feature
-
-15 - **described**: ,Contrast  ,Feature
-
-16 - **basis**: ,Contrast
-
-17 - **treat**: ,Contrast  ,Feature
-
-18 - **formalizations**: ,Contrast  ,Feature
-
-19 - **complex**: ,Contrast  ,Feature
-
-20 - **extended**: ,Contrast  ,Feature
-
-21 - **either**: ,Contrast
-
-22 - **extensions**: ,Contrast  ,Feature
-
-23 - **feature-address**: ,Contrast  ,Feature
-
 ### mainpulating the section : 1
 
-1 - **consider**: ,Contrast  ,Feature
+1 - **advantage**: ,Contrast  ,Feature 
 
-2 - **compact**: ,Contrast  ,Feature
+2 - **term**: ,Contrast  ,Feature 
 
-3 - **whose**: ,Contrast
+3 - **method**: ,Contrast  ,Feature  ,Abstract 
 
-4 - **lists**: ,Contrast  ,Feature
+4 - **part**: ,Contrast  ,Feature 
 
-5 - **dis**: ,Contrast
+5 - **representing**: ,Contrast 
 
-6 - **represented**: ,Contrast
+6 - **relatively**: ,Contrast  ,Feature 
 
-7 - **natural**: ,Contrast
+7 - **based**: ,Contrast  ,Feature 
 
-8 - **fea**: ,Contrast
+8 - **i.e.**: ,Contrast 
 
-9 - **must**: ,Contrast
+9 - **strategy**: ,Contrast  ,Feature  ,Abstract 
 
-10 - **example**: ,Contrast  ,Feature
+10 - **copying**: ,Contrast  ,Feature 
 
-11 - **information**: ,Contrast
+11 - **proposed**: ,Contrast  ,Feature 
 
-12 - **sim**: ,Contrast
+12 - **called**: ,Contrast  ,Feature 
 
-13 - **front**: ,Contrast
-
-14 - **mean**: ,Contrast
-
-15 - **fist**: ,Contrast
-
-16 - **descriptions**: ,Contrast  ,Feature  ,Abstract
-
-17 - **language**: ,Contrast
-
-18 - **ture**: ,Contrast
-
-19 - **number**: ,Contrast  ,Feature
-
-20 - **say**: ,Contrast
-
-21 - **take**: ,Contrast  ,Feature
-
-22 - **negative**: ,Contrast  ,Feature  ,Title
-
-23 - **complement**: ,Contrast  ,Feature
-
-24 - **confidence=**: ,Contrast  ,Feature
-
-25 - **values**: ,Contrast  ,Feature  ,Abstract
-
-26 - **finite**: ,Contrast  ,Feature
-
-27 - **possible**: ,Contrast
-
-28 - **using**: ,Contrast  ,Feature
-
-29 - **agreement**: ,Contrast  ,Feature  ,Abstract
-
-30 - **specifies**: ,Contrast
-
-31 - **describe**: ,Contrast  ,Feature
-
-32 - **allowing**: ,Contrast
-
-33 - **disjunctions**: ,Contrast
+13 - **structure**: ,Contrast  ,Feature  ,Abstract 
 
 ### mainpulating the section : 2
 
-1 - **address**: ,Contrast  ,Feature
+1 - **partial**: ,Contrast 
 
-2 - **type**: ,Contrast  ,Feature  ,Abstract
+2 - **every**: ,Contrast  ,Feature 
 
-3 - **said**: ,Contrast
+3 - **represented**: ,Contrast  ,Feature 
 
-4 - **tag**: ,Contrast  ,Feature
+4 - **allows**: ,Contrast 
 
-5 - **feature**: ,Contrast  ,Feature  ,Abstract
+5 - **contains**: ,Contrast 
 
-6 - **order**: ,Contrast  ,Feature
+6 - **type**: ,Contrast  ,Feature 
 
-7 - **denotes**: ,Contrast  ,Feature
+7 - **following**: ,Contrast 
 
-8 - **term**: ,Contrast  ,Feature  ,Abstract
+8 - **example**: ,Contrast  ,Feature 
 
-9 - **subset**: ,Contrast
+9 - **typed**: ,Contrast 
 
-10 - **domains**: ,Contrast  ,Feature
+10 - **specifying**: ,Contrast 
 
-11 - **denoted**: ,Contrast  ,Feature
+11 - **used**: ,Contrast  ,Feature 
 
-12 - **occurs**: ,Contrast
+12 - **shown**: ,Contrast  ,Feature 
 
-13 - **least**: ,Contrast
+13 - **rooted**: ,Contrast 
 
-14 - **dlist**: ,Contrast  ,Feature
+14 - **ordering**: ,Contrast 
 
-15 - **relation**: ,Contrast  ,Feature
+15 - **relationship**: ,Contrast 
 
-16 - **set**: ,Contrast  ,Feature
+16 - **namely**: ,Contrast 
 
-17 - **written**: ,Contrast
+17 - **feature-value**: ,Contrast  ,Feature 
 
-18 - **apos**: ,Contrast  ,Feature  ,Abstract
+18 - **set**: ,Contrast  ,Feature 
 
-19 - **assigning**: ,Contrast
+19 - **exists**: ,Contrast 
 
-20 - **finite**: ,Contrast  ,Feature
+20 - **equal**: ,Contrast  ,Feature 
 
-21 - **disagreements**: ,Contrast  ,Feature
+21 - **empty**: ,Contrast 
 
-22 - **called**: ,Contrast  ,Feature
+22 - **using**: ,Contrast  ,Feature 
 
-23 - **defined**: ,Contrast  ,Feature
+23 - **describing**: ,Contrast 
 
-24 - **symbol**: ,Contrast  ,Feature  ,Abstract
+24 - **described**: ,Contrast 
 
-25 - **inhibited**: ,Contrast
+25 - **directed**: ,Contrast  ,Feature 
+
+26 - **describe**: ,Contrast 
+
+27 - **symbol**: ,Contrast  ,Feature 
 
 ### mainpulating the section : 3
 
-1 - **AuG**: ,Contrast
+1 - **nodel**: ,Contrast  ,Feature 
 
-2 - **subsumption**: ,Contrast  ,Feature
+2 - **node1**: ,Contrast  ,Feature 
 
-3 - **graph**: ,Contrast  ,Feature
+3 - **node2**: ,Contrast  ,Feature 
 
-4 - **join**: ,Contrast  ,Feature
+4 - **current**: ,Contrast  ,Feature 
 
-5 - **upper**: ,Contrast
+5 - **two**: ,Contrast  ,Feature 
 
-6 - **implemented**: ,Contrast  ,Feature
+6 - **meet**: ,Contrast  ,Feature 
 
-7 - **method**: ,Contrast  ,Feature
+7 - **give**: ,Contrast 
 
-8 - **bol**: ,Contrast
+8 - **process**: ,Contrast  ,Feature 
 
-9 - **put**: ,Contrast
+9 - **created**: ,Contrast  ,Feature 
 
-10 - **gives**: ,Contrast
+10 - **one**: ,Contrast  ,Feature 
 
-11 - **two**: ,Contrast  ,Feature
+11 - **take**: ,Contrast  ,Feature 
 
-12 - **meet**: ,Contrast  ,Feature
+12 - **pair**: ,Contrast  ,Feature 
 
-13 - **mented**: ,Contrast
+13 - **arc**: ,Contrast  ,Feature 
 
-14 - **order**: ,Contrast  ,Feature
+14 - **result**: ,Contrast  ,Feature 
 
-15 - **maximal**: ,Contrast
+15 - **label**: ,Contrast  ,Feature 
 
-16 - **operation**: ,Contrast  ,Feature
+16 - **value**: ,Contrast  ,Feature 
 
-17 - **Given**: ,Contrast  ,Feature
+17 - **procedure**: ,Contrast  ,Feature 
 
-18 - **consisting**: ,Contrast
+18 - **input**: ,Contrast  ,Feature 
 
-19 - **manner**: ,Contrast
-
-20 - **also**: ,Contrast  ,Feature
-
-21 - **pairs**: ,Contrast
-
-22 - **set**: ,Contrast  ,Feature
-
-23 - **arc**: ,Contrast  ,Feature
-
-24 - **apos**: ,Contrast  ,Feature  ,Abstract
-
-25 - **complement**: ,Contrast  ,Feature
-
-26 - **define**: ,Contrast
-
-27 - **func**: ,Contrast
-
-28 - **thesame**: ,Contrast
-
-29 - **lower**: ,Contrast
-
-30 - **lattice**: ,Contrast  ,Feature  ,Abstract
-
-31 - **unification**: ,Contrast  ,Feature  ,Abstract
-
-32 - **i.e.**: ,Contrast
+19 - **treat**: ,Contrast  ,Feature 
 
 ### mainpulating the section : 4
 
-1 - **logic-based**: ,Contrast  ,Feature
+1 - **new**: ,Contrast  ,Feature 
 
-2 - **include**: ,Contrast  ,Feature
+2 - **consisting**: ,Contrast  ,Feature 
 
-3 - **neg**: ,Contrast  ,Feature
+3 - **larger**: ,Contrast 
 
-4 - **method**: ,Contrast  ,Feature
+4 - **e.g.**: ,Contrast  ,Feature 
 
-5 - **use**: ,Contrast  ,Feature
+5 - **actually**: ,Contrast 
 
-6 - **descrip**: ,Contrast  ,Feature
+6 - **newly**: ,Contrast  ,Feature 
 
-7 - **information**: ,Contrast  ,Feature
+7 - **size**: ,Contrast 
 
-8 - **typed**: ,Contrast  ,Feature
+8 - **need**: ,Contrast  ,Feature 
 
-9 - **Data**: ,Contrast  ,Feature
+9 - **disjunctive**: ,Contrast 
 
-10 - **allow**: ,Contrast  ,Feature
+10 - **arc**: ,Contrast  ,Feature 
 
-11 - **developed**: ,Contrast  ,Feature
+11 - **definite**: ,Contrast  ,Feature 
 
-12 - **negations**: ,Contrast  ,Feature  ,Abstract
+12 - **whole**: ,Contrast  ,Feature 
 
-13 - **paper**: ,Contrast  ,Feature  ,Abstract
+13 - **newnode**: ,Contrast  ,Feature 
 
-14 - **existences**: ,Contrast  ,Feature  ,Abstract
+14 - **copied**: ,Contrast  ,Feature 
 
-15 - **scriptions**: ,Contrast  ,Feature
+15 - **dependency**: ,Contrast  ,Feature 
 
-16 - **used**: ,Contrast  ,Feature
+16 - **introduced**: ,Contrast 
 
-17 - **descriptions**: ,Contrast  ,Feature  ,Abstract
+17 - **constant**: ,Contrast 
 
-18 - **shown**: ,Contrast  ,Feature
-
-19 - **formation**: ,Contrast  ,Feature
-
-20 - **representing**: ,Contrast  ,Feature
-
-21 - **kinds**: ,Contrast  ,Feature
-
-22 - **tion**: ,Contrast  ,Feature
-
-23 - **treated**: ,Contrast  ,Feature
-
-24 - **generalization**: ,Contrast  ,Feature
-
-25 - **efficient**: ,Contrast  ,Feature
-
-26 - **also**: ,Contrast  ,Feature
-
-27 - **extending**: ,Contrast  ,Feature
-
-28 - **ative**: ,Contrast  ,Feature
-
-29 - **tures**: ,Contrast  ,Feature
-
-30 - **based**: ,Contrast  ,Feature
-
-31 - **negative**: ,Contrast  ,Feature  ,Title
-
-32 - **struc**: ,Contrast  ,Feature
-
-33 - **described**: ,Contrast  ,Feature
-
-34 - **three**: ,Contrast  ,Feature
-
-35 - **treat**: ,Contrast  ,Feature
-
-36 - **linguistic**: ,Contrast  ,Feature
-
-37 - **formalizations**: ,Contrast  ,Feature
-
-38 - **values**: ,Contrast  ,Feature  ,Abstract
-
-39 - **promising**: ,Contrast  ,Feature
-
-40 - **formalism**: ,Contrast  ,Feature
-
-41 - **make**: ,Contrast  ,Feature
-
-42 - **gorithms**: ,Contrast  ,Feature
-
-43 - **obtain**: ,Contrast  ,Feature
-
-44 - **easy**: ,Contrast  ,Feature
-
-45 - **using**: ,Contrast  ,Feature
-
-46 - **introduces**: ,Contrast  ,Feature
-
-47 - **feature-address**: ,Contrast  ,Feature
-
-48 - **structures**: ,Contrast  ,Feature  ,Abstract
-
-49 - **algorithm**: ,Contrast  ,Feature  ,Abstract
-
-50 - **augmented**: ,Contrast  ,Feature
+18 - **node**: ,Contrast  ,Feature 
 
 ### mainpulating the section : 5
 
-1 - **Research**: ,Contrast  ,Feature
+1 - **semantic**: ,Contrast  ,Feature 
 
-##Total Features Number : 163
+2 - **computation**: ,Contrast  ,Abstract 
+
+3 - **whose**: ,Contrast  ,Feature 
+
+4 - **case**: ,Contrast  ,Feature 
+
+5 - **treating**: ,Contrast  ,Feature 
+
+6 - **learned**: ,Contrast 
+
+7 - **example**: ,Contrast  ,Feature 
+
+8 - **occur**: ,Contrast  ,Feature 
+
+9 - **information**: ,Contrast  ,Feature 
+
+10 - **feature**: ,Contrast  ,Feature  ,Abstract 
+
+11 - **representation**: ,Contrast  ,Feature 
+
+12 - **order**: ,Contrast  ,Feature  ,Abstract 
+
+13 - **tendency**: ,Contrast  ,Feature 
+
+14 - **related**: ,Contrast 
+
+15 - **obtains**: ,Contrast 
+
+16 - **small**: ,Contrast  ,Feature 
+
+17 - **number**: ,Contrast  ,Feature 
+
+18 - **depends**: ,Contrast 
+
+19 - **applied**: ,Contrast  ,Feature 
+
+20 - **analysis**: ,Contrast  ,Feature  ,Abstract 
+
+21 - **fail**: ,Contrast  ,Feature 
+
+22 - **sentence**: ,Contrast 
+
+23 - **possible**: ,Contrast 
+
+24 - **unification**: ,Contrast  ,Feature  ,Abstract 
+
+25 - **unnecessary**: ,Contrast 
+
+26 - **often**: ,Contrast 
+
+27 - **agreement**: ,Contrast  ,Feature 
+
+28 - **failure**: ,Contrast  ,Feature  ,Abstract 
+
+### mainpulating the section : 6
+
+1 - **graph**: ,Contrast  ,Feature  ,Abstract 
+
+2 - **swapping**: ,Contrast  ,Feature  ,Abstract 
+
+3 - **rate**: ,Contrast  ,Feature 
+
+4 - **total**: ,Contrast  ,Feature 
+
+5 - **sharing**: ,Contrast  ,Feature 
+
+6 - **process**: ,Contrast  ,Feature 
+
+7 - **incremental**: ,Contrast  ,Feature 
+
+8 - **collection**: ,Contrast  ,Feature  ,Abstract 
+
+9 - **natural**: ,Contrast  ,Feature 
+
+10 - **strategic**: ,Contrast  ,Feature 
+
+11 - **generation**: ,Contrast  ,Feature  ,Abstract 
+
+12 - **method**: ,Contrast  ,Feature  ,Abstract 
+
+13 - **language**: ,Contrast  ,Feature  ,Abstract 
+
+14 - **copy**: ,Contrast  ,Feature  ,Abstract 
+
+15 - **wastage**: ,Contrast  ,Feature 
+
+16 - **efficient**: ,Contrast  ,Feature  ,Abstract 
+
+17 - **also**: ,Contrast  ,Feature 
+
+18 - **access**: ,Contrast  ,Feature  ,Abstract 
+
+19 - **achieves**: ,Contrast  ,Feature 
+
+20 - **lazy**: ,Contrast  ,Feature  ,Abstract 
+
+21 - **tending**: ,Contrast  ,Feature 
+
+22 - **efficiency**: ,Contrast  ,Feature  ,Abstract 
+
+23 - **strategy**: ,Contrast  ,Feature  ,Abstract 
+
+24 - **combined**: ,Contrast  ,Feature 
+
+25 - **thus**: ,Contrast  ,Feature 
+
+26 - **make**: ,Contrast  ,Feature 
+
+27 - **avoids**: ,Contrast  ,Feature 
+
+28 - **without**: ,Contrast  ,Feature 
+
+29 - **application**: ,Contrast  ,Feature 
+
+30 - **identical**: ,Contrast  ,Feature 
+
+31 - **unification**: ,Contrast  ,Feature  ,Abstract 
+
+32 - **reduces**: ,Contrast  ,Feature 
+
+33 - **unification-based**: ,Contrast  ,Feature 
+
+34 - **fi'om**: ,Contrast  ,Feature 
+
+35 - **overall**: ,Contrast  ,Feature 
+
+36 - **introduces**: ,Contrast  ,Feature 
+
+37 - **page**: ,Contrast  ,Feature  ,Abstract 
+
+38 - **garbage**: ,Contrast  ,Feature  ,Abstract 
+
+39 - **log**: ,Contrast  ,Feature 
+
+40 - **overhead**: ,Contrast  ,Feature 
+
+41 - **treat**: ,Contrast  ,Feature 
+
+### mainpulating the section : 7
+
+##Total Features Number : 150
 
 ### mainpulating the section : 0
 
-1 - **consists** ,Feature
-
-2 - **type** ,Feature  ,Abstract
-
-3 - **feature** ,Feature  ,Abstract
-
-4 - **correspond** ,Feature
-
-5 - **interpretation** ,Feature
-
-6 - **negations** ,Feature  ,Abstract
-
-7 - **framework** ,Feature
-
-8 - **classified** ,Feature
-
-9 - **descriptions** ,Feature  ,Abstract
-
-10 - **one** ,Feature
-
-11 - **classes** ,Feature
-
-12 - **based** ,Feature
-
-13 - **negative** ,Feature  ,Title
-
-14 - **feature-value** ,Feature
-
-15 - **Disjunctive** ,Feature
-
-16 - **apos** ,Feature  ,Abstract
-
-17 - **simple** ,Feature
-
-18 - **described** ,Feature
-
-19 - **three** ,Feature
-
-20 - **treat** ,Feature
-
-21 - **linguistic** ,Feature
-
-22 - **formalizations** ,Feature
-
-23 - **tions** ,Feature
-
-24 - **complex** ,Feature
-
-25 - **extended** ,Feature
-
-26 - **lattice** ,Feature  ,Abstract
-
-27 - **objects** ,Feature
-
-28 - **extensions** ,Feature
-
-29 - **describe** ,Feature
-
-30 - **feature-address** ,Feature
-
 ### mainpulating the section : 1
 
-1 - **consider** ,Feature
+1 - **represent** ,Feature 
 
-2 - **compact** ,Feature
+2 - **advantage** ,Feature 
 
-3 - **lists** ,Feature
+3 - **natural** ,Feature 
 
-4 - **example** ,Feature
+4 - **term** ,Feature 
 
-5 - **descriptions** ,Feature  ,Abstract
+5 - **used** ,Feature 
 
-6 - **number** ,Feature
+6 - **method** ,Feature  ,Abstract 
 
-7 - **take** ,Feature
+7 - **language** ,Feature  ,Abstract 
 
-8 - **negative** ,Feature  ,Title
+8 - **system** ,Feature 
 
-9 - **complement** ,Feature
+9 - **part** ,Feature 
 
-10 - **linguistic** ,Feature
+10 - **relatively** ,Feature 
 
-11 - **confidence=** ,Feature
+11 - **based** ,Feature 
 
-12 - **understand** ,Feature
+12 - **strategy** ,Feature  ,Abstract 
 
-13 - **values** ,Feature  ,Abstract
+13 - **copying** ,Feature 
 
-14 - **make** ,Feature
+14 - **proposed** ,Feature 
 
-15 - **complex**: ,Contrast  ,Feature
+15 - **input** ,Feature 
 
-16 - **finite** ,Feature
+16 - **problem** ,Feature 
 
-17 - **using** ,Feature
+17 - **called** ,Feature 
 
-18 - **agreement** ,Feature  ,Abstract
-
-19 - **describe** ,Feature
-
-20 - **grammatical** ,Feature
+18 - **structure** ,Feature  ,Abstract 
 
 ### mainpulating the section : 2
 
-1 - **address** ,Feature
+1 - **every** ,Feature 
 
-2 - **type** ,Feature  ,Abstract
+2 - **represented** ,Feature 
 
-3 - **tag** ,Feature
+3 - **type** ,Feature 
 
-4 - **feature** ,Feature  ,Abstract
+4 - **example** ,Feature 
 
-5 - **order** ,Feature
+5 - **feature** ,Feature  ,Abstract 
 
-6 - **denotes** ,Feature
+6 - **used** ,Feature 
 
-7 - **term** ,Feature  ,Abstract
+7 - **shown** ,Feature 
 
-8 - **domains** ,Feature
+8 - **feature-value** ,Feature 
 
-9 - **denoted** ,Feature
+9 - **set** ,Feature 
 
-10 - **first** ,Feature
+10 - **equal** ,Feature 
 
-11 - **dlist** ,Feature
+11 - **greatest** ,Feature 
 
-12 - **relation** ,Feature
+12 - **using** ,Feature 
 
-13 - **set** ,Feature
+13 - **directed** ,Feature 
 
-14 - **apos** ,Feature  ,Abstract
-
-15 - **finite**: ,Contrast  ,Feature
-
-16 - **disagreements** ,Feature
-
-17 - **function** ,Feature
-
-18 - **called** ,Feature
-
-19 - **defined** ,Feature
-
-20 - **symbol** ,Feature  ,Abstract
-
-21 - **structures** ,Feature  ,Abstract
-
-22 - **augmented** ,Feature
+14 - **symbol** ,Feature 
 
 ### mainpulating the section : 3
 
-1 - **subsumption** ,Feature
+1 - **nodel** ,Feature 
 
-2 - **graph** ,Feature
+2 - **node1** ,Feature 
 
-3 - **join** ,Feature
+3 - **node2** ,Feature 
 
-4 - **implemented** ,Feature
+4 - **current** ,Feature 
 
-5 - **method** ,Feature
+5 - **two** ,Feature 
 
-6 - **two** ,Feature
+6 - **meet** ,Feature 
 
-7 - **type**: ,Contrast  ,Feature  ,Abstract
+7 - **process** ,Feature 
 
-8 - **meet** ,Feature
+8 - **tile** ,Feature 
 
-9 - **quot** ,Feature
+9 - **created** ,Feature 
 
-10 - **elements** ,Feature
+10 - **first** ,Feature 
 
-11 - **order**: ,Contrast  ,Feature
+11 - **one** ,Feature 
 
-12 - **operation** ,Feature
+12 - **take** ,Feature 
 
-13 - **Given** ,Feature
+13 - **pair** ,Feature 
 
-14 - **also** ,Feature
+14 - **arc** ,Feature 
 
-15 - **take**: ,Contrast  ,Feature
+15 - **result** ,Feature 
 
-16 - **inconsistency** ,Feature
+16 - **label** ,Feature 
 
-17 - **set**: ,Contrast  ,Feature
+17 - **copied** ,Feature 
 
-18 - **arc** ,Feature
+18 - **value** ,Feature 
 
-19 - **apos**: ,Contrast  ,Feature  ,Abstract
+19 - **procedure** ,Feature 
 
-20 - **complement**: ,Contrast  ,Feature
+20 - **input** ,Feature 
 
-21 - **amp** ,Feature
-
-22 - **lattice** ,Feature  ,Abstract
-
-23 - **unification** ,Feature  ,Abstract
+21 - **treat** ,Feature 
 
 ### mainpulating the section : 4
 
-1 - **logic-based** ,Feature
+1 - **new** ,Feature 
 
-2 - **compact**: ,Contrast  ,Feature
+2 - **consisting** ,Feature 
 
-3 - **include** ,Feature
+3 - **two**: ,Contrast  ,Feature 
 
-4 - **neg** ,Feature
+4 - **e.g.** ,Feature 
 
-5 - **method**: ,Contrast  ,Feature
+5 - **data** ,Feature  ,Abstract 
 
-6 - **use** ,Feature
+6 - **newly** ,Feature 
 
-7 - **descrip** ,Feature
+7 - **number** ,Feature 
 
-8 - **compactly** ,Feature
+8 - **copy** ,Feature  ,Abstract 
 
-9 - **example**: ,Contrast  ,Feature
+9 - **need** ,Feature 
 
-10 - **information**: ,Contrast  ,Feature
+10 - **slot** ,Feature 
 
-11 - **subcat** ,Feature
+11 - **arc**: ,Contrast  ,Feature 
 
-12 - **typed** ,Feature
+12 - **result**: ,Contrast  ,Feature 
 
-13 - **Data** ,Feature
+13 - **definite** ,Feature 
 
-14 - **allow** ,Feature
+14 - **whole** ,Feature 
 
-15 - **developed** ,Feature
+15 - **newnode** ,Feature 
 
-16 - **negations** ,Feature  ,Abstract
+16 - **copied** ,Feature 
 
-17 - **paper** ,Feature  ,Abstract
+17 - **procedure**: ,Contrast  ,Feature 
 
-18 - **existences** ,Feature  ,Abstract
+18 - **unique** ,Feature 
 
-19 - **easier** ,Feature
+19 - **dependency** ,Feature 
 
-20 - **scriptions** ,Feature
+20 - **node** ,Feature 
 
-21 - **used** ,Feature
-
-22 - **descriptions**: ,Contrast  ,Feature  ,Abstract
-
-23 - **shown** ,Feature
-
-24 - **formation** ,Feature
-
-25 - **representing** ,Feature
-
-26 - **kinds** ,Feature
-
-27 - **tion** ,Feature
-
-28 - **treated** ,Feature
-
-29 - **debugging** ,Feature
-
-30 - **generalization** ,Feature
-
-31 - **efficient** ,Feature
-
-32 - **also**: ,Contrast  ,Feature
-
-33 - **extending** ,Feature
-
-34 - **ative** ,Feature
-
-35 - **tures** ,Feature
-
-36 - **relation**: ,Contrast  ,Feature
-
-37 - **based**: ,Contrast  ,Feature
-
-38 - **negative**: ,Contrast  ,Feature  ,Title
-
-39 - **struc** ,Feature
-
-40 - **complement**: ,Contrast  ,Feature
-
-41 - **described**: ,Contrast  ,Feature
-
-42 - **three** ,Feature
-
-43 - **treat**: ,Contrast  ,Feature
-
-44 - **linguistic** ,Feature
-
-45 - **formalizations**: ,Contrast  ,Feature
-
-46 - **values**: ,Contrast  ,Feature  ,Abstract
-
-47 - **promising** ,Feature
-
-48 - **formalism** ,Feature
-
-49 - **make** ,Feature
-
-50 - **gorithms** ,Feature
-
-51 - **obtain** ,Feature
-
-52 - **easy** ,Feature
-
-53 - **using**: ,Contrast  ,Feature
-
-54 - **unification-based** ,Feature
-
-55 - **introduces** ,Feature
-
-56 - **primitive** ,Feature
-
-57 - **describe**: ,Contrast  ,Feature
-
-58 - **feature-address**: ,Contrast  ,Feature
-
-59 - **structures** ,Feature  ,Abstract
-
-60 - **algorithm** ,Feature  ,Abstract
-
-61 - **augmented** ,Feature
+21 - **structure**: ,Contrast  ,Feature  ,Abstract 
 
 ### mainpulating the section : 5
 
-1 - **Research** ,Feature
+1 - **semantic** ,Feature 
+
+2 - **whose** ,Feature 
+
+3 - **case** ,Feature 
+
+4 - **treating** ,Feature 
+
+5 - **example**: ,Contrast  ,Feature 
+
+6 - **process**: ,Contrast  ,Feature 
+
+7 - **occur** ,Feature 
+
+8 - **information** ,Feature 
+
+9 - **feature** ,Feature  ,Abstract 
+
+10 - **representation** ,Feature 
+
+11 - **order** ,Feature  ,Abstract 
+
+12 - **tendency** ,Feature 
+
+13 - **small** ,Feature 
+
+14 - **number** ,Feature 
+
+15 - **pair**: ,Contrast  ,Feature 
+
+16 - **efficiency** ,Feature  ,Abstract 
+
+17 - **applied** ,Feature 
+
+18 - **analysis** ,Feature  ,Abstract 
+
+19 - **fail** ,Feature 
+
+20 - **unification** ,Feature  ,Abstract 
+
+21 - **agreement** ,Feature 
+
+22 - **failure** ,Feature  ,Abstract 
+
+### mainpulating the section : 6
+
+1 - **graph** ,Feature  ,Abstract 
+
+2 - **swapping** ,Feature  ,Abstract 
+
+3 - **rate** ,Feature 
+
+4 - **total** ,Feature 
+
+5 - **two**: ,Contrast  ,Feature 
+
+6 - **sharing** ,Feature 
+
+7 - **process**: ,Contrast  ,Feature 
+
+8 - **incremental** ,Feature 
+
+9 - **collection** ,Feature  ,Abstract 
+
+10 - **data** ,Feature  ,Abstract 
+
+11 - **natural** ,Feature 
+
+12 - **strategic** ,Feature 
+
+13 - **generation** ,Feature  ,Abstract 
+
+14 - **method**: ,Contrast  ,Feature  ,Abstract 
+
+15 - **language** ,Feature  ,Abstract 
+
+16 - **copy** ,Feature  ,Abstract 
+
+17 - **wastage** ,Feature 
+
+18 - **efficient** ,Feature  ,Abstract 
+
+19 - **also** ,Feature 
+
+20 - **access** ,Feature  ,Abstract 
+
+21 - **based**: ,Contrast  ,Feature 
+
+22 - **achieves** ,Feature 
+
+23 - **lazy** ,Feature  ,Abstract 
+
+24 - **tending** ,Feature 
+
+25 - **efficiency** ,Feature  ,Abstract 
+
+26 - **strategy**: ,Contrast  ,Feature  ,Abstract 
+
+27 - **combined** ,Feature 
+
+28 - **thus** ,Feature 
+
+29 - **make** ,Feature 
+
+30 - **avoids** ,Feature 
+
+31 - **without** ,Feature 
+
+32 - **application** ,Feature 
+
+33 - **identical** ,Feature 
+
+34 - **unification**: ,Contrast  ,Feature  ,Abstract 
+
+35 - **reduces** ,Feature 
+
+36 - **unification-based** ,Feature 
+
+37 - **fi'om** ,Feature 
+
+38 - **processing** ,Feature 
+
+39 - **overall** ,Feature 
+
+40 - **introduces** ,Feature 
+
+41 - **page** ,Feature  ,Abstract 
+
+42 - **garbage** ,Feature  ,Abstract 
+
+43 - **log** ,Feature 
+
+44 - **overhead** ,Feature 
+
+45 - **treat**: ,Contrast  ,Feature 
+
+46 - **gain** ,Feature 
+
+### mainpulating the section : 7
 
 #The Summary
 **ze take 5 percent of the important and long sentences for making the summary**
 
-OF COLING92, NANTES, AuG, 2328, 1992 This paper proposes an extension to Aithaci&apos;sV&apos; type that incorporates three kinds of the primitive negative descriptions described below into the 0-type.
+This method achieves structure sharing by introducing lazy copying to Wroblewski's incremental copy graph unification method.
 
-In this paper, both these type structures and the type symbol lattice on which term structures are definedare extended to treat negative descriptions.
+That is, an FS unification method is proposed that introduces a strategy called the e_arly failure £inding strategy (the EFF strategy) to make FS unification efficient, in this method, FS unification orders are not specified explicitly by rule wril.ers, but are controlled by learned information on tendencies of FS constraint application failures.
 
-</sectionHeader> <subsectionHeader confidence="0.434954"> Descriptions of TFSs </subsectionHeader> <bodyText confidence="0.971192533333333">In describing linguistic information using (typed) feature structures, negative descriptions make the description compact, intuitive, and hence easy to understand.
+These two methods can be combined into a single method called the strategic lazy ijAcremeatal copy g~raph unification method (the SLING unification method).
 
-Definition 4 A term is a triple (Ar, v) where A is a term domain on .F, r is a type symbol function from .7 to T such that r(T* â A) = IT), and v is a tag symbol function from A to V. Given a tag symbol function v, Addl.., denotes the function from a tag symbol to the set of addresses: Addr,(X) := Al v(p) = X}.
+The type symbol lattice contains the greatest type symbol Top, which subsumes every type symbol, and the least type symbol Bottom, which is subsumed by every I.ype symbol.
 
-The set 14./Y7&apos; of well-formed terms includes many terms that have the same type symbol function, the same coreference relations, the same inhibited featurefunction, and the same disagreement address func tion but different tag symbol functions.
+The procedure applies itself ,'ecursively to each such arc pair values and adds to the output node every arc with the same label as its label and the unification result of their values unless the tmification result is Bottom.
 
-a AT b = c if and only if lain 114 = A feature symbol denotes a function from a subset of U to U. A feature path is a finite string of feature symbols and denotes the function obtained by the composition of the functions that the feature symbols denote.
+The node specified by the feature path <a> fi'om input graph G1 (Gl/<a>) has an arc with the label c and the corresponding node of input graph G2 does not.
 
-A subdomain of a term domain, corresponding to a subgraph, is defined as follows, Definition 3 Given a term domain A and a feature address p E A, the subdomain of A at p is defined to be the term domain A/p := {P&apos; I P â¢ P&apos; E A}.
+The output node has been created only when neither input node is current; or otherwise the output node is an existing current node.
 
-AltKaci&apos;s term structure, the basis of the tit-type, is defined by assigning a type symbol and a tag symbol to each feature address as follows.
+The revised CopyNode procedure takes as its inputs the node to be copied node I and the arc arc I with node I as its value and node2 as its immediate ancestor node (i.e., the arc's initial node), and does the following (set Fig.
 
-2328, 1992 node structure 111=111111110M11= rinIMINI/a set o arc structures 11=121111111= IEZZEINIMINI=ED 011=1111111111=12=11M011â 1 MIIIIIIIIIMIEMIE 1/4=11â¢1111ELIMMTIM 111121MIMICIIMEDIEED Figure 4: Data Structures Function Unify(nodel , nodc2) begin node] := Dereference(nodel); riode2 :-= Dereference(ruxle2); if node] = node then return( node 1); nodel . forward := node2 ; node2.tsymbol := node] .tsurnbol AT node2.tsymbol; if node2.tsymbol = _I_ then return(i) node2.ileatures node] .ifeatures U node2 :ilea tures ; if node2.ifeaturesn { arc. feature I arc E node] .arcs U node .nrcs) 0 then returri(1.); node2.dnodes := node!
+(2) In the worst eases, in which there are unique label arcs but all result structures are newly created, the method CopyNode PROCEDURE CopyNode(node, arc, ancestor) node = Dereference(node).
 
-.arcs ::= arcs U node . arcs; ovturn(node2); end Figure 5: A Destructive Graph Unification Functionso that a covers an additional type symbol.
+(3) Unevenness of FS unification failure tendency: in extreme cases, if every feature has the same unification failure tendency, this method has no advantage.
 
-In this paper, FSs have been augmented, using a promising method of for AltKaci&apos;s type, to allow three kinds of negative descriptions of them to be treated.In a formalization of typed feature structures, neg ative descriptions can be decomposed into three kinds of negations: negations of type symbols, negations of feature existences, and negations of feature-address value agreements.
+The strategic lazy incremental copy graph (SLING) unification method combines two incremental copy graph unification methods: the lazy incremental copy graph (LING) unification method and the strategic incremental copy graph (SING) unification method.
 
+The LING unification method achieves structure sharing without the O(log d) data access overhead of Pereira's method.
 
-/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/scipy/spatial/distance.py:287: RuntimeWarning: invalid value encountered in double_scalars
-  dist = 1.0 - np.dot(u, v) / (norm(u) * norm(v))
+Thus, the efficiency gain fi'om this method is high when the overall FS unification failure rate of the application process is high.
+
+The combined method Inakes each FS unification efficient and also reduces garbage collection and page swapping occurrences by avoiding memory wastage, thus increasing the total efficiency of li'S unification-based natural language processing systems such aa analysis and generation systems based on IlI'SG.
 
 #analysing the annotation 1
 
-##The Citing Sentences :
+##The Citing Sentences : 
 While an improvement over simple destructive unification, Tomabechi's approach still suffers from what Kogure (Kogure, 1990) calls redundant copying.
 
-###The Corpus Reference Sentences :
+###The Corpus Reference Sentences : 
 1.0
 
 
@@ -713,124 +657,124 @@ While an improvement over simple destructive unification, Tomabechi's approach s
 
 **22** : This is unnecessary because there are often input snbgraphs that can be used as part of the result graph without any modification, or as sharable parts between one of the input graphs and the result graph.
 
-0.98827166792
+0.855199934141
 
 
 **23** : Copying sharable parts is called redundant copying.
 
 
-###Our Reference Sentences :
-0.257253382033
+###Our Reference Sentences : 
+0.0632387973041
 
-**194** : Unification The unification operation for augmented tk-terms or augmented TFSs has been implemented using graphunification techniques.
-
-
-0.316278989552
-
-**213** : To simplify the explanation, the destructive version of graph unification is used above.
+**17** : These methods take two DGs as their inputs and give a unification result DG.
 
 
-0.360849090372
+0.0822250726662
 
-**214** : Other versions based on more efficient graph unification methods such as Wroblewski's and Kogure's method [23, 16) have also been developed.
-
-
-0.366603940438
-
-**215** : Furthermore, it is easy to modify other graph unification inethods[21, 61 to allow augmented 1TSs.
+**8** : In such unification-based formalisms, feature ~trueture (FS) unification is the most fundamental and ..~ignifieant operation.
 
 
-0.400128494568
+0.0969302678112
 
-**196** : The unification oper ation for such DGs corresponds to a graph merging operation.
+**135** : This order is related to the unification failure tendency.
+
+
+0.150480240411
+
+**207** : The SING unification method introduces the concept of feature unification strategy.
+
+
+0.154821678959
+
+**199** : In such cases, the SING unification method obtains efl]ciency gains.
 
 
 
 #analysing the annotation 2
 
-##The Citing Sentences :
+##The Citing Sentences : 
 The extension is classified into class (1) above.Based on this paper's formalization, unification algorithms have been developed using graph unification techniques[23, 16].
 
-###The Corpus Reference Sentences :
-0.372468353304
+###The Corpus Reference Sentences : 
+nan
 
 
 **0** : Strategic Lazy Incremental Copy Graph Unification
 
 
-###Our Reference Sentences :
-0.252788071412
+###Our Reference Sentences : 
+0.133502857924
 
-**44** : The extension is classified into class (1) above.Based on this paper's formalization, unification al gorithms have been developed using graph unificationtechniques[23, 16].
-
-
-0.452815742089
-
-**198** : In a destructive graph unification method, winch is very simple, such a graph is represented by the data structures in Figure 4.
+**17** : These methods take two DGs as their inputs and give a unification result DG.
 
 
-0.483832312905
+0.151065021358
 
-**213** : To simplify the explanation, the destructive version of graph unification is used above.
-
-
-0.503475594639
-
-**214** : Other versions based on more efficient graph unification methods such as Wroblewski's and Kogure's method [23, 16) have also been developed.
+**8** : In such unification-based formalisms, feature ~trueture (FS) unification is the most fundamental and ..~ignifieant operation.
 
 
-0.50531293874
+0.164667217446
 
-**194** : Unification The unification operation for augmented tk-terms or augmented TFSs has been implemented using graphunification techniques.
+**135** : This order is related to the unification failure tendency.
+
+
+0.16604985862
+
+**103** : Output graph G3 Figure 5: Incremental copy graph unification In this figure, type symbols are omitted.
+
+
+0.184802162839
+
+**207** : The SING unification method introduces the concept of feature unification strategy.
 
 
 
 #analysing the annotation 3
 
-##The Citing Sentences :
+##The Citing Sentences : 
 Other versions based on more efficient graph unification methods such as Wroblewski's and Kogure's method [23, 16] have also been developed.
 
-###The Corpus Reference Sentences :
-0.196785800727
+###The Corpus Reference Sentences : 
+nan
 
 
 **0** : Strategic Lazy Incremental Copy Graph Unification
 
 
-###Our Reference Sentences :
-0.110528439076
+###Our Reference Sentences : 
+0.0719820182931
 
-**214** : Other versions based on more efficient graph unification methods such as Wroblewski's and Kogure's method [23, 16) have also been developed.
-
-
-0.187257215387
-
-**198** : In a destructive graph unification method, winch is very simple, such a graph is represented by the data structures in Figure 4.
+**207** : The SING unification method introduces the concept of feature unification strategy.
 
 
-0.207188896699
+0.0942341361611
 
-**213** : To simplify the explanation, the destructive version of graph unification is used above.
-
-
-0.258009369345
-
-**215** : Furthermore, it is easy to modify other graph unification inethods[21, 61 to allow augmented 1TSs.
+**51** : This method is called the strategic ij!~crementaI copy graph unification method (the SING unification method).
 
 
-0.29728164565
+0.100878391292
 
-**196** : The unification oper ation for such DGs corresponds to a graph merging operation.
+**54** : Section 3 explains a TFS unification method based on Wroblewski's method and then explains the problem with his method.
+
+
+0.107103291038
+
+**52** : These two methods can be combined into a single method called the strategic lazy ijAcremeatal copy g~raph unification method (the SLING unification method).
+
+
+0.110057058142
+
+**208** : 'the method treats features tending to fail in unification first.
 
 
 
 #analysing the annotation 4
 
-##The Citing Sentences :
+##The Citing Sentences : 
 This is inefficient with many copy operations due to unfications of unnecessary features that do not contribute to successful unification [6].
 
-###The Corpus Reference Sentences :
-0.741512481829
+###The Corpus Reference Sentences : 
+0.247858115675
 
 
 **205** : Furthermore, structure sharing increases the portion of token identical substructures of FSs which makes it efficient to keep unification results of substructures of FSs and reuse them.
@@ -841,38 +785,38 @@ This is inefficient with many copy operations due to unfications of unnecessary 
 **206** : This reduces repeated calculation of substructures.
 
 
-###Our Reference Sentences :
-0.189267211423
+###Our Reference Sentences : 
+0.127933092254
 
-**76** : OF COLING92, NANTES, AUG. 2328, 1992 3.1 Typed Feature Structures as.
-
-
-0.208989686868
-
-**146** : Such an inconsistency is called a feature inconsistency.
+**17** : These methods take two DGs as their inputs and give a unification result DG.
 
 
-0.247694927216
+0.145608143694
 
-**156** : This is also true for feature incon sistency and tag inconsistency.
-
-
-0.291551305299
-
-**73** : &apos;Fenn structures are first augmented with structures representing in features and disagreement of feature address values.
+**8** : In such unification-based formalisms, feature ~trueture (FS) unification is the most fundamental and ..~ignifieant operation.
 
 
-0.33239976086
+0.159297773475
 
-**22** : In order to treat feature domains of complex FSsand to treat taxonomic hierarchies of symbolic feature values, type (or sort) hierarchies have been in troduced, allowing definition of typed (or sorted) feature-structures (Ms).
+**135** : This order is related to the unification failure tendency.
+
+
+0.181941450309
+
+**207** : The SING unification method introduces the concept of feature unification strategy.
+
+
+0.212527449695
+
+**194** : The efficiency of the SING unification method depends on the following factors: (1) The overall FS unification failure rate of the process: in extreme cases, if Go unification failure occurs, the method has no advantages except the overhead of feature unification order sorting.
 
 
 
-##The Citing Sentences :
+##The Citing Sentences : 
 Thus treatments such as strategic unification [6] have been developed.
 
-###The Corpus Reference Sentences :
-0.535066559359
+###The Corpus Reference Sentences : 
+0.19604813917
 
 
 **205** : Furthermore, structure sharing increases the portion of token identical substructures of FSs which makes it efficient to keep unification results of substructures of FSs and reuse them.
@@ -883,133 +827,133 @@ Thus treatments such as strategic unification [6] have been developed.
 **206** : This reduces repeated calculation of substructures.
 
 
-###Our Reference Sentences :
-0.189267211423
+###Our Reference Sentences : 
+0.0678622905311
 
-**76** : OF COLING92, NANTES, AUG. 2328, 1992 3.1 Typed Feature Structures as.
-
-
-0.208989686868
-
-**146** : Such an inconsistency is called a feature inconsistency.
+**17** : These methods take two DGs as their inputs and give a unification result DG.
 
 
-0.247694927216
+0.0867548569359
 
-**156** : This is also true for feature incon sistency and tag inconsistency.
-
-
-0.291551305299
-
-**73** : &apos;Fenn structures are first augmented with structures representing in features and disagreement of feature address values.
+**8** : In such unification-based formalisms, feature ~trueture (FS) unification is the most fundamental and ..~ignifieant operation.
 
 
-0.306093482112
+0.10138747289
 
-**194** : Unification The unification operation for augmented tk-terms or augmented TFSs has been implemented using graphunification techniques.
+**135** : This order is related to the unification failure tendency.
+
+
+0.127933092254
+
+**17** : These methods take two DGs as their inputs and give a unification result DG.
+
+
+0.145608143694
+
+**8** : In such unification-based formalisms, feature ~trueture (FS) unification is the most fundamental and ..~ignifieant operation.
 
 
 
 #analysing the annotation 5
 
-##The Citing Sentences :
+##The Citing Sentences : 
 This observation is the basis for a reordering method proposed by Kogure [1990].
 
-###The Corpus Reference Sentences :
-0.938725440995
+###The Corpus Reference Sentences : 
+0.629846149941
 
 
 **3** : The other, called ti~e strategic incremental copy graph unification method, uses an early failure finding strategy which first tries to unify ;ubstructures tending to fail in unification; this method is; based on stochastic data on tim likelihood of failure and ,'educes unnecessary computation.
 
 
-###Our Reference Sentences :
-0.693518079786
+###Our Reference Sentences : 
+0.00435074333693
 
-**46** : </bodyText> <sectionHeader confidence="0.650502" genericHeader="method">
-
-
-0.819102083449
-
-**221** : It is also shown that the first kind can be treated by extending type symbol lattices to include complement type symbols.&apos;Die proposed formalization can provide efficient al AcrEs 05 COLING92, NANTES, 2328 Â°art 1992 3 8 5 PROC.
+**56** : Section 3 and 4 introduce the LING method and the SING method, respectively.
 
 
-0.822609093578
+0.00913450793453
 
-**216** : This paper has proposed an augmentation of feature structures (FSs) which introduces negative in formation into FSs in unification-based formalisms.Unification-based linguistic formalisms use lbs to describe linguistic objects and phenomena.
-
-
-0.849810928954
-
-**214** : Other versions based on more efficient graph unification methods such as Wroblewski's and Kogure's method [23, 16) have also been developed.
+**30** : I)eveloping a method which avoids memory wastage is very important.
 
 
-0.930390015386
+0.0222077383095
 
-**198** : In a destructive graph unification method, winch is very simple, such a graph is represented by the data structures in Figure 4.
+**55** : The section also introduces the key idea of the EFF strategy wlfich comes from observations of his method.
+
+
+0.0417541754942
+
+**24** : A better method would nfinimize the copying of sharable varts.
+
+
+0.0638043430268
+
+**54** : Section 3 explains a TFS unification method based on Wroblewski's method and then explains the problem with his method.
 
 
 
 #analysing the annotation 6
 
-##The Citing Sentences :
+##The Citing Sentences : 
 Thus for any automatic counting scheme some constant shuffling and reshuffling of the conjunct order needs to be applied until the order stabilizes (see also [Kogure 1990]).
 
-###The Corpus Reference Sentences :
+###The Corpus Reference Sentences : 
 1.0
 
 
 **186** : in this method, theretbre, the failure tendency information is acquired by a learning process.
 
-1.0
+0.946201018708
 
 
 **187** : That is, the SING unification method applied in an analysis system uses the failure tendency information acquired by a learning analysis process.
 
-0.831321566047
+0.93781563644
 
 
 **188** : in the learning process, when FS unification is applied, feature treatment orders are randomized for the sake of random extraction.
 
 
-###Our Reference Sentences :
-0.608409923362
+###Our Reference Sentences : 
+0.818679831778
 
-**170** : The subsumption order on IP are defined by [Ii] &lt; [12] if ti &lt;12 is well-defined.Lattice operations on P can be defined to be com patible with the above subsumption order relation as follows.
-
-
-0.722156793484
-
-**162** : The subsumption orders on W.TT and on sP are defined as follows.
+**188** : in the learning process, when FS unification is applied, feature treatment orders are randomized for the sake of random extraction.
 
 
-0.831896953137
+0.849693791439
 
-**204** : The func tion finally treats arcs in order to make the result graph right-congruent.
-
-
-0.914109398202
-
-**214** : Other versions based on more efficient graph unification methods such as Wroblewski's and Kogure's method [23, 16) have also been developed.
+**135** : This order is related to the unification failure tendency.
 
 
-0.918161073677
+0.858770050433
 
-**81** : a partial order &lt;7 on T such that (a) I. is the least and T is the greatest element, and (b) every pair of type symbols a, b E 7 have a least upper bound or join, which is denoted by a VT b and a greatest lower bound or meet, which is denoted by a AT b, 3.
+**138** : This order strategy can be generalized to the EFF and applied to the ordering of arcs with common labels.
+
+
+0.867607165241
+
+**191** : By using learned failure tendency information, feature value unification is applied in an order that first treats features with the greatest tendency to fail.
+
+
+0.89463587073
+
+**201** : Moreover, it is possible for each type symbol to select whether to apply feature unification order sorting or not.
 
 
 
 #analysing the annotation 7
 
-##The Citing Sentences :
+##The Citing Sentences : 
 The lazy copying approach ([Kogure, 1990], and [Emele, 1991] for lazy copying in TFS with historical backtracking) copies only overlapping parts of the structure.
 
-###The Corpus Reference Sentences :
-0.602810230776
+###The Corpus Reference Sentences : 
+0.788202874194
 
 
 **39** : This paper proposes an FS unification method that allows structure sharing with constant m'der node access time.
 
-0.389203132111
+0.630549146509
 
 
 **40** : This method achieves structure sharing by introducing lazy copying to Wroblewski's incremental copy graph unification method.
@@ -1020,106 +964,106 @@ The lazy copying approach ([Kogure, 1990], and [Emele, 1991] for lazy copying in
 **78** : Then, the unification of tl anti t2 is defined as their greatest lower bound or the meet.
 
 
-###Our Reference Sentences :
-0.340587698531
+###Our Reference Sentences : 
+0.193185097074
 
-**28** : Asubsumption relation is defined on these term structures.
-
-
-0.600125758346
-
-**216** : This paper has proposed an augmentation of feature structures (FSs) which introduces negative in formation into FSs in unification-based formalisms.Unification-based linguistic formalisms use lbs to describe linguistic objects and phenomena.
+**27** : I"or example, in unifying an FS representing constraints on phrase structures and an FS representing a daughter phrase structure, such eases occur very h'equent, ly.
 
 
-0.610726685479
+0.263452413562
 
-**195** : A term structure is repre sented as a directed graph by assigning a graph nodeto each K-class as in Figure 2.
-
-
-0.615352214286
-
-**224** : Logic-based frameworks can be used to obtain the data structures for this paper&apos;s formalization.Unification algorithms for augmented terms or augmented TFSs have been developed using graph uni fication techniques.
+**177** : Usually, the number of features in two input structures is relatively small and the sizes of the two input structures are often very different.
 
 
-0.640794453742
+0.304241337801
 
-**219** : It is shown that the second andthird kinds can be treated by augmenting term struc tures to include structures representing such kinds of descriptions.
+**10** : Tiffs dependency is especially crucial for lexicon-driven approaches such as tlPSO[Pollard and Sag 861 and JPSG[Gunji 871 because rich lexieal information and phrase structure information is described in terms of FSs.
+
+
+0.339287511059
+
+**38** : Avoiding this problem in his method requires a special operation of merging a skeleton-environment structure into a skeleton structure, but this prevents structure sharing.
+
+
+0.352018105363
+
+**141** : 5 disables structure sharing, ttowever, this whole copying is not necessary if a lazy evaluation method is used.
 
 
 
 #analysing the annotation 8
 
-##The Citing Sentences :
+##The Citing Sentences : 
 At least two schemes have been proposed recently ])a.~ed Ul)OU this observation (namely [Kogure.
 
-###The Corpus Reference Sentences :
-1.0
+###The Corpus Reference Sentences : 
+nan
 
 
 **0** : Strategic Lazy Incremental Copy Graph Unification
 
 
-###Our Reference Sentences :
-0.346568857752
+###Our Reference Sentences : 
+0.335484521045
 
-**197** : This takes two DGs and merges hi-classes of the same feature-address into a K-class.
-
-
-0.700634007608
-
-**205** : For treating arcs, the function Unify assumes two functions, Shared_Arc_Pairs and Comylemeni_Arcs.
+**176** : However, these two cases are very rare.
 
 
-0.768489671184
+0.571265631308
 
-**202** : The function Unify takes two input nodes and puts them in a K.-class by letting one input be the forward field values.
-
-
-0.776883638935
-
-**211** : Unification of two nodes which have each other in their dnodes yields 1 because of tag inconsistency.
+**15** : Several FS unificatioa methods were proposed in IKarttunen 86, l'ereira 85, Wroblewski 871.
 
 
-0.784524304089
+0.662783642076
 
-**201** : By traversing two DGs&apos; nodeswith the same feature-address simultaneously, calcu lating the union of their K-classes, and copying arcs, their unification can be calculated as in Figure 5.
+**5** : Various kinds of grammatical formalisms without t,ranstormation were proposed from the late 1970s I;hrough the 1980s l(]azder eL al 85, l(aplan and Bresnan 82, Kay 1~5, Pollm'd and Sag 871.
+
+
+0.768524475001
+
+**177** : Usually, the number of features in two input structures is relatively small and the sizes of the two input structures are often very different.
+
+
+0.789309123182
+
+**100** : The procedure assumes the existence of two procedures, namely, SharedArcs and ComplementArcs.
 
 
 
-##The Citing Sentences :
+##The Citing Sentences : 
 1990] and [Emele, 1991]); however, both schemes are I)ased upon the increlllent'al Col)yiug sehellle all(l ~-LS ([e- scribed in [Tomal)eehi, 1991] incremental copying schemes inherently suffcr fi'om Early Copying as defined in that article.
 
-###The Corpus Reference Sentences :
-1.0
+###The Corpus Reference Sentences : 
+nan
 
 
 **0** : Strategic Lazy Incremental Copy Graph Unification
 
 
-###Our Reference Sentences :
-0.108417539493
+###Our Reference Sentences : 
+0.335484521045
 
-**79** : A signature is formally defined as follows, Definition 1 A signature is a quadruple (7, &lt;7 V) consisting of: 1.
-
-
-0.155756545699
-
-**162** : The subsumption orders on W.TT and on sP are defined as follows.
+**176** : However, these two cases are very rare.
 
 
-0.287115075692
+0.450332171702
 
-**142** : To treat, such inconsistency, a relation 41 on 311.1.TY is defined as follows.
-
-
-0.300727075056
-
-**149** : lien cc, the three kinds of inconsistency are treatedintegratedly by a relation ff on W.FT defined as fol lows.
+**19** : Wroblewski claims that copying is wrong when an algorithm copies too much (over copying) or copies too soon (early copying).
 
 
-0.315979425779
+0.571265631308
 
-**72** : Next, augmented 0,-terms and 0-types are defined.
+**15** : Several FS unificatioa methods were proposed in IKarttunen 86, l'ereira 85, Wroblewski 871.
+
+
+0.640339648586
+
+**18** : Previous research identified DG copying as a significant overhead.
+
+
+0.65641914338
+
+**23** : Copying sharable parts is called redundant copying.
 
 
 
@@ -1128,49 +1072,49 @@ At least two schemes have been proposed recently ])a.~ed Ul)OU this observation 
 
 #analysing the annotation 10
 
-##The Citing Sentences :
+##The Citing Sentences : 
 2In the large-scale HPSG-based spoken Japanese analysis system developed at ATR, sometimes 98 percent of the elapsed time is devoted to graph unification ([Kogure, 1990]).
 
-###The Corpus Reference Sentences :
-0.551774868036
+###The Corpus Reference Sentences : 
+0.290367582027
 
 
 **205** : Furthermore, structure sharing increases the portion of token identical substructures of FSs which makes it efficient to keep unification results of substructures of FSs and reuse them.
 
 
-###Our Reference Sentences :
-0.105780837112
+###Our Reference Sentences : 
+0.143195180176
 
-**213** : To simplify the explanation, the destructive version of graph unification is used above.
-
-
-0.129352844443
-
-**198** : In a destructive graph unification method, winch is very simple, such a graph is represented by the data structures in Figure 4.
+**14** : Japanese analysis system based on llPSG[Kogure 891 uses 90% - 98% of the elapsed time in FS unification.
 
 
-0.13981124891
+0.177220466943
 
-**214** : Other versions based on more efficient graph unification methods such as Wroblewski's and Kogure's method [23, 16) have also been developed.
-
-
-0.147556301315
-
-**215** : Furthermore, it is easy to modify other graph unification inethods[21, 61 to allow augmented 1TSs.
+**17** : These methods take two DGs as their inputs and give a unification result DG.
 
 
-0.192674666812
+0.193896561909
 
-**196** : The unification oper ation for such DGs corresponds to a graph merging operation.
+**8** : In such unification-based formalisms, feature ~trueture (FS) unification is the most fundamental and ..~ignifieant operation.
+
+
+0.20279928499
+
+**103** : Output graph G3 Figure 5: Incremental copy graph unification In this figure, type symbols are omitted.
+
+
+0.203853233373
+
+**42** : In a natural language proeessing system that uses deelarative constraint rules in terms of FSs, FS unification provides constraint-checking and structure- building mechanisms.
 
 
 
 #analysing the annotation 11
 
-##The Citing Sentences :
+##The Citing Sentences : 
 That is, unless some new scheme for reducing excessive copying is introduced such as scucture-sharing of an unchanged shared-forest ([Kogure, 1990]).
 
-###The Corpus Reference Sentences :
+###The Corpus Reference Sentences : 
 1.0
 
 
@@ -1182,94 +1126,94 @@ That is, unless some new scheme for reducing excessive copying is introduced suc
 **14** : Japanese analysis system based on llPSG[Kogure 891 uses 90% - 98% of the elapsed time in FS unification.
 
 
-###Our Reference Sentences :
-0.976475805018
+###Our Reference Sentences : 
+0.194167861625
 
-**201** : By traversing two DGs&apos; nodeswith the same feature-address simultaneously, calcu lating the union of their K-classes, and copying arcs, their unification can be calculated as in Figure 5.
-
-
-0.984701775366
-
-**183** : Let A : fat, , aN1 be the set of atoms of 7, that is, type symbols which cover 1.4 If there arenon-atomic type symbols which cover only one sym bol, for each such symbol a, a new atom is added &apos;A lattice is called complemented if its all elements have complements.[3] &apos;a is said to cover 13 if b &lt;7 a and b &lt;7 c &lt;-r a implies c = b. r1(p) VT T2(P), (10c) 01(P) n 02(0, and (10d) -{u3(q) I q E (Disagrâ,,,(p) (Oil.
+**19** : Wroblewski claims that copying is wrong when an algorithm copies too much (over copying) or copies too soon (early copying).
 
 
-0.995311403785
+0.36440250983
 
-**107** : (8) XEx(p) Augmented terms are hereafter referred to simply as terms unless stated otherwise.
-
-
-1.0
-
-**216** : This paper has proposed an augmentation of feature structures (FSs) which introduces negative in formation into FSs in unification-based formalisms.Unification-based linguistic formalisms use lbs to describe linguistic objects and phenomena.
+**18** : Previous research identified DG copying as a significant overhead.
 
 
-1.0
+0.457701273726
 
-**217** : Because lin guistic information can be described compactly usingdisjunctive and negative descriptions, l&apos;Ss and feature descriptions are required to treat such descrip tions.
+**23** : Copying sharable parts is called redundant copying.
+
+
+0.621587903228
+
+**29** : Memory is wasted by such redundant copying and this causes frequent garbage collection and page swapping which decrease the total system efficiency.
+
+
+0.791612408614
+
+**20** : Ile proposed an incremental copy graph unification method to avoid over copying and early copying.
 
 
 
 #analysing the annotation 12
 
-##The Citing Sentences :
+##The Citing Sentences : 
 A more eNcient unification algorithm would avoid this redundant copying (copying structures that can be shared by the input and resultant graphs) (Kogure, 1990).
 
-###The Corpus Reference Sentences :
-0.626854626035
+###The Corpus Reference Sentences : 
+0.415786530912
 
 
 **203** : The LING unification method achieves structure sharing without the O(log d) data access overhead of Pereira's method.
 
-0.806070665642
+0.913816302896
 
 
 **22** : This is unnecessary because there are often input snbgraphs that can be used as part of the result graph without any modification, or as sharable parts between one of the input graphs and the result graph.
 
-0.992842676709
+0.786141680146
 
 
 **23** : Copying sharable parts is called redundant copying.
 
-0.14122177722
+0.919434146491
 
 
 **24** : A better method would nfinimize the copying of sharable varts.
 
 
-###Our Reference Sentences :
-0.563125180363
+###Our Reference Sentences : 
+0.108515074347
 
-**198** : In a destructive graph unification method, winch is very simple, such a graph is represented by the data structures in Figure 4.
-
-
-0.63847450896
-
-**195** : A term structure is repre sented as a directed graph by assigning a graph nodeto each K-class as in Figure 2.
+**17** : These methods take two DGs as their inputs and give a unification result DG.
 
 
-0.679174439799
+0.12658369016
 
-**213** : To simplify the explanation, the destructive version of graph unification is used above.
-
-
-0.691383779949
-
-**214** : Other versions based on more efficient graph unification methods such as Wroblewski's and Kogure's method [23, 16) have also been developed.
+**8** : In such unification-based formalisms, feature ~trueture (FS) unification is the most fundamental and ..~ignifieant operation.
 
 
-0.694162529142
+0.140578142281
 
-**215** : Furthermore, it is easy to modify other graph unification inethods[21, 61 to allow augmented 1TSs.
+**135** : This order is related to the unification failure tendency.
+
+
+0.172160898453
+
+**207** : The SING unification method introduces the concept of feature unification strategy.
+
+
+0.195671500348
+
+**199** : In such cases, the SING unification method obtains efl]ciency gains.
 
 
 
 #analysing the annotation 13
 
-##The Citing Sentences :
+##The Citing Sentences : 
 Kogure (1990) proposed a lazy incremental copy graph (LING) unification that uses dependency-directed eol)yiug
 
-###The Corpus Reference Sentences :
-0.577952603397
+###The Corpus Reference Sentences : 
+0.787830373682
 
 
 **22** : This is unnecessary because there are often input snbgraphs that can be used as part of the result graph without any modification, or as sharable parts between one of the input graphs and the result graph.
@@ -1285,264 +1229,264 @@ Kogure (1990) proposed a lazy incremental copy graph (LING) unification that use
 **24** : A better method would nfinimize the copying of sharable varts.
 
 
-###Our Reference Sentences :
-0.104078318392
+###Our Reference Sentences : 
+0.143744347944
 
-**213** : To simplify the explanation, the destructive version of graph unification is used above.
-
-
-0.128084978437
-
-**198** : In a destructive graph unification method, winch is very simple, such a graph is represented by the data structures in Figure 4.
+**202** : The strategic lazy incremental copy graph (SLING) unification method combines two incremental copy graph unification methods: the lazy incremental copy graph (LING) unification method and the strategic incremental copy graph (SING) unification method.
 
 
-0.138173521256
+0.164621141511
 
-**214** : Other versions based on more efficient graph unification methods such as Wroblewski's and Kogure's method [23, 16) have also been developed.
-
-
-0.145933319595
-
-**215** : Furthermore, it is easy to modify other graph unification inethods[21, 61 to allow augmented 1TSs.
+**103** : Output graph G3 Figure 5: Incremental copy graph unification In this figure, type symbols are omitted.
 
 
-0.191137586698
+0.250423452513
 
-**196** : The unification oper ation for such DGs corresponds to a graph merging operation.
+**194** : The efficiency of the SING unification method depends on the following factors: (1) The overall FS unification failure rate of the process: in extreme cases, if Go unification failure occurs, the method has no advantages except the overhead of feature unification order sorting.
+
+
+0.252588352792
+
+**207** : The SING unification method introduces the concept of feature unification strategy.
+
+
+0.253078562956
+
+**17** : These methods take two DGs as their inputs and give a unification result DG.
 
 
 
 #analysing the annotation 14
 
-##The Citing Sentences :
+##The Citing Sentences : 
 A better method would avoid (eliminate) such redundant copying as it is called by [Kogure 90].
 
-###The Corpus Reference Sentences :
-0.838820857068
+###The Corpus Reference Sentences : 
+0.712853258467
 
 
 **23** : Copying sharable parts is called redundant copying.
 
-0.0127365961007
+0.0239172217489
 
 
 **24** : A better method would nfinimize the copying of sharable varts.
 
 
-###Our Reference Sentences :
-0.672021143327
+###Our Reference Sentences : 
+0.0239172217489
 
-**227** : The author would like to thank Ikuo Takeuchi, Akira Shimazu, Shozo Naito, Masahito Kawamori, Mikio Nakano, and other colleagues of the group for their encouragement and thought-provoking discussions.
-
-
-0.884851444188
-
-**117** : here, a is an equivalence relation and a a class is called a coreference class.
+**24** : A better method would nfinimize the copying of sharable varts.
 
 
-0.935717171708
+0.02576633488
 
-**148** : Such an inconsistency is called a tag inconsistency.
-
-
-0.945658648469
-
-**46** : </bodyText> <sectionHeader confidence="0.650502" genericHeader="method">
+**56** : Section 3 and 4 introduce the LING method and the SING method, respectively.
 
 
-0.946151535547
+0.0501447295676
 
-**141** : Such an inconsistency is called a type inconsis tency.
+**30** : I)eveloping a method which avoids memory wastage is very important.
+
+
+0.062676881381
+
+**55** : The section also introduces the key idea of the EFF strategy wlfich comes from observations of his method.
+
+
+0.0774081195828
+
+**54** : Section 3 explains a TFS unification method based on Wroblewski's method and then explains the problem with his method.
 
 
 
 #analysing the annotation 15
 
-##The Citing Sentences :
+##The Citing Sentences : 
 Similarly, in Kogure's approach, not all redundant copying is avoided in cases where there exists a feature path (a sequence of nodes connected by arcs) to a node that needs to be copied.
 
-###The Corpus Reference Sentences :
-0.996204650874
+###The Corpus Reference Sentences : 
+0.894978257599
 
 
 **23** : Copying sharable parts is called redundant copying.
 
-0.998259446999
+0.976055415894
 
 
 **141** : 5 disables structure sharing, ttowever, this whole copying is not necessary if a lazy evaluation method is used.
 
-0.218413943414
+0.435042147988
 
 
 **142** : With such a method, it is possible to delay copying a node until either its own contents need to change (e.g., node G3/Ka c !7>) or until it is found to have an arc (sequence) to a node t, hat needs to be copied (e.g., node X G3/<a c> in Fig.
 
 
-###Our Reference Sentences :
-0.0739843836484
+###Our Reference Sentences : 
+0.132666928984
 
-**187** : 2328, 1992 node structure 111=111111110M11= rinIMINI/a set o arc structures 11=121111111= IEZZEINIMINI=ED 011=1111111111=12=11M011â 1 MIIIIIIIIIMIEMIE 1/4=11â¢1111ELIMMTIM 111121MIMICIIMEDIEED Figure 4: Data Structures Function Unify(nodel , nodc2) begin node] := Dereference(nodel); riode2 :-= Dereference(ruxle2); if node] = node then return( node 1); nodel . forward := node2 ; node2.tsymbol := node] .tsurnbol AT node2.tsymbol; if node2.tsymbol = _I_ then return(i) node2.ileatures node] .ifeatures U node2 :ilea tures ; if node2.ifeaturesn { arc. feature I arc E node] .arcs U node .nrcs) 0 then returri(1.); node2.dnodes := node!
-
-
-0.190525073731
-
-**188** : .dnodes U node2.dnodes; if {nodel , node2} fl node2.dnodes tt then rettirn(..t.); arcpairs := Shared _Arc_Pairs(nodel , node2); for (arc] , arc2) in Â°repairs do begin value := Unify(orcl :value, arc2.value); if value -= then return(Â±); end; arcs := Coroplement_Ares(node I , node!]); node!]
+**142** : With such a method, it is possible to delay copying a node until either its own contents need to change (e.g., node G3/Ka c !7>) or until it is found to have an arc (sequence) to a node t, hat needs to be copied (e.g., node X G3/<a c> in Fig.
 
 
-0.196429217588
+0.15421575254
 
-**207** : The function Complemenl_A re S also takes two nodes and gives a set of arcs whose features exist in the first node but not in the second.
-
-
-0.213258102765
-
-**209** : When unification of two nodes results in a node with an arc with a feature in ifeatures, it yields I because of feature inconsistency.
+**163** : IF Current?(node) THEN Return(node).
 
 
-0.305319111609
+0.164438751999
 
-**208** : An inhibited feature function is implemented using the gestures field of nodes.
+**148** : The revised CopyNode procedure takes as its inputs the node to be copied node I and the arc arc I with node I as its value and node2 as its immediate ancestor node (i.e., the arc's initial node), and does the following (set Fig.
+
+
+0.177668656399
+
+**150** : It then adds the arc copies and arcs of node/' that are not copied to the new node, and returns the new node; (3) otherwise, CopyNode adds the pair consisting of the ancestor node node2 and the are arcl into the COPY- DEPENDENCY slot of node 1" and returns Nil_.
+
+
+0.178401303897
+
+**109** : For example, consider the case when feature a is first treated at the root nodes of G1 and G2 in Fig.
 
 
 
-##The Citing Sentences :
+##The Citing Sentences : 
 As it has been noticed by [Godden 90] and [Kogure 90], the key idea of avoiding "redundant copying" is to do copying lazily.
 
-###The Corpus Reference Sentences :
-0.776127635796
+###The Corpus Reference Sentences : 
+0.145185191504
 
 
 **23** : Copying sharable parts is called redundant copying.
 
-0.896300603643
+0.752889472693
 
 
 **141** : 5 disables structure sharing, ttowever, this whole copying is not necessary if a lazy evaluation method is used.
 
-0.96847569508
+0.890612255971
 
 
 **142** : With such a method, it is possible to delay copying a node until either its own contents need to change (e.g., node G3/Ka c !7>) or until it is found to have an arc (sequence) to a node t, hat needs to be copied (e.g., node X G3/<a c> in Fig.
 
 
-###Our Reference Sentences :
-0.0739843836484
+###Our Reference Sentences : 
+0.0438932898548
 
-**187** : 2328, 1992 node structure 111=111111110M11= rinIMINI/a set o arc structures 11=121111111= IEZZEINIMINI=ED 011=1111111111=12=11M011â 1 MIIIIIIIIIMIEMIE 1/4=11â¢1111ELIMMTIM 111121MIMICIIMEDIEED Figure 4: Data Structures Function Unify(nodel , nodc2) begin node] := Dereference(nodel); riode2 :-= Dereference(ruxle2); if node] = node then return( node 1); nodel . forward := node2 ; node2.tsymbol := node] .tsurnbol AT node2.tsymbol; if node2.tsymbol = _I_ then return(i) node2.ileatures node] .ifeatures U node2 :ilea tures ; if node2.ifeaturesn { arc. feature I arc E node] .arcs U node .nrcs) 0 then returri(1.); node2.dnodes := node!
-
-
-0.190525073731
-
-**188** : .dnodes U node2.dnodes; if {nodel , node2} fl node2.dnodes tt then rettirn(..t.); arcpairs := Shared _Arc_Pairs(nodel , node2); for (arc] , arc2) in Â°repairs do begin value := Unify(orcl :value, arc2.value); if value -= then return(Â±); end; arcs := Coroplement_Ares(node I , node!]); node!]
+**19** : Wroblewski claims that copying is wrong when an algorithm copies too much (over copying) or copies too soon (early copying).
 
 
-0.196429217588
+0.0678492240318
 
-**207** : The function Complemenl_A re S also takes two nodes and gives a set of arcs whose features exist in the first node but not in the second.
-
-
-0.213258102765
-
-**209** : When unification of two nodes results in a node with an arc with a feature in ifeatures, it yields I because of feature inconsistency.
+**18** : Previous research identified DG copying as a significant overhead.
 
 
-0.305319111609
+0.132666928984
 
-**208** : An inhibited feature function is implemented using the gestures field of nodes.
+**142** : With such a method, it is possible to delay copying a node until either its own contents need to change (e.g., node G3/Ka c !7>) or until it is found to have an arc (sequence) to a node t, hat needs to be copied (e.g., node X G3/<a c> in Fig.
+
+
+0.15421575254
+
+**163** : IF Current?(node) THEN Return(node).
+
+
+0.164438751999
+
+**148** : The revised CopyNode procedure takes as its inputs the node to be copied node I and the arc arc I with node I as its value and node2 as its immediate ancestor node (i.e., the arc's initial node), and does the following (set Fig.
 
 
 
-##The Citing Sentences :
+##The Citing Sentences : 
 Copying of nodes will be delayed until a destructive change is about to take place.
 
-###The Corpus Reference Sentences :
-0.9927360209
+###The Corpus Reference Sentences : 
+1.0
 
 
 **23** : Copying sharable parts is called redundant copying.
 
-0.996668727908
+1.0
 
 
 **141** : 5 disables structure sharing, ttowever, this whole copying is not necessary if a lazy evaluation method is used.
 
-0.221673852631
+0.980119685417
 
 
 **142** : With such a method, it is possible to delay copying a node until either its own contents need to change (e.g., node G3/Ka c !7>) or until it is found to have an arc (sequence) to a node t, hat needs to be copied (e.g., node X G3/<a c> in Fig.
 
 
-###Our Reference Sentences :
-0.0739843836484
+###Our Reference Sentences : 
+0.0438932898548
 
-**187** : 2328, 1992 node structure 111=111111110M11= rinIMINI/a set o arc structures 11=121111111= IEZZEINIMINI=ED 011=1111111111=12=11M011â 1 MIIIIIIIIIMIEMIE 1/4=11â¢1111ELIMMTIM 111121MIMICIIMEDIEED Figure 4: Data Structures Function Unify(nodel , nodc2) begin node] := Dereference(nodel); riode2 :-= Dereference(ruxle2); if node] = node then return( node 1); nodel . forward := node2 ; node2.tsymbol := node] .tsurnbol AT node2.tsymbol; if node2.tsymbol = _I_ then return(i) node2.ileatures node] .ifeatures U node2 :ilea tures ; if node2.ifeaturesn { arc. feature I arc E node] .arcs U node .nrcs) 0 then returri(1.); node2.dnodes := node!
-
-
-0.112555568934
-
-**187** : 2328, 1992 node structure 111=111111110M11= rinIMINI/a set o arc structures 11=121111111= IEZZEINIMINI=ED 011=1111111111=12=11M011â 1 MIIIIIIIIIMIEMIE 1/4=11â¢1111ELIMMTIM 111121MIMICIIMEDIEED Figure 4: Data Structures Function Unify(nodel , nodc2) begin node] := Dereference(nodel); riode2 :-= Dereference(ruxle2); if node] = node then return( node 1); nodel . forward := node2 ; node2.tsymbol := node] .tsurnbol AT node2.tsymbol; if node2.tsymbol = _I_ then return(i) node2.ileatures node] .ifeatures U node2 :ilea tures ; if node2.ifeaturesn { arc. feature I arc E node] .arcs U node .nrcs) 0 then returri(1.); node2.dnodes := node!
+**19** : Wroblewski claims that copying is wrong when an algorithm copies too much (over copying) or copies too soon (early copying).
 
 
-0.169033628526
+0.0678492240318
 
-**202** : The function Unify takes two input nodes and puts them in a K.-class by letting one input be the forward field values.
-
-
-0.174492254624
-
-**208** : An inhibited feature function is implemented using the gestures field of nodes.
+**18** : Previous research identified DG copying as a significant overhead.
 
 
-0.181968562171
+0.132666928984
 
-**188** : .dnodes U node2.dnodes; if {nodel , node2} fl node2.dnodes tt then rettirn(..t.); arcpairs := Shared _Arc_Pairs(nodel , node2); for (arc] , arc2) in Â°repairs do begin value := Unify(orcl :value, arc2.value); if value -= then return(Â±); end; arcs := Coroplement_Ares(node I , node!]); node!]
+**142** : With such a method, it is possible to delay copying a node until either its own contents need to change (e.g., node G3/Ka c !7>) or until it is found to have an arc (sequence) to a node t, hat needs to be copied (e.g., node X G3/<a c> in Fig.
+
+
+0.15421575254
+
+**163** : IF Current?(node) THEN Return(node).
+
+
+0.164438751999
+
+**148** : The revised CopyNode procedure takes as its inputs the node to be copied node I and the arc arc I with node I as its value and node2 as its immediate ancestor node (i.e., the arc's initial node), and does the following (set Fig.
 
 
 
-##The Citing Sentences :
+##The Citing Sentences : 
 Kogure uses a revised copynode procedure which maintains copy dependency information in order to avoid immediate copying.
 
-###The Corpus Reference Sentences :
-0.968036414708
+###The Corpus Reference Sentences : 
+0.816265510477
 
 
 **23** : Copying sharable parts is called redundant copying.
 
-0.985341450165
+0.955392326533
 
 
 **141** : 5 disables structure sharing, ttowever, this whole copying is not necessary if a lazy evaluation method is used.
 
-0.995554736385
+0.9805111084
 
 
 **142** : With such a method, it is possible to delay copying a node until either its own contents need to change (e.g., node G3/Ka c !7>) or until it is found to have an arc (sequence) to a node t, hat needs to be copied (e.g., node X G3/<a c> in Fig.
 
 
-###Our Reference Sentences :
-0.0739843836484
+###Our Reference Sentences : 
+0.0438932898548
 
-**187** : 2328, 1992 node structure 111=111111110M11= rinIMINI/a set o arc structures 11=121111111= IEZZEINIMINI=ED 011=1111111111=12=11M011â 1 MIIIIIIIIIMIEMIE 1/4=11â¢1111ELIMMTIM 111121MIMICIIMEDIEED Figure 4: Data Structures Function Unify(nodel , nodc2) begin node] := Dereference(nodel); riode2 :-= Dereference(ruxle2); if node] = node then return( node 1); nodel . forward := node2 ; node2.tsymbol := node] .tsurnbol AT node2.tsymbol; if node2.tsymbol = _I_ then return(i) node2.ileatures node] .ifeatures U node2 :ilea tures ; if node2.ifeaturesn { arc. feature I arc E node] .arcs U node .nrcs) 0 then returri(1.); node2.dnodes := node!
-
-
-0.112555568934
-
-**187** : 2328, 1992 node structure 111=111111110M11= rinIMINI/a set o arc structures 11=121111111= IEZZEINIMINI=ED 011=1111111111=12=11M011â 1 MIIIIIIIIIMIEMIE 1/4=11â¢1111ELIMMTIM 111121MIMICIIMEDIEED Figure 4: Data Structures Function Unify(nodel , nodc2) begin node] := Dereference(nodel); riode2 :-= Dereference(ruxle2); if node] = node then return( node 1); nodel . forward := node2 ; node2.tsymbol := node] .tsurnbol AT node2.tsymbol; if node2.tsymbol = _I_ then return(i) node2.ileatures node] .ifeatures U node2 :ilea tures ; if node2.ifeaturesn { arc. feature I arc E node] .arcs U node .nrcs) 0 then returri(1.); node2.dnodes := node!
+**19** : Wroblewski claims that copying is wrong when an algorithm copies too much (over copying) or copies too soon (early copying).
 
 
-0.169033628526
+0.0678492240318
 
-**202** : The function Unify takes two input nodes and puts them in a K.-class by letting one input be the forward field values.
-
-
-0.174492254624
-
-**208** : An inhibited feature function is implemented using the gestures field of nodes.
+**18** : Previous research identified DG copying as a significant overhead.
 
 
-0.181968562171
+0.127203341088
 
-**188** : .dnodes U node2.dnodes; if {nodel , node2} fl node2.dnodes tt then rettirn(..t.); arcpairs := Shared _Arc_Pairs(nodel , node2); for (arc] , arc2) in Â°repairs do begin value := Unify(orcl :value, arc2.value); if value -= then return(Â±); end; arcs := Coroplement_Ares(node I , node!]); node!]
+**175** : ENDPROCEDURE Figure 7: The revised CopyNode procedure has the disadvantage of treating copy dependency information.
+
+
+0.132666928984
+
+**142** : With such a method, it is possible to delay copying a node until either its own contents need to change (e.g., node G3/Ka c !7>) or until it is found to have an arc (sequence) to a node t, hat needs to be copied (e.g., node X G3/<a c> in Fig.
+
+
+0.15421575254
+
+**163** : IF Current?(node) THEN Return(node).
 
 
 
