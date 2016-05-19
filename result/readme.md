@@ -34,6 +34,10 @@ please notice that we are talking about the dostance, not the **similarity**.
 
 #Index of results according to numbers:
 
+- **OCR correction **: this file contains a corrected copy of the article after applying multiple technique for enhancing the quality of the file.
+the bold word is corrected word, beside it, between () you can see the original one.
+This file is the corrected version of C90-2039_TRAIN
+
 - **Result**: this file is the first version of our code result.
 
 - **Result1**: We change the threeshold of the contrast to 1.2 instead of 1, i.e reducing the number of significant words.
