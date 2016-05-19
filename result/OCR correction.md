@@ -1,5 +1,6 @@
 
 
+## section 1
 The strategic lazy incremental copy graph unification method is a combination of two methods for unifying **mature**( hmture ) structures .
 
 One , called the lazy incremental copy graph unification method , achieves structure sharing with constant order data access time which reduces the **required**( cequired ) memory .
@@ -14,6 +15,7 @@ The combined method **makes**( .makes ) each feature structure unification effic
 
 
 
+## section 2
 Various kinds of grammatical formalisms without t , **transformation**( ranstormation ) were proposed from the late 1970s I ; **rough**( hrough ) the 1980s l ( ] **aider**( azder ) al 85 , l ( **plan**( aplan ) and Bresnan 82 , Kay 1~5 , Pollm 'd and Sag 871 .
 
 These **journalisms**( furnmlisms ) were developed relatively independentIy but actually had common properties ; **theft**( th'~t ) is , they used data structures called **frictional**( ftmctional ) structures or feature structures and they were based on unilieathm operation on these data structures .
@@ -124,6 +126,7 @@ Section 3 and 4 introduce the LING method and the SING method , respectively .
 
 
 
+## section 3
 Ordinary FSs used in unification-based grammar formalisms such as PAT ] . { [ Shieher 851 arc classified into two classes , namely , atomic leSs and complex FSs .
 
 An atomic FS is represented by an atomic symbol and a complex FS is represented by a set of feature-value pairs .
@@ -182,6 +185,7 @@ TFSs are very convenient for describing linguistic information in unlfication-ba
 
 
 
+## section 4
 In TFS unification based on Wrobtewski 's method , a DG is represented by tile NODE and ARC structures corresponding to a TFS and a feature-value pair respectively , as shown in Fig .
 
 4 .
@@ -302,6 +306,7 @@ In Section 5 , a method which uses this generalized strategy is proposed .
 
 
 
+## section 5
 In Wroblewski 's method , copying unique label arc values whole in order to treat cases like ] Pig .
 
 5 disables structure sharing , **however**( ttowever ) this whole copying is not necessary if a lazy evaluation method is used .
@@ -386,6 +391,7 @@ For example , in Kasper 's disjunctive feature description unification , a defin
 
 
 
+## section 6
 Method In a system where FS unification is applied , there are features whose values fail relatively often in unification with other values and there are features whose values do not fail so often .
 
 For example , in Japanese sentence analysis , unification of features for conjugation forms , case markers , and semantic selectional restrictions tends to fail but unification of features for semantic representations does not fail .
@@ -438,6 +444,7 @@ Moreover , it is possible for each type symbol to select whether to apply featur
 
 
 
+## section 7
 The strategic lazy incremental copy graph ( SLING ) unification method combines two incremental copy graph unification methods : the lazy incremental copy graph ( LING ) unification method and the strategic incremental copy graph ( SING ) unification method .
 
 The LING unification method achieves structure sharing without the O ( log d ) data access overhead of Pereira 's method .
@@ -455,17 +462,5 @@ The SING unification method introduces the concept of feature unification strate
 Thus , the efficiency gain **fiefdom**( fi'om ) this method is high when the overall FS unification failure rate of the application process is high .
 
 The combined method Inakes each FS unification efficient and also reduces garbage collection and page swapping occurrences by avoiding memory wastage , thus increasing the total efficiency of li 'S unification-based natural language processing systems such aa analysis and generation systems based on IlI'SG .
-
-
-
-
-
-
-
-
-
-
-
-
 
 
