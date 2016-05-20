@@ -1,9 +1,3 @@
-/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 "/Applications/PyCharm CE.app/Contents/helpers/pydev/pydevd.py" --multiproc --qt-support --client 127.0.0.1 --port 63537 --file /Users/hazemalsaied/git/scisumm-corpus/coding/summarizer.py
-pydev debugger: process 22876 is connecting
-
-Connected to pydev debugger (build 145.844)
-Unexpected error: <class 'xml.etree.ElementTree.ParseError'>
-Unexpected error: <class 'xml.etree.ElementTree.ParseError'>
 ##Total Features Number using contrast: 167 / 113
 
 ### mainpulating the section : 0
