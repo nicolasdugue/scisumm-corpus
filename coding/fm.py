@@ -50,7 +50,7 @@ class FeatureMaximization:
                     wordObj = self.paper.getWordFromVocabulary(self.occurrenceMap.keys()[featureIndex])
                     if wordObj is not None:
                         wordObj.setAsContrastFeature()
-                        print wordObj, '\n'
+                        # print wordObj, '\n'
                     else:
                         print "## ERROR ## : couldn't get the associated Word Object of the word #: " + relevantWord
                     relevantWord += 1
@@ -70,35 +70,49 @@ class FeatureMaximization:
         self.relevantFeatures = []
         self.relevantFeaturesByContrast = []
         # iteration over classes
+        totalFeaturesNum = 0
+        featureReport = ''
+        totalContrastedsNum = 0
+        contrastReport = ''
         for clusterIndex in xrange(0, len(self.occurrenceArray)):
             relevantFeaturesRow = []
             relevantFeaturesByContrastRow = []
             # iteration over features
-            relevantWord = 0
+            relevantCounter = 1
+            contrastedCounter = 1
+            featureReport += "\n" + '### mainpulating the section : ' + str(clusterIndex) + "\n"
+            contrastReport += "\n" + '### mainpulating the section : ' + str(clusterIndex) + "\n"
             for featureIndex in xrange(0, len(self.occurrenceArray[0])):
                 FF = self.ff[clusterIndex][featureIndex]
                 wordObj = self.paper.getWordFromVocabulary(self.occurrenceMap.keys()[featureIndex])
                 if FF > self.hatedFFf[featureIndex] and FF > self.hatedFFd:
-                    sempStr = str(relevantWord) + ' : The word ' + self.occurrenceMap.keys()[featureIndex] \
-                                   + ' is relevant for the section ' + str(clusterIndex) + '\n'
-                    self.report += sempStr
-                    # print sempStr
                     if wordObj is not None:
                         wordObj.setAsFeature()
-                    relevantWord += 1
+                        featureReport += "\n" + str(relevantCounter) + ' - ' + str(wordObj) + "\n"
+                        relevantCounter += 1
                     relevantFeaturesRow.append(True)
                 else:
                     relevantFeaturesRow.append(False)
                 if self.gain[clusterIndex][featureIndex] > 1:
+
                     relevantFeaturesByContrastRow.append(True)
                     if wordObj is not None:
                         wordObj.setAsContrastFeature()
+                        contrastReport += "\n" + str(contrastedCounter) + ' - ' + str(wordObj) + "\n"
+                        contrastedCounter += 1
                 else:
                     relevantFeaturesByContrastRow.append(False)
-                if (wordObj is not None) and (wordObj.isFeature() or wordObj.isContrastFeature()):
-                    print wordObj
+            totalFeaturesNum += relevantCounter
+            totalContrastedsNum += contrastedCounter
             self.relevantFeaturesByContrast.append(relevantFeaturesByContrastRow)
             self.relevantFeatures.append(relevantFeaturesRow)
+        featureReport = '##Total Features Number : ' + str(totalFeaturesNum) + ' / ' + str(
+            totalContrastedsNum) + "\n" + featureReport
+        contrastReport = '##Total Features Number using contrast: ' + str(totalContrastedsNum) + ' / ' + str(
+            totalFeaturesNum) + "\n" + contrastReport
+
+        print contrastReport
+        print featureReport
         return self.relevantFeatures
 
     def __calculateGain(self):

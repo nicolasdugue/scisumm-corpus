@@ -619,3 +619,5 @@ yourselves
 you've
 zero
 zone
+e.g.
+i.e.

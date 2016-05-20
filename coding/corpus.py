@@ -8,7 +8,6 @@ import sys
 import xml.etree.ElementTree
 import xml.etree.ElementTree
 import xml.etree.cElementTree as ET
-from collections import Counter
 from os import listdir
 from os.path import join
 
@@ -16,6 +15,7 @@ from nltk import pos_tag
 from nltk import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
+from nltk.text import Text
 from scipy import spatial
 
 
@@ -26,6 +26,8 @@ class Annotation:
         annotations = annotationText.split('|')
         self.citingSentences = []
         self.citingSentencesDictionary = {}
+        self.referenceSentences = []
+        self.referenceSentencesDictionary = {}
         for ann in annotations:
             annList = ann.split(':')
             if len(annList) <= 1:
@@ -50,6 +52,7 @@ class Annotation:
             elif title == 'Discourse Facet':
                 self.discourseFacet = content
         self.getCitingSentences()
+        self.getReferenceSentences()
 
         # def getNeighborSentences(self, paper):
         # TODO: add the implemmentation
@@ -80,6 +83,22 @@ class Annotation:
             self.citingSentencesDictionary[int(child.attrib['sid'])] = sentence
         return self.citingSentences
 
+    def getReferenceSentences(self):
+        if len(self.referenceSentences) > 0:
+            return self.referenceSentences
+        try:
+            self.root = xml.etree.ElementTree.fromstring(
+                "<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?><citance>" + self.referenceText + '</citance>')
+        except:
+            self.isValid = False
+            return
+        for child in self.root:
+            sentence = Sentence(child.text)
+            sentence.setIndex(int(child.attrib['sid']))
+            self.referenceSentences.append(sentence)
+            self.referenceSentencesDictionary[int(child.attrib['sid'])] = sentence
+        return self.referenceSentences
+
 
 class SpanResultItem:
     def __init__(self, distance, referenceSent, citingSent):
@@ -92,14 +111,20 @@ class SpanResultItem:
         self.citingSentIndex = citingSent.getIndex()
 
     def __str__(self):
-        return str(self.distance) + '\n' + 'reference: ' + str(self.referenceSentIndex) + ' : ' \
-               + self.referenceSent.getText() + '\n'
+        return str(self.distance) + '\n\n' + '**' + str(self.referenceSentIndex) + '** : ' \
+               + self.referenceSent.getText() + '\n\n'
 
 
 class Paper:
+    stopWordsList = []
 
     def __init__(self, paperPath):
         try:
+
+            # Loading the stop words
+            stopsFile = open("../coding/stopWordsExpanded.txt")
+            for line in stopsFile.xreadlines():
+                Paper.stopWordsList.append(line.strip())
 
             paperFile = open(paperPath)
             self.setPaperPath(paperPath)
@@ -127,7 +152,7 @@ class Paper:
                     # Storing the important words of the abstract
                     for sentence in self.getAbstract():
                         wordList = word_tokenize(sentence.getText())
-                        # We use post tagging for overweighting the abstract terms who are nous
+                        # We use post tagging for over-weighting the abstract terms who are nous
                         wordListTagged = pos_tag(wordList)
                         for word in sentence.getWords():
                             for postTag in wordListTagged:
@@ -144,14 +169,22 @@ class Paper:
                     sectionIndex += 1
                     section.setTitle(child.get("title"))
                     self.addSection(section)
+                    section.setLemmatizedText()
                     # Storing the important words of sections' titles
                     title = section.getTitle()
-                    wordList = word_tokenize(title)
-                    # For avoiding the ordinary words, introduction conclusions ..
-                    for wordForm in wordList:
-                        word = Word(wordForm, None, wordList.index(wordForm), None)
-                        if word.isCandidateFeature() and not word.exist(self.getTitleTerm()):
-                            self.__titleTerms.append(word)
+                    if title is str:
+                        wordList = word_tokenize(title)
+                        # For avoiding the ordinary words, introduction conclusions ..
+                        for wordForm in wordList:
+                            word = Word(wordForm, None, wordList.index(wordForm), None)
+                            if word.isCandidateFeature() and not word.exist(self.getTitleTerm()):
+                                self.__titleTerms.append(word)
+            for section in self.getSections():
+                for sent in section.getSentences():
+                    for word in sent.getWords():
+                        if word.isCandidateFeature():
+                            section.getWordOccurence(word.getLemma())
+
 
         except IOError as e:
             print "I/O error({0}): {1}".format(e.errno, e.strerror)
@@ -375,11 +408,38 @@ class Section:
     def getSentencesNum(self):
         return len(self.__sentences)
 
-    def addText(self,text):
+    def addText(self, text):
         self.__text += text
 
     def getText(self):
         return self.__text
+
+    def setLemmatizedText(self):
+        self.__lemmetedText = ''
+        words = word_tokenize(self.__text)
+        wordnetLemmatizer = WordNetLemmatizer()
+        for word in words:
+            self.__lemmetedText += wordnetLemmatizer.lemmatize(word) + ' '
+
+    def getLemmatizedText(self):
+        if self.__lemmetedText is '':
+            self.setLemmatizedText()
+        return self.__lemmetedText
+
+    def getWordOccurence(self, text):
+        lemmetedText = ''
+        words = word_tokenize(text)
+        wordnetLemmatizer = WordNetLemmatizer()
+        for word in words:
+            lemmetedText += wordnetLemmatizer.lemmatize(word) + ' '
+
+        lemmatizedSection = self.getLemmatizedText()
+
+        moby = Text(lemmatizedSection)
+        print re.findall(lemmetedText, lemmatizedSection)
+        # re.findall(r'lemmetedText', sectionlemmatizedText)
+
+
 
     def __str__(self):
         return ' the section ' + self.getSectionIndex() + self.getTitle()
@@ -391,6 +451,10 @@ class Sentence:
         self.__report = ''
         self.__text = text
         self.__words = []
+        self.__isFake = False
+        self.__section = None
+        self.__usefulWordsNum = 0
+        self.__isValid = True
         wordList = word_tokenize(text)
         if section is None and index is None and isAbstract is None:
             for item in wordList:
@@ -410,10 +474,16 @@ class Sentence:
                 if self.getSection() is not None and self.getSection().getPaper().isInVocabulary(item.lower()):
                     word = self.getSection().getPaper().getWordFromVocabulary(item.lower())
                     word.addIndex(wordList.index(item))
+                    if word.isCandidateFeature():
+                        self.__usefulWordsNum += 1
                     word.addSentence(self)
                     self.addWord(word)
                 else:
                     self.addWord(Word(item, self, wordList.index(item), self.getSection().getPaper()))
+            # adding this feature for preventing the distorted sentences from entering in the competition or summarization.
+            if float(len(self.getMixedWords())) / len(self.getWords()) > 0.6:
+                self.__isValid = False
+
             if self.getSection() is not None and self.getSection().getPaper() is not None:
                 self.getSection().getPaper().addToSentenceDictionary(self)
 
@@ -423,36 +493,53 @@ class Sentence:
     def setIndex(self, index):
         self.__index = index
 
-    def getWeight(self):
+    def getWeight(self, sectionIndex):
         if self.__weight != -1:
-            self.setWeight()
+            self.setWeight(sectionIndex)
         return self.__weight
 
-    def setWeight(self):
-        sectionIndex = self.getSection().getSectionIndex()
+    def setWeight(self, sectionIndex):
+        """
+            After assigning weights for all the words of the article, we assign weights for sentences in calculating the
+            average of informative words for each sentence.
+
+            :param sectionIndex: the index of the section assigned to the sentence
+            :return: a float representing the weight of the sentence
+        """
         wordList = self.__words
         counter = 0
-        featureNum = 0
         weightBuffer = 0
         self.__weight = 0
         for word in wordList:
             word.setMaxWeight()
             if word.isCandidateFeature():
                 counter += 1
-            if word.isFeature():
-                featureNum += 1
             weightBuffer += word.getWeight(sectionIndex)
         if counter is not 0:
             self.__weight = weightBuffer / counter
-        self.__report = ' sent : ' + str(self.__index) + ' sec : ' + str(self.getSection().getSectionIndex())  + ', weight: '\
-                        + str(self.__weight) + ', fNum : ' + str(featureNum) + ' candFNum : ' \
-                         + str(counter) + ' : ' + str(self.getWordsNum())
 
     def getSection(self):
         return self.__section
 
     def setSection(self, section):
         self.__section = section
+
+    def isFake(self):
+        return self.__isFake
+
+    def setAsFake(self):
+        self.__isFake = True
+
+    def getFakeWeight(self, paper):
+        counter = 0
+        weightBuffer = 0
+        for word in self.__words:
+            if word.isCandidateFeature():
+                counter += 1
+            weightBuffer += word.getFakeWeight(paper)
+        if counter is not 0:
+            return weightBuffer / counter
+        return 0
 
     def getText(self):
         return self.__text
@@ -471,6 +558,9 @@ class Sentence:
     def getWordsNum(self):
         return len(self.__words)
 
+    def getUsefulWordsNum(self):
+        return self.__usefulWordsNum
+
     def getImportantLength(self):
         length = 0
         for word in self.getWords():
@@ -485,19 +575,36 @@ class Sentence:
                 lemma.append(word.getLemma())
         return lemma
 
-    def getDistance(self, citingSent):
+    def getMixedWords(self):
+        result = []
+        for word in self.getWords():
+            if word.isMixed():
+                result.append(word)
+        return result
+
+    def isValid(self):
+        return self.__isValid
+
+    def getDistance(self, citingSent, paper):
         """
             This method is sed to calculate the distance between two sentences using the cosine similarity measure
              and the weights of the two sentences' words according to the feature maximiwation on the article.
-        :param citingSent: the sentence mentioned in the citance
-        :return: the distance between two sentences
+
+            :param citingSent: the sentence mentioned in the citance
+            :return: the distance between two sentences
         """
         wordWeightDic = {}
         # sent = Sentence(sentenceStr)
         # Creating weights for the words of the given sentence
         for word in citingSent.getWords():
-            word.updateMaxWeight(self.getSection().getPaper().getMaxWeight(word.getLemma()))
-            wordWeightDic[word.getLemma()] = word.getMaxWeight()
+            wordWeightDic[word.getLemma()] = word.getFakeWeight(paper)
+
+        # In the case of comparing two fake sentences, i.e self is not assigned to a section of the paper
+        if self.getSection() is None:
+            for word in self.getWords():
+                word.setFakeWeight(paper)
+                if word.getLemma() not in wordWeightDic.keys():
+                    wordWeightDic[word.getLemma()] = word.getFakeWeight(paper)
 
         firstVector = []
         secondVector = []
@@ -506,7 +613,11 @@ class Sentence:
 
         for word in self.getWords():
             if word.isCandidateFeature():
-                firstVector.append(word.getWeight(self.getSection().getSectionIndex()))
+                if self.getSection() is not None:
+                    firstVector.append(word.getWeight(self.getSection().getSectionIndex()))
+                else:
+                    firstVector.append(word.getFakeWeight(paper))
+
                 if word.getLemma() in secondLemmaList:
                     if word.getLemma() in wordWeightDic.keys():
                         secondVector.append(wordWeightDic[word.getLemma()])
@@ -523,7 +634,10 @@ class Sentence:
                         secondVector.append(wordWeightDic[word.getLemma()])
                     else:
                         secondVector.append(0)
-
+        # print str(self.getIndex()) , self.getText()
+        # print str(citingSent.getIndex()), citingSent.getText()
+        # print 'first  : ' ,  firstVector
+        # print 'second : ', secondVector
         return spatial.distance.cosine(firstVector, secondVector)
 
     def __str__(self):
@@ -532,7 +646,6 @@ class Sentence:
 
 
 class Word:
-    sentencesPercent = 0.05
     titleWordWeight = 1.2
     abstractWordWeight = 1.2
 
@@ -542,16 +655,17 @@ class Word:
         self.__indices = []
         self.__sentences = []
         self.__weight = {}
-        self.__maxWeight = 0
+        self.__maxWeight = -1
+        self.__fakeWeight = -1
         self.__isFeature = False
         self.__isContrastFeature = False
         self.__isAbstractWord = False
         self.__isTitleWord = False
+        self.__paper = None
         if index is not None:
             self.addIndex(index)
         self.addSentence(sentence)
         self.setText(text)
-        self.__maxWeight = 0
         numberPattern = re.compile("[-+]?\d*\.\d+|\d+")
         mixedPattern = re.compile("\w+")
         self.__isNumber = False
@@ -564,11 +678,9 @@ class Word:
             self.setAsNumber()
         elif not mixedPattern.match(self.getText()):
             self.setAsMixed()
-        elif self.getText().lower() in stopwords.words('english'):
+        elif self.getText().lower() in stopwords.words('english') or self.getText().lower() in Paper.stopWordsList:
             self.setAsStop()
         else:
-            wordnetLemmatizer = WordNetLemmatizer()
-            self.setLemma(wordnetLemmatizer.lemmatize(self.getText()))
             if paper is not None:
                 self.getPaper().addToVocabulary(self)
 
@@ -610,6 +722,8 @@ class Word:
 
     def setText(self, text):
         self.__text = text
+        wordnetLemmatizer = WordNetLemmatizer()
+        self.__lemma = wordnetLemmatizer.lemmatize(self.__text)
 
     def getLemma(self):
         if self.__lemma != '':
@@ -638,6 +752,17 @@ class Word:
     def setMaxWeight(self):
         if self.isCandidateFeature() and self.__weight.values():
             self.__maxWeight = max(self.__weight.values())
+        else:
+            self.__maxWeight = 0
+
+    def getFakeWeight(self, paper):
+        if self.__fakeWeight == -1:
+            self.setFakeWeight(paper)
+        return self.__fakeWeight
+
+    def setFakeWeight(self, paper):
+        self.__fakeWeight = paper.getMaxWeight(self.getLemma())
+        self.__maxWeight = paper.getMaxWeight(self.getLemma())
 
     def updateMaxWeight(self, w):
         self.__maxWeight = w
@@ -686,9 +811,9 @@ class Word:
         return False
 
     def __str__(self):
-        result = self.getText()
+        result = '**' + self.getText() + '**'
         if self.__isContrastFeature:
-            result += ' ,Contrast '
+            result += ': ,Contrast '
         if self.__isFeature:
             result += ' ,Feature '
         if self.__isAbstractWord:
@@ -701,78 +826,9 @@ class Word:
             result += ' ,Stop'
         if self.isNumber():
             result += ' ,Number'
-        if self.__weight is not None:
-            result += ' ,weight: ' + str(self.__weight)
-        return result.encode("utf-8")
-
-
-class CLPaper:
-    """
-    Allows to load an xml file from the corpus
-    """
-
-    def __init__(self, path):
-        """
-            Constructor
-            path is the file path
-            root is the xml root of the file
-            sections is a list of list. Each item of the list is a section. In each of these items, there is a sublist containing all the sentences
-            sectionDesc contains the section names
-            abstract is the list of abstract sentences
-        """
-        self.path = path
-        paperFile = open(path)
-        content = ""
-        self.root = ""
-        content = paperFile.read()
-        self.root = xml.etree.ElementTree.fromstring("<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>" + content)
-        self.sections = []
-        self.sectionDesc = []
-        self.abstract = []
-        for child in self.root:
-            if child.tag == 'ABSTRACT':
-                for sentences in child:
-                    self.abstract.append(sentences.text)
-            else:
-                section = []
-                for sentences in child:
-                    section.append(sentences.text)
-                self.sections.append(section)
-                self.sectionDesc.append(child.get("title"))
-
-    def __str__(self):
-        text = self.path + "\nAbstract : " + str(self.abstract) + "\nSections : " + str(self.sectionDesc)
-        for i in range(len(self.sectionDesc)):
-            text += "\n Section " + self.sectionDesc[i] + " : " + str(len(self.sections[i])) + " sentences recorded"
-        return text
-
-    def getTextFromSection(self, i):
-        """
-            Return the plain text of section i
-        """
-        return reduce(lambda x, y: x + y, self.sections[i])
-
-    def getDistributionFromSection(self, i):
-        """
-            Return the word distribution of section i
-        """
-        text = self.getTextFromSection(i)
-        tokens = word_tokenize(text)
-        return Counter(tokens)
-
-    def getAllText(self):
-        text = ""
-        for i in range(len(self.sectionDesc)):
-            text += self.getTextFromSection(i)
-        return text
-
-    def getDistribution(self):
-        """
-            Return the word distribution of all text
-        """
-        text = self.getAllText()
-        tokens = word_tokenize(text)
-        return Counter(tokens)
+        # if self.__weight is not None:
+        #     result += '\n' +  ' ,weight: ' + str(self.__weight)
+        return result
 
 
 class Corpus:
@@ -797,7 +853,7 @@ class Corpus:
     def checkXmlOfCited(self):
         for cited in self.cited:
             try:
-                CLPaper(cited)
+                Paper(cited)
             except xml.etree.ElementTree.ParseError as e:
                 print cited + " - " + str(e)
 
@@ -805,6 +861,6 @@ class Corpus:
         for group_of_citing in self.citances:
             for citances in group_of_citing:
                 try:
-                    CLPaper(citances)
+                    Paper(citances)
                 except xml.etree.ElementTree.ParseError as e:
                     print citances + " - " + str(e)
