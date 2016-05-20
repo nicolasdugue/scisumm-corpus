@@ -49,3 +49,5 @@ This file is the corrected version of C90-2039_TRAIN
     - **the number of the words has been reduced is moving from 237 to 198, for words extracted using contrast, and from 163 to 140.**
 
 - **Result3**: After adding the corretion, the xml is in higher quality.
+
+- **Result3**: The same results with the candidate feature in bold and features in italic bold.
