@@ -17,11 +17,13 @@ http://www.nltk.org/install.html
     sudo pip install -U nltk
 
 
-et de plus, il faut installer le editdistance 0.3.1
-
+et de plus, il faut installer le pyenchant et editdistance 0.3.1
+http://pythonhosted.org/pyenchant/tutorial.html
 https://pypi.python.org/pypi/editdistance
 
     sudo pip install editdistance
+
+    pip install pyenchant
 
 ### La structure
 

@@ -104,7 +104,11 @@ class TextSummarizer:
             if not ann.isValid:
                 annotationsReport += '**Not valid annotation**' + '\n'
             for citId, citSent in ann.citingSentencesDictionary.iteritems():
-                annotationsReport += '\n' + '##The Citing Sentences : ' + '\n' + citSent.getText() + '\n'
+                annotationsReport += '\n' + '##The Citing Sentences : ' + '\n' + str(citSent) + '\n'
+                # annotationsReport += 'The useful words : '
+                # for word in citSent.getWords():
+                #     if word.isCandidateFeature():
+                #         annotationsReport += str(word)
                 annotationsReport += '\n' + '###The Corpus Reference Sentences : ' + '\n'
                 for id, sent in paper.getSentencesDictionary().iteritems():
                     distance = sent.getDistance(citSent, paper)
@@ -115,17 +119,21 @@ class TextSummarizer:
                     dist = citSent.getDistance(sent, paper)
                     annotationsReport += str(dist) + '\n'
                     annotationsReport += '\n' + '\n' + '**' + str(
-                        sent.getIndex()) + '** : ' + sent.getText() + '\n' + '\n'
+                        sent.getIndex()) + '** : ' + str(sent) + '\n' + '\n'
+                    # annotationsReport += 'The useful words : '
+                    # for word in sent.getWords():
+                    #     if word.isCandidateFeature():
+                    #         annotationsReport += str(word)
 
                     # TODO: add weights for reference sents
                 sortedSpanResults = sorted(ann.spanResultList, key=lambda SpanResultItem: SpanResultItem.distance)
                 annotationsReport += '\n' + '###Our Reference Sentences : ' + '\n'
                 for spanResult in sortedSpanResults[:5]:
                     annotationsReport += str(spanResult).encode("utf-8") + '\n'
-                    # sent1 = paper.getSentenceByIndex('76')
+                    sent1 = paper.getSentenceByIndex('41')
                     # sent2 = paper.getSentenceByIndex('102')
-                    # if citSent.getIndex() == 102:
-                    #    sent1.getDistance(citSent, paper)
+                    if citSent.getIndex() == 102:
+                        sent1.getDistance(citSent, paper)
         print annotationsReport
 
 

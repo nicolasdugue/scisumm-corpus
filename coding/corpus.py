@@ -14,6 +14,7 @@ from os.path import join
 from nltk import pos_tag
 from nltk import word_tokenize
 from nltk.corpus import stopwords
+from nltk.corpus import wordnet
 from nltk.stem import WordNetLemmatizer
 from nltk.text import Text
 from scipy import spatial
@@ -112,19 +113,18 @@ class SpanResultItem:
 
     def __str__(self):
         return str(self.distance) + '\n\n' + '**' + str(self.referenceSentIndex) + '** : ' \
-               + self.referenceSent.getText() + '\n\n'
+               + str(self.referenceSent) + '\n\n'
 
 
 class Paper:
-    stopWordsList = []
 
+    stopWordsList = []
     def __init__(self, paperPath):
         try:
 
-            # Loading the stop words
             stopsFile = open("../coding/stopWordsExpanded.txt")
             for line in stopsFile.xreadlines():
-                Paper.stopWordsList.append(line.strip())
+                Paper.stopWordsList.append(line.strip().lower())
 
             paperFile = open(paperPath)
             self.setPaperPath(paperPath)
@@ -179,6 +179,7 @@ class Paper:
                             word = Word(wordForm, None, wordList.index(wordForm), None)
                             if word.isCandidateFeature() and not word.exist(self.getTitleTerm()):
                                 self.__titleTerms.append(word)
+            # TODO
             for section in self.getSections():
                 for sent in section.getSentences():
                     for word in sent.getWords():
@@ -436,10 +437,8 @@ class Section:
         lemmatizedSection = self.getLemmatizedText()
 
         moby = Text(lemmatizedSection)
-        print re.findall(lemmetedText, lemmatizedSection)
+        return len(re.findall(lemmetedText, lemmatizedSection))
         # re.findall(r'lemmetedText', sectionlemmatizedText)
-
-
 
     def __str__(self):
         return ' the section ' + self.getSectionIndex() + self.getTitle()
@@ -454,6 +453,8 @@ class Sentence:
         self.__isFake = False
         self.__section = None
         self.__usefulWordsNum = 0
+        self.__wordsNum = 0
+        self.__termsNum = 0
         self.__isValid = True
         wordList = word_tokenize(text)
         if section is None and index is None and isAbstract is None:
@@ -471,19 +472,57 @@ class Sentence:
                 return
 
             for item in wordList:
-                if self.getSection() is not None and self.getSection().getPaper().isInVocabulary(item.lower()):
+                self.__wordsNum += 1
+                word = None
+                if section is not None and section.getPaper().isInVocabulary(item.lower()):
                     word = self.getSection().getPaper().getWordFromVocabulary(item.lower())
                     word.addIndex(wordList.index(item))
-                    if word.isCandidateFeature():
-                        self.__usefulWordsNum += 1
                     word.addSentence(self)
                     self.addWord(word)
                 else:
-                    self.addWord(Word(item, self, wordList.index(item), self.getSection().getPaper()))
+                    word = self.addWord(Word(item, self, wordList.index(item), self.getSection().getPaper()))
+                if word.isCandidateFeature():
+                    self.__usefulWordsNum += 1
             # adding this feature for preventing the distorted sentences from entering in the competition or summarization.
             if float(len(self.getMixedWords())) / len(self.getWords()) > 0.6:
                 self.__isValid = False
+            # TODO
+            # Extracting the terms
+            for word in self.getWords():
+                secondWord = self.getNextWord(word)
+                if secondWord is None:
+                    continue
 
+                if word.isCandidateFeature() and secondWord.isCandidateFeature():
+                    self.__termsNum += 1
+                    lemmatizedTermText = word.getLemma() + ' ' + secondWord.getLemma()
+                    if section is not None and section.getPaper().isInVocabulary(lemmatizedTermText.lower()):
+                        term = section.getPaper().getWordFromVocabulary(lemmatizedTermText.lower())
+                        term.addIndex(self.getWords().index(word))
+                        self.__usefulWordsNum += 1
+                        term.addSentence(self)
+                        self.addWord(term)
+                    else:
+                        self.addWord(
+                            Word(lemmatizedTermText, self, self.getWords().index(word), self.getSection().getPaper(),
+                                 True))
+                    thirdWord = self.getNextWord(secondWord)
+                    if thirdWord is not None and thirdWord.isCandidateFeature():
+                        self.__termsNum += 1
+                        lemmatizedTermText += ' ' + thirdWord.getLemma()
+                        if section is not None and section.getPaper().isInVocabulary(lemmatizedTermText.lower()):
+                            term = section.getPaper().getWordFromVocabulary(lemmatizedTermText.lower())
+                            term.addIndex(self.getWords().index(word))
+                            self.__usefulWordsNum += 1
+                            term.addSentence(self)
+                            self.addWord(term)
+                        else:
+                            self.addWord(
+                                Word(lemmatizedTermText, self, self.getWords().index(word),
+                                     self.getSection().getPaper(),
+                                     True))
+            for word in self.getTerms():
+                print word
             if self.getSection() is not None and self.getSection().getPaper() is not None:
                 self.getSection().getPaper().addToSentenceDictionary(self)
 
@@ -545,7 +584,18 @@ class Sentence:
         return self.__text
 
     def getWords(self):
-        return self.__words
+        result = []
+        for word in self.__words:
+            if not word.isTerm():
+                result.append(word)
+        return result
+
+    def getTerms(self):
+        result = []
+        for word in self.__words:
+            if word.isTerm():
+                result.append(word)
+        return result
 
     def setWords(self, words):
         self.__words = words
@@ -554,9 +604,13 @@ class Sentence:
         if self.getSection() is not None and self.getSection().getPaper() is not None:
             self.getSection().getPaper().increaseWordNumber()
         self.__words.append(word)
+        return word
 
     def getWordsNum(self):
-        return len(self.__words)
+        return self.__wordsNum
+
+    def getTermsNum(self):
+        return self.__termsNum
 
     def getUsefulWordsNum(self):
         return self.__usefulWordsNum
@@ -640,8 +694,30 @@ class Sentence:
         # print 'second : ', secondVector
         return spatial.distance.cosine(firstVector, secondVector)
 
+    def getPreviousWord(self, word):
+        if not word.isTerm():
+            index = self.getWords().index(word)
+            if index - 1 >= 0:
+                return self.getWords()[index - 1]
+        return None
+
+    def getNextWord(self, word):
+        if not word.isTerm():
+            index = self.getWords().index(word)
+            if index < self.getWordsNum() - 1:
+                return self.getWords()[index + 1]
+        return None
+
     def __str__(self):
-        result = self.__report + '\n' + self.__text + '\n'
+        result = '\n'
+        for word in self.getWords():
+            if word.isFeature():
+                result += '***' + word.getText() + '*** '
+            elif word.isCandidateFeature():
+                result += '**' + word.getText() + '** '
+            else:
+                result += word.getText() + ' '
+
         return result.encode("utf-8")
 
 
@@ -650,11 +726,12 @@ class Word:
     abstractWordWeight = 1.2
 
     # The main initiator
-    def __init__(self, text, sentence, index=None, paper=None):
+    def __init__(self, text, sentence, index=None, paper=None, isTerm=False):
 
         self.__indices = []
         self.__sentences = []
         self.__weight = {}
+        self.__lemma = ''
         self.__maxWeight = -1
         self.__fakeWeight = -1
         self.__isFeature = False
@@ -662,6 +739,7 @@ class Word:
         self.__isAbstractWord = False
         self.__isTitleWord = False
         self.__paper = None
+        self.__isTerm = isTerm
         if index is not None:
             self.addIndex(index)
         self.addSentence(sentence)
@@ -673,7 +751,6 @@ class Word:
         self.__isMixed = False
         if paper is not None:
             self.__paper = paper
-        self.__lemma = ''
         if numberPattern.match(self.getText()):
             self.setAsNumber()
         elif not mixedPattern.match(self.getText()):
@@ -683,6 +760,9 @@ class Word:
         else:
             if paper is not None:
                 self.getPaper().addToVocabulary(self)
+
+    def isTerm(self):
+        return self.__isTerm
 
     def getIndices(self):
         return self.__indices
@@ -759,6 +839,9 @@ class Word:
         if self.__fakeWeight == -1:
             self.setFakeWeight(paper)
         return self.__fakeWeight
+
+    def getSynset(self):
+        wordnet.synsets(self.getLemma())
 
     def setFakeWeight(self, paper):
         self.__fakeWeight = paper.getMaxWeight(self.getLemma())
