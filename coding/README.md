@@ -1,7 +1,7 @@
 ## Le Résumé Automatique, La Maximisation de Caracarestiques
 
-###L'installation
-------------
+### L'installation
+
 
 
 Pour faire tourner le code, il faut installer Python, numpy et scipy, NLTK :
@@ -11,15 +11,19 @@ http://www.scipy.org/install.html
     sudo apt-get install python-numpy python-scipy
     
 mais également nltk (présuppose d'avoir installé pip) :
+
 http://www.nltk.org/install.html
 
     sudo pip install -U nltk
 
 
-> pour executer le code il faut exécuter le fichier test_load_file.py qui provoque la fonction summarize de la classe :
+et de plus, il faut installer le editdistance 0.3.1
 
-###La structure
-------------
+https://pypi.python.org/pypi/editdistance
+
+    sudo pip install editdistance
+
+### La structure
 
 *   TextSummarizer: cette classe est dans le fichier summarizer et elle est responsible de provoquer toutes les foctions principales du résumé.
     elle enveloppe les documents de corpus dans une structure bien organisée et composée des classes suivantes:
