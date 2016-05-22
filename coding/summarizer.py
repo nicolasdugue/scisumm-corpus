@@ -49,7 +49,7 @@ class TextSummarizer:
         for section in paper.getSections():
             for sent in section.getSentences():
                 sent.setWeight(section.getSectionIndex())
-
+        paper.getTitle().setWeight(-1, paper)
     @staticmethod
     def getSummary(paper):
         """
@@ -130,10 +130,10 @@ class TextSummarizer:
                 annotationsReport += '\n' + '###Our Reference Sentences : ' + '\n'
                 for spanResult in sortedSpanResults[:5]:
                     annotationsReport += str(spanResult).encode("utf-8") + '\n'
-                    sent1 = paper.getSentenceByIndex('41')
+                    # sent1 = paper.getSentenceByIndex('41')
                     # sent2 = paper.getSentenceByIndex('102')
-                    if citSent.getIndex() == 102:
-                        sent1.getDistance(citSent, paper)
+                    # if citSent.getIndex() == 102:
+                    #    sent1.getDistance(citSent, paper)
         print annotationsReport
 
 

@@ -21,7 +21,7 @@ from scipy import spatial
 
 
 class Annotation:
-    def __init__(self, annotationText):
+    def __init__(self, annotationText, paper):
         self.spanResultList = []
         self.isValid = True
         annotations = annotationText.split('|')
@@ -53,6 +53,7 @@ class Annotation:
             elif title == 'Discourse Facet':
                 self.discourseFacet = content
         self.getCitingSentences()
+        self.maximizeContext(paper)
         self.getReferenceSentences()
 
         # def getNeighborSentences(self, paper):
@@ -62,11 +63,46 @@ class Annotation:
 
     def getCitingPaperPath(self, paper):
         if paper is not None and paper.getPaperName() is not None and self.citingArticle is not None:
-            return '../data/' + paper.getPaperName() + '/citance_XML' + self.citingArticle
-        return ''
+            return '../data/' + paper.getPaperName() + '/citance_XML/' + self.citingArticle
+        return None
 
     def addSpanResultItem(self, distance, sent, citingSent):
         self.spanResultList.append(SpanResultItem(distance, sent, citingSent))
+
+    def maximizeContext(self, paper):
+        path = self.getCitingPaperPath(paper)
+        if path is None:
+            return
+        try:
+            citingArticle = open(path)
+            content = citingArticle.read()
+            self.root = xml.etree.ElementTree.fromstring("<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>" + content)
+            self.context = []
+            contextRangeStart = 0
+            if self.citingSentences is None or len(self.citingSentences) == 0 or self.citingSentences[
+                0].getIndex() is None:
+                print "```" + "Context Maximisation Error:  couldn't capture sentence index." + "```" + '\n\n' + "```" + path + "```" + '\n'
+                return
+            if self.citingSentences[0].getIndex() > 2:
+                contextRangeStart = self.citingSentences[0].getIndex() - 3
+
+            contextRangeEnd = self.citingSentences[len(self.citingSentences) - 1].getIndex() + 3
+            contextRange = xrange(contextRangeStart, contextRangeEnd)
+
+            for child in self.root:
+                for item in child:
+                    if item.tag == 'S' and int(item.attrib['sid']) in contextRange:
+                        sentence = Sentence(item.text)
+                        sentence.setIndex(int(item.attrib['sid']))
+                        if sentence is not None:
+                            self.context.append(sentence)
+                            self.citingSentencesDictionary[sentence.getIndex()] = sentence
+            self.citingSentences = self.context
+
+        except:
+            print "```" + "Context Maximisation Error:  " + str(
+                sys.exc_info()[0]) + "```" + '\n\n' + "```" + path + "```"
+            raise
 
     def getCitingSentences(self):
         if len(self.citingSentences) > 0:
@@ -117,8 +153,8 @@ class SpanResultItem:
 
 
 class Paper:
-
     stopWordsList = []
+
     def __init__(self, paperPath):
         try:
 
@@ -144,7 +180,7 @@ class Paper:
             self.__wordNumber = 0
             sectionIndex = 0
             for child in self.root:
-                if child.tag == 'ABSTRACT':
+                if child.tag.lower() == 'abstract':
                     index = 0
                     for item in child:
                         self.addAbstractSentence(Sentence(item.text, index, None, True))
@@ -159,7 +195,7 @@ class Paper:
                                 if postTag[0].lower() == word.getText().lower() and postTag[1].startswith('NN'):
                                     if word.isCandidateFeature() and not word.exist(self.getAbstractTerm()):
                                         self.addAbstractTerm(word)
-                else:
+                elif child.tag.lower() == 'section':
                     section = Section(sectionIndex, [], self)
                     sentIndex = 0
                     for item in child:
@@ -179,19 +215,29 @@ class Paper:
                             word = Word(wordForm, None, wordList.index(wordForm), None)
                             if word.isCandidateFeature() and not word.exist(self.getTitleTerm()):
                                 self.__titleTerms.append(word)
+
+                elif child.tag.lower() == 's':
+                    self.setTitle(Sentence(child.text))
+                    self.getTitle().setIndex(int(child.attrib['sid']))
+                    self.addToSentenceDictionary(self.getTitle())
+
             # TODO
             for section in self.getSections():
                 for sent in section.getSentences():
                     for word in sent.getWords():
                         if word.isCandidateFeature():
                             section.getWordOccurence(word.getLemma())
-
-
         except IOError as e:
-            print "I/O error({0}): {1}".format(e.errno, e.strerror)
+            print "```" + "IOError :  " + e.strerror + "```" + '\n'
         except:
-            print "Unexpected error:", sys.exc_info()[0]
+            print "```" + "Paper initialisation Error:  " + str(sys.exc_info()[0]) + "```" + '\n'
             raise
+
+    def setTitle(self, sentence):
+        self.__title = sentence
+
+    def getTitle(self):
+        return self.__title
 
     def setAnnotations(self, paperPath):
         """
@@ -207,15 +253,17 @@ class Paper:
             self.__annotationPath = annotationPath
             self.__annotations = []
             lines = annotationFile.readlines()
-            self.createAnnotationXML(lines)
+            # self.createAnnotationXML(lines)
             for line in lines:
                 if len(line.split('|')) > 1:
-                    self.__annotations.append(Annotation(line))
+                    self.__annotations.append(Annotation(line, self))
             annotationFile.close()
         except IOError as e:
-            print "I/O error({0}): {1}".format(e.errno, e.strerror)
+            print "```" + "I/O error({0}): {1}".format(e.errno,
+                                                       e.strerror) + "```" + '\n' + "```" + annotationPath + "```" + '\n'
         except:
-            print "Unexpected error:", sys.exc_info()[0]
+            print "```" + "Annotation Reading Error:  " + str(
+                sys.exc_info()[0]) + "```" + '\n' + "```" + annotationPath + "```" + '\n'
             raise
 
     def createAnnotationXML(self, lines):
@@ -521,8 +569,8 @@ class Sentence:
                                 Word(lemmatizedTermText, self, self.getWords().index(word),
                                      self.getSection().getPaper(),
                                      True))
-            for word in self.getTerms():
-                print word
+            # for word in self.getTerms():
+            #    print word
             if self.getSection() is not None and self.getSection().getPaper() is not None:
                 self.getSection().getPaper().addToSentenceDictionary(self)
 
@@ -530,14 +578,14 @@ class Sentence:
         return self.__index
 
     def setIndex(self, index):
-        self.__index = index
+        self.__index = int(index)
 
     def getWeight(self, sectionIndex):
         if self.__weight != -1:
             self.setWeight(sectionIndex)
         return self.__weight
 
-    def setWeight(self, sectionIndex):
+    def setWeight(self, sectionIndex, paper=None):
         """
             After assigning weights for all the words of the article, we assign weights for sentences in calculating the
             average of informative words for each sentence.
@@ -553,7 +601,11 @@ class Sentence:
             word.setMaxWeight()
             if word.isCandidateFeature():
                 counter += 1
-            weightBuffer += word.getWeight(sectionIndex)
+            if sectionIndex == -1:
+                word.setFakeWeight(paper)
+                weightBuffer += word.getMaxWeight()
+            else:
+                weightBuffer += word.getWeight(sectionIndex)
         if counter is not 0:
             self.__weight = weightBuffer / counter
 
@@ -803,7 +855,7 @@ class Word:
     def setText(self, text):
         self.__text = text
         wordnetLemmatizer = WordNetLemmatizer()
-        self.__lemma = wordnetLemmatizer.lemmatize(self.__text)
+        self.__lemma = wordnetLemmatizer.lemmatize(self.__text).lower()
 
     def getLemma(self):
         if self.__lemma != '':
