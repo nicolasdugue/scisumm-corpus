@@ -1,12 +1,3 @@
-
-```Context Maximisation Error:  couldn't capture sentence index.```
-
-```../data/C90-2039_TRAIN/citance_XML/C92-2068.xml```
-
-```Context Maximisation Error:  couldn't capture sentence index.```
-
-```../data/C90-2039_TRAIN/citance_XML/W97-1503.xml```
-
 ##Total Features Number using contrast: 187 / 125
 
 ### mainpulating the section : 0
