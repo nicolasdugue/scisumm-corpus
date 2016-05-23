@@ -4,8 +4,9 @@ import xml.etree.ElementTree as ET
 import numpy as np
 from nltk.tokenize import RegexpTokenizer
 from sklearn.naive_bayes import MultinomialNB
-clf = MultinomialNB()
+
 from copy import copy
+from sklearn import cross_validation
 
 class Facet:
     facet=dict()
@@ -71,6 +72,7 @@ if __name__ == '__main__':
     trainset=[f for f in listdir(path)]
     matrix=[]
     labels=[]
+    clf = MultinomialNB()
     for train in trainset:
         train_file=join(path, train, "annotation", train.split("_")[0]+".annv3.txt")
         annf= AnnotationFile(train_file)
@@ -80,15 +82,10 @@ if __name__ == '__main__':
             s_tokens=tokenizer.tokenize(sentences)
             for t in s_tokens:
                 t=t.lower() 
-                print t
                 if t in dico:
-                    print "ici"
                     vector[dico[t]]+=1
             labels.append(ann.getFacet())
             matrix.append(copy(vector))
-    print len(labels)
-    print len(matrix)
-    print labels
     clf.fit(matrix, labels)
     
     vector=np.zeros(len(dico))
@@ -105,6 +102,11 @@ if __name__ == '__main__':
         w=w.lower()
         if w in dico:
             vector[dico[w]]+=1
-    print clf.predict(vector)
-    print clf.predict_proba(vector)
+    
+    scores = cross_validation.cross_val_score(clf, matrix, labels, cv=5)
+    print scores
+    
+    X_train, X_test, y_train, y_test = cross_validation.train_test_split(matrix, labels, test_size=0.1, random_state=0)
+    clf = clf.fit(X_train, y_train)
+    print clf.score(X_test, y_test)  
     
