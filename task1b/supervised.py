@@ -4,6 +4,7 @@ import xml.etree.ElementTree as ET
 import numpy as np
 from nltk.tokenize import RegexpTokenizer
 from sklearn.naive_bayes import MultinomialNB
+from sklearn import metrics
 
 from copy import copy
 from sklearn import cross_validation
@@ -102,11 +103,20 @@ if __name__ == '__main__':
         w=w.lower()
         if w in dico:
             vector[dico[w]]+=1
+            
+    nbFacet=np.zeros(len(Facet.facetList))
+    for l in labels:
+        nbFacet[Facet.facet[l]]+=1
+    for idx, item in enumerate(nbFacet):
+        print Facet.facetList[idx], item
     
     scores = cross_validation.cross_val_score(clf, matrix, labels, cv=5)
     print scores
     
-    X_train, X_test, y_train, y_test = cross_validation.train_test_split(matrix, labels, test_size=0.1, random_state=0)
+    X_train, X_test, y_train, y_test = cross_validation.train_test_split(matrix, labels, test_size=0.2)
     clf = clf.fit(X_train, y_train)
+    y_pred=clf.predict(X_test)
     print clf.score(X_test, y_test)  
+    Facet.facetList.sort()
+    print(metrics.classification_report(y_test, y_pred))
     
