@@ -1,1606 +1,1212 @@
-##Total Features Number using contrast: 167 / 113
+#241/138 Pertinent Words/Terms: 
 
-### mainpulating the section : 0
+##Section  0:
 
-### mainpulating the section : 1
+0- partial **partial** occurence: 1, Total occurence: 7, F-measure: 0.0106951871658
+	 where: FF threshold : 0.0077737965752, FFd threshold 0.00570234426469
 
-1 - **represent**: ,Contrast  ,Feature 
+1- existing **existing** occurence: 1, Total occurence: 2, F-measure: 0.010989010989
+	 where: FF threshold : 0.00589969188024, FFd threshold 0.00570234426469
 
-2 - **skeleton**: ,Contrast  ,Feature 
+2- techniques **technique** occurence: 3, Total occurence: 13, F-measure: 0.0310880829016
+	 where: FF threshold : 0.0195779260817, FFd threshold 0.00570234426469
 
-3 - **environment**: ,Contrast 
+3- environment **environment** occurence: 1, Total occurence: 2, F-measure: 0.010989010989
+	 where: FF threshold : 0.00589969188024, FFd threshold 0.00570234426469
 
-4 - **natural**: ,Contrast  ,Feature 
+4- engineered **engineered** occurence: 1, Total occurence: 1, F-measure: 0.0110497237569
+	 where: FF threshold : 0.0110497237569, FFd threshold 0.00570234426469
 
-5 - **developed**: ,Contrast 
+5- correct **correct** occurence: 2, Total occurence: 4, F-measure: 0.0217391304348
+	 where: FF threshold : 0.0116792818166, FFd threshold 0.00570234426469
 
-6 - **term**: ,Contrast  ,Feature 
+6- large **large** occurence: 1, Total occurence: 4, F-measure: 0.0108695652174
+	 where: FF threshold : 0.00664935750748, FFd threshold 0.00570234426469
 
-7 - **language**: ,Contrast  ,Feature  ,Abstract 
+7- ten **ten** occurence: 4, Total occurence: 21, F-measure: 0.0398009950249
+	 where: FF threshold : 0.0267360423456, FFd threshold 0.00570234426469
 
-8 - **grammatical**: ,Contrast 
+8- Japanese **japanese** occurence: 1, Total occurence: 7, F-measure: 0.0106951871658
+	 where: FF threshold : 0.0077737965752, FFd threshold 0.00570234426469
 
-9 - **part**: ,Contrast  ,Feature 
+9- implemented **implemented** occurence: 1, Total occurence: 6, F-measure: 0.010752688172
+	 where: FF threshold : 0.0073989978077, FFd threshold 0.00570234426469
 
-10 - **representing**: ,Contrast 
+10- aim **aim** occurence: 1, Total occurence: 3, F-measure: 0.0109289617486
+	 where: FF threshold : 0.00627452542677, FFd threshold 0.00570234426469
 
-11 - **based**: ,Contrast  ,Feature 
+11- Sch~ifer **sch~ifer** occurence: 2, Total occurence: 2, F-measure: 0.021978021978
+	 where: FF threshold : 0.021978021978, FFd threshold 0.00570234426469
 
-12 - **ire**: ,Contrast 
+12- sections **section** occurence: 5, Total occurence: 10, F-measure: 0.0526315789474
+	 where: FF threshold : 0.0283351755803, FFd threshold 0.00570234426469
 
-13 - **strategy**: ,Contrast  ,Feature  ,Abstract 
+13- methods **method** occurence: 7, Total occurence: 25, F-measure: 0.0682926829268
+	 where: FF threshold : 0.0413723551126, FFd threshold 0.00570234426469
 
-14 - **copying**: ,Contrast  ,Feature 
+14- component **component** occurence: 1, Total occurence: 3, F-measure: 0.0109289617486
+	 where: FF threshold : 0.00627452542677, FFd threshold 0.00570234426469
 
-15 - **proposed**: ,Contrast  ,Feature 
+15- implement **implement** occurence: 1, Total occurence: 13, F-measure: 0.0103626943005
+	 where: FF threshold : 0.0100220087073, FFd threshold 0.00570234426469
 
-16 - **input**: ,Contrast  ,Feature 
+16- unification- **unification-** occurence: 3, Total occurence: 3, F-measure: 0.0327868852459
+	 where: FF threshold : 0.0327868852459, FFd threshold 0.00570234426469
 
-17 - **unification**: ,Contrast  ,Feature  ,Abstract 
+17- consumption **consumption** occurence: 1, Total occurence: 2, F-measure: 0.010989010989
+	 where: FF threshold : 0.00589969188024, FFd threshold 0.00570234426469
 
-18 - **disadvantage**: ,Contrast 
+18- involve **involve** occurence: 1, Total occurence: 3, F-measure: 0.0109289617486
+	 where: FF threshold : 0.00627452542677, FFd threshold 0.00570234426469
 
-19 - **unnecessary**: ,Contrast 
+19- specialized **specialized** occurence: 1, Total occurence: 1, F-measure: 0.0110497237569
+	 where: FF threshold : 0.0110497237569, FFd threshold 0.00570234426469
 
-20 - **processing**: ,Contrast  ,Feature 
+20- claim **claim** occurence: 1, Total occurence: 2, F-measure: 0.010989010989
+	 where: FF threshold : 0.00589969188024, FFd threshold 0.00570234426469
 
-21 - **constraint**: ,Contrast  ,Feature 
+21- give **give** occurence: 2, Total occurence: 12, F-measure: 0.0208333333333
+	 where: FF threshold : 0.0144521791768, FFd threshold 0.00570234426469
 
-22 - **called**: ,Contrast  ,Feature 
+22- samples **sample** occurence: 1, Total occurence: 1, F-measure: 0.0110497237569
+	 where: FF threshold : 0.0110497237569, FFd threshold 0.00570234426469
 
-23 - **structure**: ,Contrast  ,Feature  ,Abstract 
+23- sense **sense** occurence: 2, Total occurence: 3, F-measure: 0.0218579234973
+	 where: FF threshold : 0.0113339840249, FFd threshold 0.00570234426469
 
-24 - **time**: ,Contrast  ,Feature  ,Abstract 
+24- huge **huge** occurence: 1, Total occurence: 1, F-measure: 0.0110497237569
+	 where: FF threshold : 0.0110497237569, FFd threshold 0.00570234426469
 
-### mainpulating the section : 2
+25- end **end** occurence: 4, Total occurence: 16, F-measure: 0.0408163265306
+	 where: FF threshold : 0.0252429739019, FFd threshold 0.00570234426469
 
-1 - **partial**: ,Contrast 
+26- goal **goal** occurence: 1, Total occurence: 1, F-measure: 0.0110497237569
+	 where: FF threshold : 0.0110497237569, FFd threshold 0.00570234426469
 
-2 - **represented**: ,Contrast  ,Feature 
+27- typed **typed** occurence: 1, Total occurence: 4, F-measure: 0.0108695652174
+	 where: FF threshold : 0.00664935750748, FFd threshold 0.00570234426469
 
-3 - **feature**: ,Contrast  ,Feature  ,Abstract 
+28- develop **develop** occurence: 2, Total occurence: 5, F-measure: 0.0216216216216
+	 where: FF threshold : 0.0120248941779, FFd threshold 0.00570234426469
 
-4 - **description**: ,Contrast 
+29- NPs **nps** occurence: 1, Total occurence: 9, F-measure: 0.010582010582
+	 where: FF threshold : 0.00852332852333, FFd threshold 0.00570234426469
 
-5 - **typed**: ,Contrast 
+30- efficiently **efficiently** occurence: 2, Total occurence: 4, F-measure: 0.0217391304348
+	 where: FF threshold : 0.0116792818166, FFd threshold 0.00570234426469
 
-6 - **rooted**: ,Contrast 
+31- statistical **statistical** occurence: 1, Total occurence: 1, F-measure: 0.0110497237569
+	 where: FF threshold : 0.0110497237569, FFd threshold 0.00570234426469
 
-7 - **exists**: ,Contrast 
+32- agenda-based **agenda-based** occurence: 1, Total occurence: 1, F-measure: 0.0110497237569
+	 where: FF threshold : 0.0110497237569, FFd threshold 0.00570234426469
 
-8 - **ordering**: ,Contrast 
+33- modifications **modification** occurence: 1, Total occurence: 2, F-measure: 0.010989010989
+	 where: FF threshold : 0.00589969188024, FFd threshold 0.00570234426469
 
-9 - **relationship**: ,Contrast  ,Feature 
+34- parse **parse** occurence: 4, Total occurence: 15, F-measure: 0.0410256410256
+	 where: FF threshold : 0.0249465166031, FFd threshold 0.00570234426469
 
-10 - **pair**: ,Contrast  ,Feature 
+35- speculate **speculate** occurence: 1, Total occurence: 1, F-measure: 0.0110497237569
+	 where: FF threshold : 0.0110497237569, FFd threshold 0.00570234426469
 
-11 - **feature-value**: ,Contrast  ,Feature 
+36- magnitude **magnitude** occurence: 1, Total occurence: 1, F-measure: 0.0110497237569
+	 where: FF threshold : 0.0110497237569, FFd threshold 0.00570234426469
 
-12 - **equal**: ,Contrast  ,Feature 
+37- reasonable **reasonable** occurence: 1, Total occurence: 2, F-measure: 0.010989010989
+	 where: FF threshold : 0.00589969188024, FFd threshold 0.00570234426469
 
-13 - **merging**: ,Contrast 
+38- combining **combining** occurence: 1, Total occurence: 1, F-measure: 0.0110497237569
+	 where: FF threshold : 0.0110497237569, FFd threshold 0.00570234426469
 
-14 - **empty**: ,Contrast 
+39- space **space** occurence: 1, Total occurence: 8, F-measure: 0.0106382978723
+	 where: FF threshold : 0.00814857496689, FFd threshold 0.00570234426469
 
-15 - **lower**: ,Contrast 
+40- integrated **integrated** occurence: 1, Total occurence: 1, F-measure: 0.0110497237569
+	 where: FF threshold : 0.0110497237569, FFd threshold 0.00570234426469
 
-16 - **greatest**: ,Contrast  ,Feature 
+41- Krieger **krieger** occurence: 2, Total occurence: 3, F-measure: 0.0218579234973
+	 where: FF threshold : 0.0113339840249, FFd threshold 0.00570234426469
 
-17 - **describing**: ,Contrast 
+42- base **base** occurence: 5, Total occurence: 11, F-measure: 0.0523560209424
+	 where: FF threshold : 0.0267342288185, FFd threshold 0.00570234426469
 
-18 - **bound**: ,Contrast 
+43- correctness **correctness** occurence: 1, Total occurence: 2, F-measure: 0.010989010989
+	 where: FF threshold : 0.00589969188024, FFd threshold 0.00570234426469
 
-19 - **directed**: ,Contrast  ,Feature 
+44- parser **parser** occurence: 4, Total occurence: 12, F-measure: 0.0416666666667
+	 where: FF threshold : 0.0240617433414, FFd threshold 0.00570234426469
 
-20 - **describe**: ,Contrast 
+45- primary **primary** occurence: 1, Total occurence: 1, F-measure: 0.0110497237569
+	 where: FF threshold : 0.0110497237569, FFd threshold 0.00570234426469
 
-21 - **symbol**: ,Contrast  ,Feature 
+46- bottom-up **bottom-up** occurence: 1, Total occurence: 1, F-measure: 0.0110497237569
+	 where: FF threshold : 0.0110497237569, FFd threshold 0.00570234426469
 
-### mainpulating the section : 3
+47- systems **system** occurence: 3, Total occurence: 20, F-measure: 0.03
+	 where: FF threshold : 0.0218382944489, FFd threshold 0.00570234426469
 
-1 - **computation**: ,Contrast  ,Abstract 
+48- corpora **corpus** occurence: 2, Total occurence: 9, F-measure: 0.021164021164
+	 where: FF threshold : 0.0134102934103, FFd threshold 0.00570234426469
 
-2 - **current**: ,Contrast  ,Feature 
+49- future **future** occurence: 1, Total occurence: 3, F-measure: 0.0109289617486
+	 where: FF threshold : 0.00627452542677, FFd threshold 0.00570234426469
 
-3 - **shared**: ,Contrast  ,Feature 
+50- measure **measure** occurence: 1, Total occurence: 1, F-measure: 0.0110497237569
+	 where: FF threshold : 0.0110497237569, FFd threshold 0.00570234426469
 
-4 - **path**: ,Contrast 
+51- robustly **robustly** occurence: 1, Total occurence: 1, F-measure: 0.0110497237569
+	 where: FF threshold : 0.0110497237569, FFd threshold 0.00570234426469
 
-5 - **obtained**: ,Contrast 
+52- efficient **efficient** occurence: 2, Total occurence: 7, F-measure: 0.0213903743316
+	 where: FF threshold : 0.0127170229927, FFd threshold 0.00570234426469
 
-6 - **meet**: ,Contrast  ,Feature 
+53- belief **belief** occurence: 1, Total occurence: 1, F-measure: 0.0110497237569
+	 where: FF threshold : 0.0110497237569, FFd threshold 0.00570234426469
 
-7 - **give**: ,Contrast 
+54- significant **significant** occurence: 1, Total occurence: 3, F-measure: 0.0109289617486
+	 where: FF threshold : 0.00627452542677, FFd threshold 0.00570234426469
 
-8 - **tile**: ,Contrast  ,Feature 
+55- lexicon **lexicon** occurence: 1, Total occurence: 6, F-measure: 0.010752688172
+	 where: FF threshold : 0.0073989978077, FFd threshold 0.00570234426469
 
-9 - **represents**: ,Contrast 
+56- shows **show** occurence: 1, Total occurence: 4, F-measure: 0.0108695652174
+	 where: FF threshold : 0.00664935750748, FFd threshold 0.00570234426469
 
-10 - **created**: ,Contrast  ,Feature 
+57- cheap **cheap** occurence: 1, Total occurence: 5, F-measure: 0.0108108108108
+	 where: FF threshold : 0.00702418322815, FFd threshold 0.00570234426469
 
-11 - **recursively**: ,Contrast 
+58- speedup **speedup** occurence: 1, Total occurence: 6, F-measure: 0.010752688172
+	 where: FF threshold : 0.0073989978077, FFd threshold 0.00570234426469
 
-12 - **common**: ,Contrast 
+59- Current **current** occurence: 1, Total occurence: 5, F-measure: 0.0108108108108
+	 where: FF threshold : 0.00702418322815, FFd threshold 0.00570234426469
 
-13 - **arc**: ,Contrast  ,Feature 
+60- based **based** occurence: 4, Total occurence: 10, F-measure: 0.0421052631579
+	 where: FF threshold : 0.0234134736378, FFd threshold 0.00570234426469
 
-14 - **label**: ,Contrast  ,Feature 
+61- knowledge **knowledge** occurence: 1, Total occurence: 1, F-measure: 0.0110497237569
+	 where: FF threshold : 0.0110497237569, FFd threshold 0.00570234426469
 
-15 - **subgraphs**: ,Contrast  ,Feature 
+62- Kiefer **kiefer** occurence: 1, Total occurence: 1, F-measure: 0.0110497237569
+	 where: FF threshold : 0.0110497237569, FFd threshold 0.00570234426469
 
-16 - **treat**: ,Contrast  ,Feature 
+63- sets **set** occurence: 1, Total occurence: 9, F-measure: 0.010582010582
+	 where: FF threshold : 0.00852332852333, FFd threshold 0.00570234426469
 
-17 - **noel**: ,Contrast  ,Feature 
+64- reference **reference** occurence: 1, Total occurence: 2, F-measure: 0.010989010989
+	 where: FF threshold : 0.00589969188024, FFd threshold 0.00570234426469
 
-18 - **copied**: ,Contrast  ,Feature 
+65- achieves **achieves** occurence: 1, Total occurence: 1, F-measure: 0.0110497237569
+	 where: FF threshold : 0.0110497237569, FFd threshold 0.00570234426469
 
-19 - **procedure**: ,Contrast  ,Feature 
+66- sec **sec** occurence: 5, Total occurence: 26, F-measure: 0.0485436893204
+	 where: FF threshold : 0.0326988109523, FFd threshold 0.00570234426469
 
-20 - **dereference**: ,Contrast 
+67- results **result** occurence: 1, Total occurence: 12, F-measure: 0.0104166666667
+	 where: FF threshold : 0.00964739709443, FFd threshold 0.00570234426469
 
-21 - **proposes**: ,Contrast 
+68- preserve **preserve** occurence: 1, Total occurence: 1, F-measure: 0.0110497237569
+	 where: FF threshold : 0.0110497237569, FFd threshold 0.00570234426469
 
-22 - **input**: ,Contrast  ,Feature 
+69- efficiency **efficiency** occurence: 2, Total occurence: 5, F-measure: 0.0216216216216
+	 where: FF threshold : 0.0120248941779, FFd threshold 0.00570234426469
 
-23 - **node**: ,Contrast  ,Feature 
+70- improve **improve** occurence: 1, Total occurence: 11, F-measure: 0.0104712041885
+	 where: FF threshold : 0.00927274379791, FFd threshold 0.00570234426469
 
-24 - **required**: ,Contrast 
+71- respect **respect** occurence: 1, Total occurence: 4, F-measure: 0.0108695652174
+	 where: FF threshold : 0.00664935750748, FFd threshold 0.00570234426469
 
-25 - **original**: ,Contrast 
+72- expensive **expensive** occurence: 1, Total occurence: 3, F-measure: 0.0109289617486
+	 where: FF threshold : 0.00627452542677, FFd threshold 0.00570234426469
 
-### mainpulating the section : 4
+73- Scherf **scherf** occurence: 1, Total occurence: 1, F-measure: 0.0110497237569
+	 where: FF threshold : 0.0110497237569, FFd threshold 0.00570234426469
 
-1 - **existing**: ,Contrast 
+74- reduction **reduction** occurence: 1, Total occurence: 2, F-measure: 0.010989010989
+	 where: FF threshold : 0.00589969188024, FFd threshold 0.00570234426469
 
-2 - **consisting**: ,Contrast  ,Feature 
+75- describes **describes** occurence: 1, Total occurence: 1, F-measure: 0.0110497237569
+	 where: FF threshold : 0.0110497237569, FFd threshold 0.00570234426469
 
-3 - **larger**: ,Contrast 
+76- engine **engine** occurence: 1, Total occurence: 4, F-measure: 0.0108695652174
+	 where: FF threshold : 0.00664935750748, FFd threshold 0.00570234426469
 
-4 - **erg**: ,Contrast  ,Feature 
+77- thousands **thousand** occurence: 1, Total occurence: 2, F-measure: 0.010989010989
+	 where: FF threshold : 0.00589969188024, FFd threshold 0.00570234426469
 
-5 - **found**: ,Contrast 
+78- present **present** occurence: 2, Total occurence: 6, F-measure: 0.0215053763441
+	 where: FF threshold : 0.0123708111494, FFd threshold 0.00570234426469
 
-6 - **temporary**: ,Contrast 
+79- applied **applied** occurence: 2, Total occurence: 4, F-measure: 0.0217391304348
+	 where: FF threshold : 0.0116792818166, FFd threshold 0.00570234426469
 
-7 - **newly**: ,Contrast  ,Feature 
+80- empirical **empirical** occurence: 1, Total occurence: 1, F-measure: 0.0110497237569
+	 where: FF threshold : 0.0110497237569, FFd threshold 0.00570234426469
 
-8 - **size**: ,Contrast 
+81- employs **employ** occurence: 1, Total occurence: 4, F-measure: 0.0108695652174
+	 where: FF threshold : 0.00664935750748, FFd threshold 0.00570234426469
 
-9 - **copy**: ,Contrast  ,Feature  ,Abstract 
+82- perform **perform** occurence: 1, Total occurence: 11, F-measure: 0.0104712041885
+	 where: FF threshold : 0.00927274379791, FFd threshold 0.00570234426469
 
-10 - **slot**: ,Contrast  ,Feature 
+83- development **development** occurence: 1, Total occurence: 3, F-measure: 0.0109289617486
+	 where: FF threshold : 0.00627452542677, FFd threshold 0.00570234426469
 
-11 - **disjunctive**: ,Contrast 
+84- independent **independent** occurence: 1, Total occurence: 3, F-measure: 0.0109289617486
+	 where: FF threshold : 0.00627452542677, FFd threshold 0.00570234426469
 
-12 - **depends**: ,Contrast 
+85- extended **extended** occurence: 1, Total occurence: 1, F-measure: 0.0110497237569
+	 where: FF threshold : 0.0110497237569, FFd threshold 0.00570234426469
 
-13 - **arc**: ,Contrast  ,Feature 
+86- effects **effect** occurence: 1, Total occurence: 1, F-measure: 0.0110497237569
+	 where: FF threshold : 0.0110497237569, FFd threshold 0.00570234426469
 
-14 - **disjunct**: ,Contrast 
+87- generally-applicable **generally-applicable** occurence: 1, Total occurence: 1, F-measure: 0.0110497237569
+	 where: FF threshold : 0.0110497237569, FFd threshold 0.00570234426469
 
-15 - **definite**: ,Contrast  ,Feature 
+88- analysis **analysis** occurence: 2, Total occurence: 12, F-measure: 0.0208333333333
+	 where: FF threshold : 0.0144521791768, FFd threshold 0.00570234426469
 
-16 - **copied**: ,Contrast  ,Feature 
+89- concrete **concrete** occurence: 1, Total occurence: 2, F-measure: 0.010989010989
+	 where: FF threshold : 0.00589969188024, FFd threshold 0.00570234426469
 
-17 - **applies**: ,Contrast 
+90- unifier **unifier** occurence: 1, Total occurence: 7, F-measure: 0.0106951871658
+	 where: FF threshold : 0.0077737965752, FFd threshold 0.00570234426469
 
-18 - **procedure**: ,Contrast  ,Feature 
+91- speed **speed** occurence: 1, Total occurence: 9, F-measure: 0.010582010582
+	 where: FF threshold : 0.00852332852333, FFd threshold 0.00570234426469
 
-19 - **sentence**: ,Contrast 
+92- applications **application** occurence: 2, Total occurence: 11, F-measure: 0.020942408377
+	 where: FF threshold : 0.0141046317218, FFd threshold 0.00570234426469
 
-20 - **unique**: ,Contrast  ,Feature 
+93- improvements **improvement** occurence: 1, Total occurence: 9, F-measure: 0.010582010582
+	 where: FF threshold : 0.00852332852333, FFd threshold 0.00570234426469
 
-21 - **dependency**: ,Contrast  ,Feature 
+94- input **input** occurence: 1, Total occurence: 8, F-measure: 0.0106382978723
+	 where: FF threshold : 0.00814857496689, FFd threshold 0.00570234426469
 
-22 - **introduced**: ,Contrast 
+95- transformations **transformation** occurence: 1, Total occurence: 1, F-measure: 0.0110497237569
+	 where: FF threshold : 0.0110497237569, FFd threshold 0.00570234426469
 
-23 - **constant**: ,Contrast 
+96- performing **performing** occurence: 1, Total occurence: 2, F-measure: 0.010989010989
+	 where: FF threshold : 0.00589969188024, FFd threshold 0.00570234426469
 
-24 - **test**: ,Contrast 
+97- unification-based **unification-based** occurence: 2, Total occurence: 2, F-measure: 0.021978021978
+	 where: FF threshold : 0.021978021978, FFd threshold 0.00570234426469
 
-25 - **node**: ,Contrast  ,Feature 
+98- Ich **ich** occurence: 4, Total occurence: 32, F-measure: 0.0377358490566
+	 where: FF threshold : 0.030076891702, FFd threshold 0.00570234426469
 
-26 - **structure**: ,Contrast  ,Feature  ,Abstract 
+99- leads **lead** occurence: 1, Total occurence: 5, F-measure: 0.0108108108108
+	 where: FF threshold : 0.00702418322815, FFd threshold 0.00570234426469
 
-### mainpulating the section : 5
+100- bottom **bottom** occurence: 1, Total occurence: 2, F-measure: 0.010989010989
+	 where: FF threshold : 0.00589969188024, FFd threshold 0.00570234426469
 
-1 - **semantic**: ,Contrast  ,Feature 
+101- legal **legal** occurence: 1, Total occurence: 2, F-measure: 0.010989010989
+	 where: FF threshold : 0.00589969188024, FFd threshold 0.00570234426469
 
-2 - **advantage**: ,Contrast  ,Feature 
+102- refer **refer** occurence: 2, Total occurence: 4, F-measure: 0.0217391304348
+	 where: FF threshold : 0.0116792818166, FFd threshold 0.00570234426469
 
-3 - **treating**: ,Contrast  ,Feature 
+103- core **core** occurence: 1, Total occurence: 2, F-measure: 0.010989010989
+	 where: FF threshold : 0.00589969188024, FFd threshold 0.00570234426469
 
-4 - **small**: ,Contrast  ,Feature 
+104- run **run** occurence: 1, Total occurence: 5, F-measure: 0.0108108108108
+	 where: FF threshold : 0.00702418322815, FFd threshold 0.00570234426469
 
-5 - **computation**: ,Contrast  ,Abstract 
+105- stem **stem** occurence: 3, Total occurence: 24, F-measure: 0.0294117647059
+	 where: FF threshold : 0.0231396172927, FFd threshold 0.00570234426469
 
-6 - **learned**: ,Contrast 
+106- extensions **extension** occurence: 2, Total occurence: 2, F-measure: 0.021978021978
+	 where: FF threshold : 0.021978021978, FFd threshold 0.00570234426469
 
-7 - **sake**: ,Contrast 
+107- runtime **runtime** occurence: 1, Total occurence: 1, F-measure: 0.0110497237569
+	 where: FF threshold : 0.0110497237569, FFd threshold 0.00570234426469
 
-8 - **occur**: ,Contrast  ,Feature 
+108- parsing **parsing** occurence: 3, Total occurence: 19, F-measure: 0.0301507537688
+	 where: FF threshold : 0.0215140086752, FFd threshold 0.00570234426469
 
-9 - **information**: ,Contrast  ,Feature 
+109- approximate **approximate** occurence: 1, Total occurence: 3, F-measure: 0.0109289617486
+	 where: FF threshold : 0.00627452542677, FFd threshold 0.00570234426469
 
-10 - **feature**: ,Contrast  ,Feature  ,Abstract 
+110- form **form** occurence: 5, Total occurence: 28, F-measure: 0.0480769230769
+	 where: FF threshold : 0.0332605946579, FFd threshold 0.00570234426469
 
-11 - **representation**: ,Contrast  ,Feature 
+111- sophisticated **sophisticated** occurence: 1, Total occurence: 2, F-measure: 0.010989010989
+	 where: FF threshold : 0.00589969188024, FFd threshold 0.00570234426469
 
-12 - **tendency**: ,Contrast  ,Feature 
+112- neutral **neutral** occurence: 1, Total occurence: 1, F-measure: 0.0110497237569
+	 where: FF threshold : 0.0110497237569, FFd threshold 0.00570234426469
 
-13 - **related**: ,Contrast 
+113- gain **gain** occurence: 3, Total occurence: 6, F-measure: 0.0322580645161
+	 where: FF threshold : 0.0173426244911, FFd threshold 0.00570234426469
 
-14 - **obtains**: ,Contrast 
+114- made **made** occurence: 1, Total occurence: 4, F-measure: 0.0108695652174
+	 where: FF threshold : 0.00664935750748, FFd threshold 0.00570234426469
 
-15 - **fail**: ,Contrast  ,Feature 
+115- compute **compute** occurence: 1, Total occurence: 11, F-measure: 0.0104712041885
+	 where: FF threshold : 0.00927274379791, FFd threshold 0.00570234426469
 
-16 - **fails**: ,Contrast 
+116- consist **consist** occurence: 1, Total occurence: 4, F-measure: 0.0108695652174
+	 where: FF threshold : 0.00664935750748, FFd threshold 0.00570234426469
 
-17 - **achieved**: ,Contrast 
+117- robustness **robustness** occurence: 1, Total occurence: 1, F-measure: 0.0110497237569
+	 where: FF threshold : 0.0110497237569, FFd threshold 0.00570234426469
 
-18 - **depends**: ,Contrast 
+118- mature **mature** occurence: 1, Total occurence: 1, F-measure: 0.0110497237569
+	 where: FF threshold : 0.0110497237569, FFd threshold 0.00570234426469
 
-19 - **efficiency**: ,Contrast  ,Feature  ,Abstract 
+119- demonstrate **demonstrate** occurence: 1, Total occurence: 1, F-measure: 0.0110497237569
+	 where: FF threshold : 0.0110497237569, FFd threshold 0.00570234426469
 
-20 - **applied**: ,Contrast  ,Feature 
+120- describe **describe** occurence: 2, Total occurence: 7, F-measure: 0.0213903743316
+	 where: FF threshold : 0.0165417705515, FFd threshold 0.00570234426469
 
-21 - **analysis**: ,Contrast  ,Feature  ,Abstract 
+121- general **general** occurence: 1, Total occurence: 3, F-measure: 0.0109289617486
+	 where: FF threshold : 0.00627452542677, FFd threshold 0.00570234426469
 
-22 - **sentence**: ,Contrast 
+122- single **single** occurence: 1, Total occurence: 5, F-measure: 0.0108108108108
+	 where: FF threshold : 0.00702418322815, FFd threshold 0.00570234426469
 
-23 - **unification**: ,Contrast  ,Feature  ,Abstract 
+123- formalism **formalism** occurence: 3, Total occurence: 4, F-measure: 0.0326086956522
+	 where: FF threshold : 0.0167092061257, FFd threshold 0.00570234426469
 
-24 - **unnecessary**: ,Contrast 
+124- grammatical **grammatical** occurence: 1, Total occurence: 4, F-measure: 0.0108695652174
+	 where: FF threshold : 0.00664935750748, FFd threshold 0.00570234426469
 
-25 - **agreement**: ,Contrast  ,Feature 
+125- intend **intend** occurence: 1, Total occurence: 2, F-measure: 0.010989010989
+	 where: FF threshold : 0.00589969188024, FFd threshold 0.00570234426469
 
-26 - **rare**: ,Contrast 
+126- rule **rule** occurence: 3, Total occurence: 36, F-measure: 0.0277777777778
+	 where: FF threshold : 0.0270783373301, FFd threshold 0.00570234426469
 
-27 - **failure**: ,Contrast  ,Feature  ,Abstract 
+127- presenting **presenting** occurence: 1, Total occurence: 1, F-measure: 0.0110497237569
+	 where: FF threshold : 0.0110497237569, FFd threshold 0.00570234426469
 
-28 - **gain**: ,Contrast  ,Feature 
+128- Uszkoreit **uszkoreit** occurence: 1, Total occurence: 1, F-measure: 0.0110497237569
+	 where: FF threshold : 0.0110497237569, FFd threshold 0.00570234426469
 
-### mainpulating the section : 6
 
-1 - **graph**: ,Contrast  ,Feature  ,Abstract 
+##Section  1:
 
-2 - **swapping**: ,Contrast  ,Feature  ,Abstract 
+0- code **code** occurence: 8, Total occurence: 8, F-measure: 0.00646725949879
+	 where: FF threshold : 0.00646725949879, FFd threshold 0.00570234426469
 
-3 - **total**: ,Contrast  ,Feature 
+1- computations **computation** occurence: 12, Total occurence: 12, F-measure: 0.00968523002421
+	 where: FF threshold : 0.00968523002421, FFd threshold 0.00570234426469
 
-4 - **overhead**: ,Contrast  ,Feature 
+2- items **item** occurence: 21, Total occurence: 21, F-measure: 0.0168878166466
+	 where: FF threshold : 0.0168878166466, FFd threshold 0.00570234426469
 
-5 - **sharing**: ,Contrast  ,Feature 
+3- vectors **vector** occurence: 9, Total occurence: 9, F-measure: 0.00727272727273
+	 where: FF threshold : 0.00727272727273, FFd threshold 0.00570234426469
 
-6 - **incremental**: ,Contrast  ,Feature 
+4- seconds **second** occurence: 11, Total occurence: 11, F-measure: 0.00888171174808
+	 where: FF threshold : 0.00888171174808, FFd threshold 0.00570234426469
 
-7 - **collection**: ,Contrast  ,Feature  ,Abstract 
+5- path **path** occurence: 28, Total occurence: 28, F-measure: 0.0224538893344
+	 where: FF threshold : 0.0224538893344, FFd threshold 0.00570234426469
 
-8 - **natural**: ,Contrast  ,Feature 
+6- types **type** occurence: 33, Total occurence: 35, F-measure: 0.0263894442223
+	 where: FF threshold : 0.0224970476926, FFd threshold 0.00570234426469
 
-9 - **generation**: ,Contrast  ,Feature  ,Abstract 
+7- feature **feature** occurence: 24, Total occurence: 25, F-measure: 0.019269369731
+	 where: FF threshold : 0.014512733646, FFd threshold 0.00570234426469
 
-10 - **language**: ,Contrast  ,Feature  ,Abstract 
+8- ITI **iti** occurence: 23, Total occurence: 23, F-measure: 0.0184813177983
+	 where: FF threshold : 0.0184813177983, FFd threshold 0.00570234426469
 
-11 - **strategic**: ,Contrast  ,Feature 
+9- grammar **grammar** occurence: 35, Total occurence: 38, F-measure: 0.0279552715655
+	 where: FF threshold : 0.0277391036727, FFd threshold 0.00570234426469
 
-12 - **copy**: ,Contrast  ,Feature  ,Abstract 
+10- quick **quick** occurence: 11, Total occurence: 11, F-measure: 0.00888171174808
+	 where: FF threshold : 0.00888171174808, FFd threshold 0.00570234426469
 
-13 - **wastage**: ,Contrast  ,Feature 
+11- put **put** occurence: 40, Total occurence: 42, F-measure: 0.0318979266348
+	 where: FF threshold : 0.0249579723264, FFd threshold 0.00570234426469
 
-14 - **efficient**: ,Contrast  ,Feature  ,Abstract 
+12- filters **filter** occurence: 29, Total occurence: 31, F-measure: 0.0232278734481
+	 where: FF threshold : 0.0210926097099, FFd threshold 0.00570234426469
 
-15 - **access**: ,Contrast  ,Feature  ,Abstract 
+13- restrict **restrict** occurence: 11, Total occurence: 11, F-measure: 0.00888171174808
+	 where: FF threshold : 0.00888171174808, FFd threshold 0.00570234426469
 
-16 - **based**: ,Contrast  ,Feature 
+14- require **require** occurence: 10, Total occurence: 10, F-measure: 0.00807754442649
+	 where: FF threshold : 0.00807754442649, FFd threshold 0.00570234426469
 
-17 - **achieves**: ,Contrast  ,Feature 
+15- s.t **s.t** occurence: 50, Total occurence: 56, F-measure: 0.0396510705789
+	 where: FF threshold : 0.0348523758672, FFd threshold 0.00570234426469
 
-18 - **lazy**: ,Contrast  ,Feature  ,Abstract 
+16- takes **take** occurence: 8, Total occurence: 8, F-measure: 0.00646725949879
+	 where: FF threshold : 0.00646725949879, FFd threshold 0.00570234426469
 
-19 - **tending**: ,Contrast  ,Feature 
+17- chart **chart** occurence: 17, Total occurence: 18, F-measure: 0.0136876006441
+	 where: FF threshold : 0.0118943053726, FFd threshold 0.00570234426469
 
-20 - **efficiency**: ,Contrast  ,Feature  ,Abstract 
+18- fact **fact** occurence: 10, Total occurence: 10, F-measure: 0.00807754442649
+	 where: FF threshold : 0.00807754442649, FFd threshold 0.00570234426469
 
-21 - **strategy**: ,Contrast  ,Feature  ,Abstract 
+19- fail **fail** occurence: 20, Total occurence: 20, F-measure: 0.0160901045857
+	 where: FF threshold : 0.0160901045857, FFd threshold 0.00570234426469
 
-22 - **treat**: ,Contrast  ,Feature 
+20- lexical **lexical** occurence: 15, Total occurence: 15, F-measure: 0.0120918984281
+	 where: FF threshold : 0.0120918984281, FFd threshold 0.00570234426469
 
-23 - **make**: ,Contrast  ,Feature 
+21- lex **lex** occurence: 26, Total occurence: 27, F-measure: 0.0208584035299
+	 where: FF threshold : 0.0152601196393, FFd threshold 0.00570234426469
 
-24 - **avoids**: ,Contrast  ,Feature 
+22- GLB **glb** occurence: 22, Total occurence: 22, F-measure: 0.0176848874598
+	 where: FF threshold : 0.0176848874598, FFd threshold 0.00570234426469
 
-25 - **fiefdom**: ,Contrast  ,Feature 
+23- edge **edge** occurence: 13, Total occurence: 14, F-measure: 0.0104838709677
+	 where: FF threshold : 0.0103965746591, FFd threshold 0.00570234426469
 
-26 - **identical**: ,Contrast  ,Feature 
+24- entries **entry** occurence: 21, Total occurence: 22, F-measure: 0.0168810289389
+	 where: FF threshold : 0.013391009519, FFd threshold 0.00570234426469
 
-27 - **unification**: ,Contrast  ,Feature  ,Abstract 
+25- sentences **sentence** occurence: 8, Total occurence: 8, F-measure: 0.00646725949879
+	 where: FF threshold : 0.00646725949879, FFd threshold 0.00570234426469
 
-28 - **reduces**: ,Contrast  ,Feature 
+26- passive **passive** occurence: 8, Total occurence: 8, F-measure: 0.00646725949879
+	 where: FF threshold : 0.00646725949879, FFd threshold 0.00570234426469
 
-29 - **page**: ,Contrast  ,Feature  ,Abstract 
+27- unification **unification** occurence: 49, Total occurence: 53, F-measure: 0.0389043271139
+	 where: FF threshold : 0.0366195455312, FFd threshold 0.00570234426469
 
-30 - **unification-based**: ,Contrast  ,Feature 
+28- GLBs **glbs** occurence: 8, Total occurence: 8, F-measure: 0.00646725949879
+	 where: FF threshold : 0.00646725949879, FFd threshold 0.00570234426469
 
-31 - **introduces**: ,Contrast  ,Feature 
+29- head **head** occurence: 9, Total occurence: 9, F-measure: 0.00727272727273
+	 where: FF threshold : 0.00727272727273, FFd threshold 0.00570234426469
 
-32 - **garbage**: ,Contrast  ,Feature  ,Abstract 
+30- failure **failure** occurence: 9, Total occurence: 9, F-measure: 0.00727272727273
+	 where: FF threshold : 0.00727272727273, FFd threshold 0.00570234426469
 
-33 - **log**: ,Contrast  ,Feature 
+31- line **line** occurence: 12, Total occurence: 12, F-measure: 0.00968523002421
+	 where: FF threshold : 0.00968523002421, FFd threshold 0.00570234426469
 
-34 - **combined**: ,Contrast  ,Feature 
+32- check **check** occurence: 13, Total occurence: 13, F-measure: 0.0104881000403
+	 where: FF threshold : 0.0104881000403, FFd threshold 0.00570234426469
 
-35 - **application**: ,Contrast  ,Feature 
+33- structure **structure** occurence: 33, Total occurence: 33, F-measure: 0.0264105642257
+	 where: FF threshold : 0.0264105642257, FFd threshold 0.00570234426469
 
-### mainpulating the section : 7
+34- algorithm **algorithm** occurence: 8, Total occurence: 8, F-measure: 0.00646725949879
+	 where: FF threshold : 0.00646725949879, FFd threshold 0.00570234426469
 
-##Total Features Number : 113 / 167
+35- time **time** occurence: 25, Total occurence: 27, F-measure: 0.0200561572403
+	 where: FF threshold : 0.0196899143689, FFd threshold 0.00570234426469
 
-### mainpulating the section : 0
 
-### mainpulating the section : 1
+##Section  2:
 
-1 - **represent** ,Feature 
+0- prefix **prefix** occurence: 1, Total occurence: 14, F-measure: 0.0229885057471
+	 where: FF threshold : 0.0167361883574, FFd threshold 0.00570234426469
 
-2 - **skeleton** ,Feature 
+1- Finally **finally** occurence: 1, Total occurence: 3, F-measure: 0.0263157894737
+	 where: FF threshold : 0.0126849319249, FFd threshold 0.00570234426469
 
-3 - **natural** ,Feature 
+2- supported **supported** occurence: 2, Total occurence: 2, F-measure: 0.0533333333333
+	 where: FF threshold : 0.0533333333333, FFd threshold 0.00570234426469
 
-4 - **term** ,Feature 
+3- verbs **verb** occurence: 2, Total occurence: 13, F-measure: 0.046511627907
+	 where: FF threshold : 0.0216473638231, FFd threshold 0.00570234426469
 
-5 - **language** ,Feature  ,Abstract 
+4- anonymous **anonymous** occurence: 1, Total occurence: 1, F-measure: 0.027027027027
+	 where: FF threshold : 0.027027027027, FFd threshold 0.00570234426469
 
-6 - **part** ,Feature 
+5- Mark- **mark-** occurence: 1, Total occurence: 1, F-measure: 0.027027027027
+	 where: FF threshold : 0.027027027027, FFd threshold 0.00570234426469
 
-7 - **based** ,Feature 
+6- Der **der** occurence: 4, Total occurence: 19, F-measure: 0.0869565217391
+	 where: FF threshold : 0.0391732669706, FFd threshold 0.00570234426469
 
-8 - **strategy** ,Feature  ,Abstract 
+7- Foundation **foundation** occurence: 1, Total occurence: 1, F-measure: 0.027027027027
+	 where: FF threshold : 0.027027027027, FFd threshold 0.00570234426469
 
-9 - **copying** ,Feature 
+8- search **search** occurence: 3, Total occurence: 5, F-measure: 0.0769230769231
+	 where: FF threshold : 0.0392709273729, FFd threshold 0.00570234426469
 
-10 - **proposed** ,Feature 
+9- CSLI **csli** occurence: 1, Total occurence: 1, F-measure: 0.027027027027
+	 where: FF threshold : 0.027027027027, FFd threshold 0.00570234426469
 
-11 - **input** ,Feature 
+10- effort **effort** occurence: 1, Total occurence: 3, F-measure: 0.0263157894737
+	 where: FF threshold : 0.0139679392893, FFd threshold 0.00570234426469
 
-12 - **unification** ,Feature  ,Abstract 
+11- work **work** occurence: 1, Total occurence: 13, F-measure: 0.0232558139535
+	 where: FF threshold : 0.0141643514807, FFd threshold 0.00570234426469
 
-13 - **processing** ,Feature 
+12- IRL9612682 **irl9612682** occurence: 1, Total occurence: 1, F-measure: 0.027027027027
+	 where: FF threshold : 0.027027027027, FFd threshold 0.00570234426469
 
-14 - **constraint** ,Feature 
+13- ACL **acl** occurence: 1, Total occurence: 1, F-measure: 0.027027027027
+	 where: FF threshold : 0.027027027027, FFd threshold 0.00570234426469
 
-15 - **called** ,Feature 
+14- Stefem **stefem** occurence: 1, Total occurence: 1, F-measure: 0.027027027027
+	 where: FF threshold : 0.027027027027, FFd threshold 0.00570234426469
 
-16 - **structure** ,Feature  ,Abstract 
+15- helps **help** occurence: 1, Total occurence: 5, F-measure: 0.025641025641
+	 where: FF threshold : 0.012960001062, FFd threshold 0.00570234426469
 
-17 - **time** ,Feature  ,Abstract 
+16- paper **paper** occurence: 2, Total occurence: 5, F-measure: 0.0512820512821
+	 where: FF threshold : 0.0212372133052, FFd threshold 0.00570234426469
 
-### mainpulating the section : 2
+17- fit **fit** occurence: 1, Total occurence: 5, F-measure: 0.025641025641
+	 where: FF threshold : 0.0144392906433, FFd threshold 0.00570234426469
 
-1 - **represented** ,Feature 
+18- Dan **dan** occurence: 1, Total occurence: 2, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0137385197191, FFd threshold 0.00570234426469
 
-2 - **feature** ,Feature  ,Abstract 
+19- University **university** occurence: 1, Total occurence: 1, F-measure: 0.027027027027
+	 where: FF threshold : 0.027027027027, FFd threshold 0.00570234426469
 
-3 - **relationship** ,Feature 
+20- found **found** occurence: 1, Total occurence: 3, F-measure: 0.0263157894737
+	 where: FF threshold : 0.0139679392893, FFd threshold 0.00570234426469
 
-4 - **pair** ,Feature 
+21- operation **operation** occurence: 1, Total occurence: 9, F-measure: 0.0243902439024
+	 where: FF threshold : 0.0154274451835, FFd threshold 0.00570234426469
 
-5 - **feature-value** ,Feature 
+22- special **special** occurence: 1, Total occurence: 3, F-measure: 0.0263157894737
+	 where: FF threshold : 0.0126849319249, FFd threshold 0.00570234426469
 
-6 - **equal** ,Feature 
+23- Fellowship **fellowship** occurence: 1, Total occurence: 1, F-measure: 0.027027027027
+	 where: FF threshold : 0.027027027027, FFd threshold 0.00570234426469
 
-7 - **greatest** ,Feature 
+24- EPSRC **epsrc** occurence: 1, Total occurence: 1, F-measure: 0.027027027027
+	 where: FF threshold : 0.027027027027, FFd threshold 0.00570234426469
 
-8 - **directed** ,Feature 
+25- Nicolov **nicolov** occurence: 1, Total occurence: 1, F-measure: 0.027027027027
+	 where: FF threshold : 0.027027027027, FFd threshold 0.00570234426469
 
-9 - **symbol** ,Feature 
+26- Ministry **ministry** occurence: 1, Total occurence: 1, F-measure: 0.027027027027
+	 where: FF threshold : 0.027027027027, FFd threshold 0.00570234426469
 
-### mainpulating the section : 3
+27- benefited **benefited** occurence: 1, Total occurence: 1, F-measure: 0.027027027027
+	 where: FF threshold : 0.027027027027, FFd threshold 0.00570234426469
 
-1 - **current** ,Feature 
+28- Stephan **stephan** occurence: 1, Total occurence: 1, F-measure: 0.027027027027
+	 where: FF threshold : 0.027027027027, FFd threshold 0.00570234426469
 
-2 - **shared** ,Feature 
+29- man **man** occurence: 2, Total occurence: 28, F-measure: 0.039603960396
+	 where: FF threshold : 0.0230891534962, FFd threshold 0.00570234426469
 
-3 - **meet** ,Feature 
+30- part **part** occurence: 2, Total occurence: 24, F-measure: 0.0412371134021
+	 where: FF threshold : 0.0256364045225, FFd threshold 0.00570234426469
 
-4 - **tile** ,Feature 
+31- project **project** occurence: 1, Total occurence: 2, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0137385197191, FFd threshold 0.00570234426469
 
-5 - **created** ,Feature 
+32- Oepen **oepen** occurence: 1, Total occurence: 1, F-measure: 0.027027027027
+	 where: FF threshold : 0.027027027027, FFd threshold 0.00570234426469
 
-6 - **arc** ,Feature 
+33- phenomena **phenomenon** occurence: 1, Total occurence: 2, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0137385197191, FFd threshold 0.00570234426469
 
-7 - **label** ,Feature 
+34- German **german** occurence: 2, Total occurence: 14, F-measure: 0.0459770114943
+	 where: FF threshold : 0.0217190858622, FFd threshold 0.00570234426469
 
-8 - **subgraphs** ,Feature 
+35- based **based** occurence: 1, Total occurence: 10, F-measure: 0.0240963855422
+	 where: FF threshold : 0.0234134736378, FFd threshold 0.00570234426469
 
-9 - **treat** ,Feature 
+36- Jan **jan** occurence: 1, Total occurence: 1, F-measure: 0.027027027027
+	 where: FF threshold : 0.027027027027, FFd threshold 0.00570234426469
 
-10 - **noel** ,Feature 
+37- version **version** occurence: 1, Total occurence: 2, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0188278388278, FFd threshold 0.00570234426469
 
-11 - **copied** ,Feature 
+38- discussing **discussing** occurence: 1, Total occurence: 1, F-measure: 0.027027027027
+	 where: FF threshold : 0.027027027027, FFd threshold 0.00570234426469
 
-12 - **procedure** ,Feature 
+39- view **view** occurence: 1, Total occurence: 2, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0137385197191, FFd threshold 0.00570234426469
 
-13 - **input**: ,Contrast  ,Feature 
+40- National **national** occurence: 1, Total occurence: 1, F-measure: 0.027027027027
+	 where: FF threshold : 0.027027027027, FFd threshold 0.00570234426469
 
-14 - **node** ,Feature 
+41- Federal **federal** occurence: 1, Total occurence: 1, F-measure: 0.027027027027
+	 where: FF threshold : 0.027027027027, FFd threshold 0.00570234426469
 
-### mainpulating the section : 4
+42- cooperation **cooperation** occurence: 1, Total occurence: 1, F-measure: 0.027027027027
+	 where: FF threshold : 0.027027027027, FFd threshold 0.00570234426469
 
-1 - **consisting** ,Feature 
+43- reading **reading** occurence: 1, Total occurence: 7, F-measure: 0.025
+	 where: FF threshold : 0.0149262029923, FFd threshold 0.00570234426469
 
-2 - **erg** ,Feature 
+44- Nicolas **nicolas** occurence: 1, Total occurence: 1, F-measure: 0.027027027027
+	 where: FF threshold : 0.027027027027, FFd threshold 0.00570234426469
 
-3 - **newly** ,Feature 
+45- Flickinger **flickinger** occurence: 1, Total occurence: 1, F-measure: 0.027027027027
+	 where: FF threshold : 0.027027027027, FFd threshold 0.00570234426469
 
-4 - **copy** ,Feature  ,Abstract 
+46- Science **science** occurence: 2, Total occurence: 2, F-measure: 0.0533333333333
+	 where: FF threshold : 0.0533333333333, FFd threshold 0.00570234426469
 
-5 - **slot** ,Feature 
+47- group **group** occurence: 1, Total occurence: 1, F-measure: 0.027027027027
+	 where: FF threshold : 0.027027027027, FFd threshold 0.00570234426469
 
-6 - **arc**: ,Contrast  ,Feature 
+48- comments **comment** occurence: 2, Total occurence: 2, F-measure: 0.0533333333333
+	 where: FF threshold : 0.0533333333333, FFd threshold 0.00570234426469
 
-7 - **definite** ,Feature 
+49- fruitful **fruitful** occurence: 2, Total occurence: 2, F-measure: 0.0533333333333
+	 where: FF threshold : 0.0533333333333, FFd threshold 0.00570234426469
 
-8 - **copied**: ,Contrast  ,Feature 
+50- due **due** occurence: 1, Total occurence: 5, F-measure: 0.025641025641
+	 where: FF threshold : 0.0144392906433, FFd threshold 0.00570234426469
 
-9 - **procedure**: ,Contrast  ,Feature 
+51- linguistic **linguistic** occurence: 1, Total occurence: 3, F-measure: 0.0263157894737
+	 where: FF threshold : 0.0139679392893, FFd threshold 0.00570234426469
 
-10 - **unique** ,Feature 
+52- great **great** occurence: 1, Total occurence: 3, F-measure: 0.0263157894737
+	 where: FF threshold : 0.0139679392893, FFd threshold 0.00570234426469
 
-11 - **dependency** ,Feature 
+53- helped **helped** occurence: 1, Total occurence: 2, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0137385197191, FFd threshold 0.00570234426469
 
-12 - **node**: ,Contrast  ,Feature 
+54- Technology **technology** occurence: 1, Total occurence: 1, F-measure: 0.027027027027
+	 where: FF threshold : 0.027027027027, FFd threshold 0.00570234426469
 
-13 - **structure**: ,Contrast  ,Feature  ,Abstract 
+55- Education **education** occurence: 1, Total occurence: 1, F-measure: 0.027027027027
+	 where: FF threshold : 0.027027027027, FFd threshold 0.00570234426469
 
-### mainpulating the section : 5
+56- grant **grant** occurence: 2, Total occurence: 2, F-measure: 0.0533333333333
+	 where: FF threshold : 0.0533333333333, FFd threshold 0.00570234426469
 
-1 - **semantic** ,Feature 
+57- English **english** occurence: 1, Total occurence: 12, F-measure: 0.0235294117647
+	 where: FF threshold : 0.0140057011505, FFd threshold 0.00570234426469
 
-2 - **advantage** ,Feature 
+58- reviewers **reviewer** occurence: 1, Total occurence: 1, F-measure: 0.027027027027
+	 where: FF threshold : 0.027027027027, FFd threshold 0.00570234426469
 
-3 - **treating** ,Feature 
+59- Miiller **miiller** occurence: 1, Total occurence: 1, F-measure: 0.027027027027
+	 where: FF threshold : 0.027027027027, FFd threshold 0.00570234426469
 
-4 - **small** ,Feature 
+60- advanced **advanced** occurence: 1, Total occurence: 3, F-measure: 0.0263157894737
+	 where: FF threshold : 0.0126849319249, FFd threshold 0.00570234426469
 
-5 - **occur** ,Feature 
+61- benefits **benefit** occurence: 1, Total occurence: 4, F-measure: 0.025974025974
+	 where: FF threshold : 0.0142015878858, FFd threshold 0.00570234426469
 
-6 - **information** ,Feature 
+62- provided **provided** occurence: 1, Total occurence: 2, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0137385197191, FFd threshold 0.00570234426469
 
-7 - **feature**: ,Contrast  ,Feature  ,Abstract 
+63- Nederhof **nederhof** occurence: 1, Total occurence: 2, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0137385197191, FFd threshold 0.00570234426469
 
-8 - **representation** ,Feature 
+64- collaboration **collaboration** occurence: 1, Total occurence: 1, F-measure: 0.027027027027
+	 where: FF threshold : 0.027027027027, FFd threshold 0.00570234426469
 
-9 - **tendency** ,Feature 
+65- processing **processing** occurence: 1, Total occurence: 7, F-measure: 0.025
+	 where: FF threshold : 0.0132462862732, FFd threshold 0.00570234426469
 
-10 - **fail** ,Feature 
+66- BMBF **bmbf** occurence: 1, Total occurence: 1, F-measure: 0.027027027027
+	 where: FF threshold : 0.027027027027, FFd threshold 0.00570234426469
 
-11 - **efficiency** ,Feature  ,Abstract 
+67- greatly **greatly** occurence: 1, Total occurence: 1, F-measure: 0.027027027027
+	 where: FF threshold : 0.027027027027, FFd threshold 0.00570234426469
 
-12 - **applied** ,Feature 
+68- supports **support** occurence: 2, Total occurence: 6, F-measure: 0.0506329113924
+	 where: FF threshold : 0.0269345786735, FFd threshold 0.00570234426469
 
-13 - **analysis** ,Feature  ,Abstract 
+69- VERBMOBIL **verbmobil** occurence: 1, Total occurence: 4, F-measure: 0.025974025974
+	 where: FF threshold : 0.0128210081299, FFd threshold 0.00570234426469
 
-14 - **unification**: ,Contrast  ,Feature  ,Abstract 
+70- lot **lot** occurence: 1, Total occurence: 2, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0137385197191, FFd threshold 0.00570234426469
 
-15 - **agreement** ,Feature 
+71- Stanford **stanford** occurence: 1, Total occurence: 1, F-measure: 0.027027027027
+	 where: FF threshold : 0.027027027027, FFd threshold 0.00570234426469
 
-16 - **failure** ,Feature  ,Abstract 
+72- describe **describe** occurence: 1, Total occurence: 7, F-measure: 0.025
+	 where: FF threshold : 0.0165417705515, FFd threshold 0.00570234426469
 
-17 - **gain** ,Feature 
+73- deep **deep** occurence: 1, Total occurence: 4, F-measure: 0.025974025974
+	 where: FF threshold : 0.0128210081299, FFd threshold 0.00570234426469
 
-### mainpulating the section : 6
+74- HPSG **hpsg** occurence: 1, Total occurence: 9, F-measure: 0.0243902439024
+	 where: FF threshold : 0.013542940047, FFd threshold 0.00570234426469
 
-1 - **graph** ,Feature  ,Abstract 
+75- topic **topic** occurence: 1, Total occurence: 1, F-measure: 0.027027027027
+	 where: FF threshold : 0.027027027027, FFd threshold 0.00570234426469
 
-2 - **swapping** ,Feature  ,Abstract 
 
-3 - **total** ,Feature 
+##Section  0:
 
-4 - **overhead** ,Feature 
+0- grammar development environment **grammar development environment** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-5 - **sharing** ,Feature 
+1- partial analysis **partial analysis** occurence: 1, Total occurence: 6, F-measure: 0.025
+	 where: FF threshold : 0.0191934404284, FFd threshold 0.00770523044776
 
-6 - **incremental** ,Feature 
+2- primary deep **primary deep** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-7 - **collection** ,Feature  ,Abstract 
+3- unification- based **unification- based** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-8 - **natural**: ,Contrast  ,Feature 
+4- involve statistical **involve statistical** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-9 - **generation** ,Feature  ,Abstract 
+5- development environment **development environment** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-10 - **language**: ,Contrast  ,Feature  ,Abstract 
+6- legal rule **legal rule** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-11 - **strategic** ,Feature 
+7- integrated grammar **integrated grammar** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-12 - **copy**: ,Contrast  ,Feature  ,Abstract 
+8- technique involve **technique involve** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-13 - **wastage** ,Feature 
+9- feature fss **feature fss** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-14 - **efficient** ,Feature  ,Abstract 
+10- typed feature **typed feature** occurence: 1, Total occurence: 2, F-measure: 0.0263157894737
+	 where: FF threshold : 0.014503789757, FFd threshold 0.00770523044776
 
-15 - **access** ,Feature  ,Abstract 
+11- deep analysis **deep analysis** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-16 - **based**: ,Contrast  ,Feature 
+12- chart parser **chart parser** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-17 - **achieves** ,Feature 
+13- unification-based grammar formalism **unification-based grammar formalism** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-18 - **lazy** ,Feature  ,Abstract 
+14- parsing time **parsing time** occurence: 1, Total occurence: 4, F-measure: 0.025641025641
+	 where: FF threshold : 0.0168473584581, FFd threshold 0.00770523044776
 
-19 - **tending** ,Feature 
+15- method preserve **method preserve** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-20 - **efficiency**: ,Contrast  ,Feature  ,Abstract 
+16- approximate processing **approximate processing** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-21 - **strategy**: ,Contrast  ,Feature  ,Abstract 
+17- unification-based parsing **unification-based parsing** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-22 - **treat**: ,Contrast  ,Feature 
+18- specialized runtime **specialized runtime** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-23 - **make** ,Feature 
+19- gain reasonable **gain reasonable** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-24 - **avoids** ,Feature 
+20- hpsg grammar **hpsg grammar** occurence: 1, Total occurence: 4, F-measure: 0.025641025641
+	 where: FF threshold : 0.0168473584581, FFd threshold 0.00770523044776
 
-25 - **fiefdom** ,Feature 
+21- hpsg grammar development **hpsg grammar development** occurence: 1, Total occurence: 2, F-measure: 0.0263157894737
+	 where: FF threshold : 0.014503789757, FFd threshold 0.00770523044776
 
-26 - **identical** ,Feature 
+22- core formalism **core formalism** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-27 - **unification**: ,Contrast  ,Feature  ,Abstract 
+23- engineered unification-based **engineered unification-based** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-28 - **reduces** ,Feature 
+24- paper describes **paper describes** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-29 - **page** ,Feature  ,Abstract 
+25- large integrated grammar **large integrated grammar** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-30 - **unification-based** ,Feature 
+26- present empirical **present empirical** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-31 - **introduces** ,Feature 
+27- reference corpus **reference corpus** occurence: 1, Total occurence: 2, F-measure: 0.0263157894737
+	 where: FF threshold : 0.014503789757, FFd threshold 0.00770523044776
 
-32 - **garbage** ,Feature  ,Abstract 
+28- lexicon entry **lexicon entry** occurence: 1, Total occurence: 3, F-measure: 0.025974025974
+	 where: FF threshold : 0.01567518503, FFd threshold 0.00770523044776
 
-33 - **log** ,Feature 
+29- large integrated **large integrated** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-34 - **combined** ,Feature 
+30- knowledge base **knowledge base** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-35 - **application** ,Feature 
+31- agenda-based bottom-up chart **agenda-based bottom-up chart** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-### mainpulating the section : 7
+32- gain reasonable efficiency **gain reasonable efficiency** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-#The Summary
-**ze take 5 percent of the important and long sentences for making the summary**
+33- efficiency gain **efficiency gain** occurence: 1, Total occurence: 2, F-measure: 0.0263157894737
+	 where: FF threshold : 0.014503789757, FFd threshold 0.00770523044776
 
-This is unnecessary because there are often input subgraphs that can be used as part of the result graph without any modification , or as sharable parts between one of the input graphs and the result graph . 
+34- bottom-up chart parser **bottom-up chart parser** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-Avoiding this problem in his method requires a special operation of merging a skeleton-environment structure into a skeleton structure , but this prevents structure sharing . 
+35- grammar development **grammar development** occurence: 1, Total occurence: 2, F-measure: 0.0263157894737
+	 where: FF threshold : 0.014503789757, FFd threshold 0.00770523044776
 
-This method achieves structure sharing by introducing lazy copying to Wroblewski 's incremental copy graph unification method . 
+36- bottom-up chart **bottom-up chart** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-Once complex IeSs are extended as above , an atomic FS can be seen as an extended complex FS whose type symbol has only Top as its greater type symbol and only Bottom as its lesser type symbol and which has an empty set of feature value pairs . 
+37- huge lexicon entry **huge lexicon entry** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-The node specified by the feature path < a > fiefdom input graph G1 ( Gl/ < a > ) has an arc with the label c and the corresponding node of input graph G2 does not . 
+38- engineered unification-based parsing **engineered unification-based parsing** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-When a NODE node has a NODE node as its FORWARD value , the other contents of tile node are ignored and tim contents of node are used . 
+39- runtime version **runtime version** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-The output node has been created only when neither input node is current ; or otherwise the output node is an existing current node . 
+40- single method **single method** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-The revised CopyNode procedure takes as its inputs the node to be copied node I and the arc arc I with node I as its value and node as its immediate ancestor node ( ire the arc 's initial node ) , and does the following ( set Fig . 
+41- unification- based parser **unification- based parser** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-It then adds the arc copies and arcs of node that are not copied to the new node , and returns the new node ; ( 3 ) otherwise , CopyNode adds the pair consisting of the ancestor node node and the are arc into the COPY- DEPENDENCY slot of node 1 '' and returns Nil_ . 
+42- significant improvement **significant improvement** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-For example , when unification of features for case markers does fail , treating these features first avoids treating features for semantic representations . 
+43- sophisticated typed feature **sophisticated typed feature** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-The strategic lazy incremental copy graph ( SLING ) unification method combines two incremental copy graph unification methods : the lazy incremental copy graph ( LING ) unification method and the strategic incremental copy graph ( SING ) unification method . 
+44- sophisticated typed **sophisticated typed** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-The LING unification method achieves structure sharing without the O ( log d ) data access overhead of Pereira 's method . 
+45- typed feature formalism **typed feature formalism** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-Furthermore , structure sharing increases the portion of token identical substructures of FSs which makes it efficient to keep unification results of substructures of FSs and reuse them . 
+46- agenda-based bottom-up **agenda-based bottom-up** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-The combined method Inakes each FS unification efficient and also reduces garbage collection and page swapping occurrences by avoiding memory wastage , thus increasing the total efficiency of li 'S unification-based natural language processing systems such aa analysis and generation systems based on IlI'SG . 
+47- analysis component **analysis component** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
+48- rule application efficiently **rule application efficiently** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
 
-/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/scipy/spatial/distance.py:287: RuntimeWarning: invalid value encountered in double_scalars
-  dist = 1.0 - np.dot(u, v) / (norm(u) * norm(v))
+49- empirical result **empirical result** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
+
+50- method preserve correctness **method preserve correctness** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
+
+51- existing technique **existing technique** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
+
+52- reasonable efficiency **reasonable efficiency** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
+
+53- feature formalism **feature formalism** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
+
+54- primary deep analysis **primary deep analysis** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
+
+55- based parser **based parser** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
+
+56- huge lexicon **huge lexicon** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
+
+57- preserve correctness **preserve correctness** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
+
+58- deep analysis component **deep analysis component** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
+
+59- application efficiently **application efficiently** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
+
+60- rule application **rule application** occurence: 2, Total occurence: 9, F-measure: 0.0481927710843
+	 where: FF threshold : 0.0334297188755, FFd threshold 0.00770523044776
+
+61- method lead **method lead** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
+
+62- unification-based grammar **unification-based grammar** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
+
+63- technique involve statistical **technique involve statistical** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
+
+64- japanese consist **japanese consist** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
+
+65- input efficiently **input efficiently** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
+
+66- generally-applicable technique **generally-applicable technique** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
+
+67- based grammar **based grammar** occurence: 1, Total occurence: 2, F-measure: 0.0263157894737
+	 where: FF threshold : 0.014503789757, FFd threshold 0.00770523044776
+
+68- present empirical result **present empirical result** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
+
+69- advanced agenda-based bottom-up **advanced agenda-based bottom-up** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
+
+70- concrete parser **concrete parser** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
+
+71- grammar formalism **grammar formalism** occurence: 1, Total occurence: 2, F-measure: 0.0263157894737
+	 where: FF threshold : 0.014503789757, FFd threshold 0.00770523044776
+
+72- space consumption **space consumption** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
+
+73- specialized runtime version **specialized runtime version** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
+
+74- advanced agenda-based **advanced agenda-based** occurence: 1, Total occurence: 1, F-measure: 0.0266666666667
+	 where: FF threshold : 0.0266666666667, FFd threshold 0.00770523044776
+
+
+##Section  1:
+
+75- rule schema **rule schema** occurence: 4, Total occurence: 4, F-measure: 0.0107382550336
+	 where: FF threshold : 0.0107382550336, FFd threshold 0.00770523044776
+
+76- estimation function **estimation function** occurence: 4, Total occurence: 4, F-measure: 0.0107382550336
+	 where: FF threshold : 0.0107382550336, FFd threshold 0.00770523044776
+
+77- load time **load time** occurence: 3, Total occurence: 3, F-measure: 0.00806451612903
+	 where: FF threshold : 0.00806451612903, FFd threshold 0.00770523044776
+
+78- lexical entry **lexical entry** occurence: 7, Total occurence: 7, F-measure: 0.0187165775401
+	 where: FF threshold : 0.0187165775401, FFd threshold 0.00770523044776
+
+79- unification attempt **unification attempt** occurence: 3, Total occurence: 3, F-measure: 0.00806451612903
+	 where: FF threshold : 0.00806451612903, FFd threshold 0.00770523044776
+
+80- output structure **output structure** occurence: 3, Total occurence: 3, F-measure: 0.00806451612903
+	 where: FF threshold : 0.00806451612903, FFd threshold 0.00770523044776
+
+81- application filter **application filter** occurence: 5, Total occurence: 5, F-measure: 0.0134048257373
+	 where: FF threshold : 0.0134048257373, FFd threshold 0.00770523044776
+
+82- structure are **structure are** occurence: 5, Total occurence: 5, F-measure: 0.0134048257373
+	 where: FF threshold : 0.0134048257373, FFd threshold 0.00770523044776
+
+83- passive edge **passive edge** occurence: 4, Total occurence: 4, F-measure: 0.0107382550336
+	 where: FF threshold : 0.0107382550336, FFd threshold 0.00770523044776
+
+84- argument position **argument position** occurence: 3, Total occurence: 3, F-measure: 0.00806451612903
+	 where: FF threshold : 0.00806451612903, FFd threshold 0.00770523044776
+
+85- failing unification **failing unification** occurence: 4, Total occurence: 4, F-measure: 0.0107382550336
+	 where: FF threshold : 0.0107382550336, FFd threshold 0.00770523044776
+
+86- grammar writer **grammar writer** occurence: 3, Total occurence: 3, F-measure: 0.00806451612903
+	 where: FF threshold : 0.00806451612903, FFd threshold 0.00770523044776
+
+87- lexical rule **lexical rule** occurence: 3, Total occurence: 3, F-measure: 0.00806451612903
+	 where: FF threshold : 0.00806451612903, FFd threshold 0.00770523044776
+
+88- off-line computation **off-line computation** occurence: 3, Total occurence: 3, F-measure: 0.00806451612903
+	 where: FF threshold : 0.00806451612903, FFd threshold 0.00770523044776
+
+89- rule filter **rule filter** occurence: 3, Total occurence: 3, F-measure: 0.00806451612903
+	 where: FF threshold : 0.00806451612903, FFd threshold 0.00770523044776
+
+90- ling unification **ling unification** occurence: 4, Total occurence: 4, F-measure: 0.0107382550336
+	 where: FF threshold : 0.0107382550336, FFd threshold 0.00770523044776
+
+91- feature structure **feature structure** occurence: 17, Total occurence: 17, F-measure: 0.0448548812665
+	 where: FF threshold : 0.0448548812665, FFd threshold 0.00770523044776
+
+92- filler-head rule **filler-head rule** occurence: 3, Total occurence: 3, F-measure: 0.00806451612903
+	 where: FF threshold : 0.00806451612903, FFd threshold 0.00770523044776
+
+93- type unification **type unification** occurence: 12, Total occurence: 12, F-measure: 0.0318725099602
+	 where: FF threshold : 0.0318725099602, FFd threshold 0.00770523044776
+
+94- unification failure **unification failure** occurence: 4, Total occurence: 4, F-measure: 0.0107382550336
+	 where: FF threshold : 0.0107382550336, FFd threshold 0.00770523044776
+
+95- quick check **quick check** occurence: 9, Total occurence: 9, F-measure: 0.024
+	 where: FF threshold : 0.024, FFd threshold 0.00770523044776
+
+96- type hierarchy **type hierarchy** occurence: 4, Total occurence: 4, F-measure: 0.0107382550336
+	 where: FF threshold : 0.0107382550336, FFd threshold 0.00770523044776
+
+97- check filter **check filter** occurence: 3, Total occurence: 3, F-measure: 0.00806451612903
+	 where: FF threshold : 0.00806451612903, FFd threshold 0.00770523044776
+
+98- rule application filter **rule application filter** occurence: 5, Total occurence: 5, F-measure: 0.0134048257373
+	 where: FF threshold : 0.0134048257373, FFd threshold 0.00770523044776
+
+99- chart item **chart item** occurence: 11, Total occurence: 11, F-measure: 0.0292553191489
+	 where: FF threshold : 0.0292553191489, FFd threshold 0.00770523044776
+
+100- quick check filter **quick check filter** occurence: 3, Total occurence: 3, F-measure: 0.00806451612903
+	 where: FF threshold : 0.00806451612903, FFd threshold 0.00770523044776
+
+101- bit vector **bit vector** occurence: 3, Total occurence: 3, F-measure: 0.00806451612903
+	 where: FF threshold : 0.00806451612903, FFd threshold 0.00770523044776
+
+
+##Section  2:
+
+102- linguistic processing effort **linguistic processing effort** occurence: 1, Total occurence: 1, F-measure: 0.0540540540541
+	 where: FF threshold : 0.0540540540541, FFd threshold 0.00770523044776
+
+103- advanced fellowship **advanced fellowship** occurence: 1, Total occurence: 1, F-measure: 0.0540540540541
+	 where: FF threshold : 0.0540540540541, FFd threshold 0.00770523044776
+
+104- epsrc advanced **epsrc advanced** occurence: 1, Total occurence: 1, F-measure: 0.0540540540541
+	 where: FF threshold : 0.0540540540541, FFd threshold 0.00770523044776
+
+105- work supported **work supported** occurence: 1, Total occurence: 1, F-measure: 0.0540540540541
+	 where: FF threshold : 0.0540540540541, FFd threshold 0.00770523044776
+
+106- english phenomenon **english phenomenon** occurence: 1, Total occurence: 1, F-measure: 0.0540540540541
+	 where: FF threshold : 0.0540540540541, FFd threshold 0.00770523044776
+
+107- deep linguistic **deep linguistic** occurence: 1, Total occurence: 2, F-measure: 0.0526315789474
+	 where: FF threshold : 0.0276616844939, FFd threshold 0.00770523044776
+
+108- dan flickinger **dan flickinger** occurence: 1, Total occurence: 1, F-measure: 0.0540540540541
+	 where: FF threshold : 0.0540540540541, FFd threshold 0.00770523044776
+
+109- national science **national science** occurence: 1, Total occurence: 1, F-measure: 0.0540540540541
+	 where: FF threshold : 0.0540540540541, FFd threshold 0.00770523044776
+
+110- german prefix verb **german prefix verb** occurence: 1, Total occurence: 1, F-measure: 0.0540540540541
+	 where: FF threshold : 0.0540540540541, FFd threshold 0.00770523044776
+
+111- nicolas nicolov **nicolas nicolov** occurence: 1, Total occurence: 1, F-measure: 0.0540540540541
+	 where: FF threshold : 0.0540540540541, FFd threshold 0.00770523044776
+
+112- prefix verb **prefix verb** occurence: 1, Total occurence: 8, F-measure: 0.0454545454545
+	 where: FF threshold : 0.0320730671198, FFd threshold 0.00770523044776
+
+113- acl reviewer **acl reviewer** occurence: 1, Total occurence: 1, F-measure: 0.0540540540541
+	 where: FF threshold : 0.0540540540541, FFd threshold 0.00770523044776
+
+114- mark- jan **mark- jan** occurence: 1, Total occurence: 1, F-measure: 0.0540540540541
+	 where: FF threshold : 0.0540540540541, FFd threshold 0.00770523044776
+
+115- stanford university **stanford university** occurence: 1, Total occurence: 1, F-measure: 0.0540540540541
+	 where: FF threshold : 0.0540540540541, FFd threshold 0.00770523044776
+
+116- german federal ministry **german federal ministry** occurence: 1, Total occurence: 1, F-measure: 0.0540540540541
+	 where: FF threshold : 0.0540540540541, FFd threshold 0.00770523044776
+
+117- linguistic processing **linguistic processing** occurence: 1, Total occurence: 1, F-measure: 0.0540540540541
+	 where: FF threshold : 0.0540540540541, FFd threshold 0.00770523044776
+
+118- hpsg group **hpsg group** occurence: 1, Total occurence: 1, F-measure: 0.0540540540541
+	 where: FF threshold : 0.0540540540541, FFd threshold 0.00770523044776
+
+119- fruitful comment **fruitful comment** occurence: 1, Total occurence: 1, F-measure: 0.0540540540541
+	 where: FF threshold : 0.0540540540541, FFd threshold 0.00770523044776
+
+120- epsrc advanced fellowship **epsrc advanced fellowship** occurence: 1, Total occurence: 1, F-measure: 0.0540540540541
+	 where: FF threshold : 0.0540540540541, FFd threshold 0.00770523044776
+
+121- federal ministry **federal ministry** occurence: 1, Total occurence: 1, F-measure: 0.0540540540541
+	 where: FF threshold : 0.0540540540541, FFd threshold 0.00770523044776
+
+122- german federal **german federal** occurence: 1, Total occurence: 1, F-measure: 0.0540540540541
+	 where: FF threshold : 0.0540540540541, FFd threshold 0.00770523044776
+
+123- jan nederhof **jan nederhof** occurence: 1, Total occurence: 1, F-measure: 0.0540540540541
+	 where: FF threshold : 0.0540540540541, FFd threshold 0.00770523044776
+
+124- anonymous acl reviewer **anonymous acl reviewer** occurence: 1, Total occurence: 1, F-measure: 0.0540540540541
+	 where: FF threshold : 0.0540540540541, FFd threshold 0.00770523044776
+
+125- fruitful collaboration **fruitful collaboration** occurence: 1, Total occurence: 1, F-measure: 0.0540540540541
+	 where: FF threshold : 0.0540540540541, FFd threshold 0.00770523044776
+
+126- mark- jan nederhof **mark- jan nederhof** occurence: 1, Total occurence: 1, F-measure: 0.0540540540541
+	 where: FF threshold : 0.0540540540541, FFd threshold 0.00770523044776
+
+127- greatly benefited **greatly benefited** occurence: 1, Total occurence: 1, F-measure: 0.0540540540541
+	 where: FF threshold : 0.0540540540541, FFd threshold 0.00770523044776
+
+128- anonymous acl **anonymous acl** occurence: 1, Total occurence: 1, F-measure: 0.0540540540541
+	 where: FF threshold : 0.0540540540541, FFd threshold 0.00770523044776
+
+129- stephan oepen **stephan oepen** occurence: 1, Total occurence: 1, F-measure: 0.0540540540541
+	 where: FF threshold : 0.0540540540541, FFd threshold 0.00770523044776
+
+130- processing effort **processing effort** occurence: 1, Total occurence: 1, F-measure: 0.0540540540541
+	 where: FF threshold : 0.0540540540541, FFd threshold 0.00770523044776
+
+131- stefem miiller **stefem miiller** occurence: 1, Total occurence: 1, F-measure: 0.0540540540541
+	 where: FF threshold : 0.0540540540541, FFd threshold 0.00770523044776
+
+132- bmbf project **bmbf project** occurence: 1, Total occurence: 1, F-measure: 0.0540540540541
+	 where: FF threshold : 0.0540540540541, FFd threshold 0.00770523044776
+
+133- bmbf project verbmobil **bmbf project verbmobil** occurence: 1, Total occurence: 1, F-measure: 0.0540540540541
+	 where: FF threshold : 0.0540540540541, FFd threshold 0.00770523044776
+
+134- deep linguistic processing **deep linguistic processing** occurence: 1, Total occurence: 1, F-measure: 0.0540540540541
+	 where: FF threshold : 0.0540540540541, FFd threshold 0.00770523044776
+
+135- german prefix **german prefix** occurence: 1, Total occurence: 1, F-measure: 0.0540540540541
+	 where: FF threshold : 0.0540540540541, FFd threshold 0.00770523044776
+
+136- project verbmobil **project verbmobil** occurence: 1, Total occurence: 1, F-measure: 0.0540540540541
+	 where: FF threshold : 0.0540540540541, FFd threshold 0.00770523044776
+
+137- part based **part based** occurence: 1, Total occurence: 1, F-measure: 0.0540540540541
+	 where: FF threshold : 0.0540540540541, FFd threshold 0.00770523044776
+
 
 #analysing the annotation 1
+###The citing span:
+21, 22, 23, 
+###The most important sentences of the Reference article according to the citing Article:
+56: 0.0630723149337
+139: 0.0604621309371
+15: 0.0535985050204
+12: 0.0533333333333
+54: 0.0484757027509
+207: 0.0413426767214
+41: 0.0368109769423
+51: 0.0366506861422
+24: 0.0357657746618
+208: 0.0356391210894
+83: 0.0353047077362
+52: 0.0339936116743
+199: 0.0331862130221
+32: 0.0330408837838
+49: 0.0328311596733
+141: 0.0326473711831
+203: 0.0312312830006
+39: 0.0298564786346
+183: 0.0296291704676
+53: 0.0296170810471
+159: 0.0293887663975
+202: 0.0292262737283
+160: 0.029173860944
+31: 0.027854528891
+46: 0.0272933588151
+186: 0.0265374515855
+187: 0.0264903098715
+197: 0.0263957900519
+184: 0.0261683979533
+17: 0.025925427902
+61: 0.0256734471067
+36: 0.0256703330814
+196: 0.0255594628694
+40: 0.0252797419736
+8: 0.0249271691931
+55: 0.0248332819861
+50: 0.0247758268353
+209: 0.0242690123929
+91: 0.0242355236405
+194: 0.0242012551095
+179: 0.0237952364308
+144: 0.0235431592339
+14: 0.0234592876506
+135: 0.0230885271933
+200: 0.023057734971
+134: 0.0229257280787
+38: 0.0226554173389
+9: 0.0226278669668
+161: 0.0224288659427
+79: 0.0222827337147
 
-##The Citing Sentences : 
-
-While an **improvement** over **simple** **destructive** **unification** , **Tomabechi** 's approach still **suffers** from what **Kogure** ( **Kogure** , 1990 ) **calls** **redundant** **copying** . 
-
-###The Corpus Reference Sentences : 
-1.0
-
-
-**21** : 
-**itowever** , the problem with his method is that a **unitication** result **graph** **consists** only of **newly** **created** **structures** . 
-
-1.0
-
-
-**22** : 
-This is **unnecessary** because there are often **input** **snbgraphs** that can be used as **part** of the result **graph** without any **modification** , or as **sharable** **parts** between one of the **input** **graphs** and the result **graph** . 
-
-0.805737744553
-
-
-**23** : 
-**Copying** **sharable** **parts** is **called** **redundant** **copying** . 
-
-
-###Our Reference Sentences : 
-0.0276704581432
-
-**79** : 
-A ***unification*** example is shown in Fig . 
-
-
-0.0285740470953
-
-**17** : 
-These **methods** take two **DGs** as their **inputs** and **give** a ***unification*** result DG . 
-
-
-0.0407292272222
-
-**199** : 
-In such **cases** , the **SING** ***unification*** method **obtains** **efl** ] **ciency** ***gain*** . 
-
-
-0.0416979973378
-
-**15** : 
-Several FS ***unification*** **methods** were ***proposed*** in **IKarttunen** 86 , **Ferreira** 85 , **Wroblewski** 871 . 
-
-
-0.0441175843777
-
-**207** : 
-The **SING** ***unification*** method ***introduces*** the **concept** of ***feature*** ***unification*** ***strategy*** . 
-
-
-
-#analysing the annotation 2
-
-##The Citing Sentences : 
-
-The **extension** is **classified** into **class** ( 1 ) **above.Based** on this **paper** 's **formalization** , **unification** **algorithms** have been **developed** using **graph** **unification** **techniques** [ 23 , 16 ] . 
-
-###The Corpus Reference Sentences : 
-nan
-
-
-**0** : 
-**Strategic** **Lazy** **Incremental** **Copy** **Graph** **Unification** 
-
-
-###Our Reference Sentences : 
-0.0443116125892
-
-**51** : 
-This method is ***called*** the ***strategic*** ij ! ~crementaI ***copy*** ***graph*** ***unification*** method ( the **SING** ***unification*** method ) . 
-
-
-0.0495639512556
-
-**52** : 
-These two **methods** can be ***combined*** into a **single** method ***called*** the ***strategic*** ***lazy*** **ijAcremeatal** ***copy*** ***graph*** ***unification*** method ( the **SLING** ***unification*** method ) . 
-
-
-0.0766022758902
-
-**207** : 
-The **SING** ***unification*** method ***introduces*** the **concept** of ***feature*** ***unification*** ***strategy*** . 
-
-
-0.0890445830694
-
-**79** : 
-A ***unification*** example is shown in Fig . 
-
-
-0.089891136851
-
-**17** : 
-These **methods** take two **DGs** as their **inputs** and **give** a ***unification*** result DG . 
-
-
-
-#analysing the annotation 3
-
-##The Citing Sentences : 
-
-Other **versions** **based** on more **efficient** **graph** **unification** **methods** such as **Wroblewski** 's and **Kogure** 's method [ 23 , 16 ] have also been **developed** . 
-
-###The Corpus Reference Sentences : 
-nan
-
-
-**0** : 
-**Strategic** **Lazy** **Incremental** **Copy** **Graph** **Unification** 
-
-
-###Our Reference Sentences : 
-0.0626468156678
-
-**51** : 
-This method is ***called*** the ***strategic*** ij ! ~crementaI ***copy*** ***graph*** ***unification*** method ( the **SING** ***unification*** method ) . 
-
-
-0.0677983864507
-
-**52** : 
-These two **methods** can be ***combined*** into a **single** method ***called*** the ***strategic*** ***lazy*** **ijAcremeatal** ***copy*** ***graph*** ***unification*** method ( the **SLING** ***unification*** method ) . 
-
-
-0.0943179717352
-
-**207** : 
-The **SING** ***unification*** method ***introduces*** the **concept** of ***feature*** ***unification*** ***strategy*** . 
-
-
-0.109753655503
-
-**50** : 
-That is , an FS ***unification*** method is ***proposed*** that ***introduces*** a ***strategy*** ***called*** the **early** ***failure*** **rinding** ***strategy*** ( the **EFF** ***strategy*** ) to ***make*** FS ***unification*** ***efficient*** , in this method , FS ***unification*** **orders** are not specified **explicitly** by **rule** **wrigglers** but are **controlled** by **learned** ***information*** on **tendencies** of FS ***constraint*** ***application*** ***failure*** . 
-
-
-0.11266702021
-
-**41** : 
-The method is ***called*** the ***lazy*** i2 ! **excremental** ***copy*** **IFaph** ***unification*** **reel** , **hod** ( the **LING** ***unification*** method for **short** ) . 
-
-
-
-#analysing the annotation 4
-
-##The Citing Sentences : 
-
-This is **inefficient** with many **copy** **operations** **due** to **unfications** of **unnecessary** **features** that do not **contribute** to **successful** **unification** [ 6 ] . 
-
-###The Corpus Reference Sentences : 
-0.273815378119
-
-
-**205** : 
-Furthermore , **structure** **sharing** **increases** the **portion** of **token** **identical** **substructures** of **FSs** which **makes** it **efficient** to keep **unification** **results** of **substructures** of **FSs** and **reuse** them . 
-
-1.0
-
-
-**206** : 
-This **reduces** repeated **calculation** of **substructures** . 
-
-
-###Our Reference Sentences : 
-0.0252921395107
-
-**41** : 
-The method is ***called*** the ***lazy*** i2 ! **excremental** ***copy*** **IFaph** ***unification*** **reel** , **hod** ( the **LING** ***unification*** method for **short** ) . 
-
-
-0.0770125365914
-
-**207** : 
-The **SING** ***unification*** method ***introduces*** the **concept** of ***feature*** ***unification*** ***strategy*** . 
-
-
-0.0791431418768
-
-**51** : 
-This method is ***called*** the ***strategic*** ij ! ~crementaI ***copy*** ***graph*** ***unification*** method ( the **SING** ***unification*** method ) . 
-
-
-0.0842040510036
-
-**52** : 
-These two **methods** can be ***combined*** into a **single** method ***called*** the ***strategic*** ***lazy*** **ijAcremeatal** ***copy*** ***graph*** ***unification*** method ( the **SLING** ***unification*** method ) . 
-
-
-0.0897847697025
-
-**79** : 
-A ***unification*** example is shown in Fig . 
-
-
-
-##The Citing Sentences : 
-
-Thus **treatments** such as **strategic** **unification** [ 6 ] have been **developed** . 
-
-###The Corpus Reference Sentences : 
-0.22322743236
-
-
-**205** : 
-Furthermore , **structure** **sharing** **increases** the **portion** of **token** **identical** **substructures** of **FSs** which **makes** it **efficient** to keep **unification** **results** of **substructures** of **FSs** and **reuse** them . 
-
-1.0
-
-
-**206** : 
-This **reduces** repeated **calculation** of **substructures** . 
-
-
-###Our Reference Sentences : 
-0.0252921395107
-
-**41** : 
-The method is ***called*** the ***lazy*** i2 ! **excremental** ***copy*** **IFaph** ***unification*** **reel** , **hod** ( the **LING** ***unification*** method for **short** ) . 
-
-
-0.0263767639247
-
-**79** : 
-A ***unification*** example is shown in Fig . 
-
-
-0.027281555111
-
-**17** : 
-These **methods** take two **DGs** as their **inputs** and **give** a ***unification*** result DG . 
-
-
-0.0394529078271
-
-**199** : 
-In such **cases** , the **SING** ***unification*** method **obtains** **efl** ] **ciency** ***gain*** . 
-
-
-0.0404229669011
-
-**15** : 
-Several FS ***unification*** **methods** were ***proposed*** in **IKarttunen** 86 , **Ferreira** 85 , **Wroblewski** 871 . 
-
-
-
-#analysing the annotation 5
-
-##The Citing Sentences : 
-
-This **observation** is the **basis** for a **reordering** method **proposed** by **Kogure** [ 1990 ] . 
-
-###The Corpus Reference Sentences : 
-1.0
-
-
-**3** : 
-The other , **called** **ti~e** **strategic** **incremental** **copy** **graph** **unification** method , uses an **early** **failure** finding **strategy** which first tries to **unify** ; **ubstructures** **tending** to **fail** in **unification** ; this method is ; **based** on **stochastic** data on **tim** **likelihood** of **failure** and , 'educes **unnecessary** **computation** . 
-
-
-###Our Reference Sentences : 
-0.20219855954
-
-**5** : 
-Various **kinds** of **grammatical** **formalisms** without t , **transformation** were ***proposed*** from the **late** 1970s I ; **rough** the 1980s l ( ] **aider** al 85 , l ( **plan** and **Bresnan** 82 , **Kay** 1~5 , **Pollm** 'd and **Sag** 871 . 
-
-
-0.694728131487
-
-**139** : 
-In Section 5 , a method which uses this **generalized** ***strategy*** is ***proposed*** . 
-
-
-0.830750667945
-
-**15** : 
-Several FS ***unification*** **methods** were ***proposed*** in **IKarttunen** 86 , **Ferreira** 85 , **Wroblewski** 871 . 
-
-
-0.872908511451
-
-**20** : 
-**Ile** ***proposed*** an ***incremental*** ***copy*** ***graph*** ***unification*** method to **avoid** over ***copying*** and **early** ***copying*** . 
-
-
-0.907979252388
-
-**50** : 
-That is , an FS ***unification*** method is ***proposed*** that ***introduces*** a ***strategy*** ***called*** the **early** ***failure*** **rinding** ***strategy*** ( the **EFF** ***strategy*** ) to ***make*** FS ***unification*** ***efficient*** , in this method , FS ***unification*** **orders** are not specified **explicitly** by **rule** **wrigglers** but are **controlled** by **learned** ***information*** on **tendencies** of FS ***constraint*** ***application*** ***failure*** . 
-
-
-
-#analysing the annotation 6
-
-##The Citing Sentences : 
-
-Thus for any **automatic** **counting** scheme some **constant** **shuffling** and **reshuffling** of the **conjunct** order needs to be **applied** until the order **stabilizes** ( see also [ **Kogure** 1990 ] ) . 
-
-###The Corpus Reference Sentences : 
-1.0
-
-
-**186** : 
-in this method , **theretbre** , the **failure** **tendency** **information** is **acquired** by a **learning** process . 
-
-0.870755924422
-
-
-**187** : 
-That is , the **SING** **unification** method **applied** in an **analysis** system uses the **failure** **tendency** **information** **acquired** by a **learning** **analysis** process . 
-
-0.86739423739
-
-
-**188** : 
-in the **learning** process , when FS **unification** is **applied** , **feature** treatment **orders** are **randomized** for the **sake** of **random** **extraction** . 
-
-
-###Our Reference Sentences : 
-0.86739423739
-
-**188** : 
-in the **learning** process , when F ***unification*** is ***applied*** , ***feature*** treatment **orders** are **randomized** for the **sake** of **random** **extraction** . 
-
-
-0.870755924422
-
-**187** : 
-That is , the **SING** ***unification*** method ***applied*** in an ***analysis*** system uses the ***failure*** ***tendency*** ***information*** **acquired** by a **learning** ***analysis*** process . 
-
-
-0.905514770044
-
-**7** : 
-These **formalisms** were ***applied*** in the field of ***natural*** ***language*** ***processing*** and , ***based*** on these **formalisms** , ~ : **systems** such as **machine** **translation** **systems** were **developed** [ l < ol ; u , e et a l 8gJ . 
-
-
-0.905709005287
-
-**191** : 
-By using **learned** ***failure*** ***tendency*** ***information*** , ***feature*** value ***unification*** is ***applied*** in an order that first ***treat*** ***feature*** with the ***greatest*** ***tendency*** to ***fail*** . 
-
-
-0.907641748883
-
-**179** : 
-Method In a system where F ***unification*** is ***applied*** , there are ***feature*** whose **values** ***fail*** relatively often in ***unification*** with other **values** and there are ***feature*** whose **values** do not ***fail*** so often . 
-
-
-
-#analysing the annotation 7
-
-##The Citing Sentences : 
-
-The **lazy** **copying** approach ( [ **Kogure** , 1990 ] , and [ **Emele** , 1991 ] for **lazy** **copying** in **TFS** with **historical** **backtracking** ) **copies** only **overlapping** **parts** of the **structure** . 
-
-###The Corpus Reference Sentences : 
-0.766655105588
-
-
-**39** : 
-This **paper** **proposes** an FS **unification** method that allows **structure** **sharing** with **constant** **m'der** **node** **access** **time** . 
-
-0.494586938281
-
-
-**40** : 
-This method **achieves** **structure** **sharing** by **introducing** **lazy** **copying** to **Wroblewski** 's **incremental** **copy** **graph** **unification** method . 
-
-1.0
-
-
-**78** : 
-Then , the **unification** of tl **anti** t2 is **defined** as their **greatest** **lower** **bound** or the **meet** . 
-
-
-###Our Reference Sentences : 
-0.0618895114878
-
-**141** : 
-5 **disables** ***structure*** ***sharing*** , however this whole ***copying*** is not necessary if a ***lazy*** **evaluation** method is used . 
-
-
-0.123452890174
-
-**38** : 
-**Avoiding** this problem in his method **requires** a **special** **operation** of **merging** a **skeleton-environment** ***structure*** into a ***skeleton*** ***structure*** , but this **prevents** ***structure*** ***sharing*** . 
-
-
-0.175379000018
-
-**27** : 
-I '' or example , in **unifying** an FS **representing** **constraints** on **phrase** ***structure*** and an FS **representing** a **daughter** **phrase** ***structure*** , such **eases** ***occur*** very **frequent** ly . 
-
-
-0.202435055151
-
-**36** : 
-However , **Pereira** 's method can **create** **skeleton-enviromnent** ***structure*** that are **deeply** **embedded** , for example , in **recursively** **constructing** **large** **phrase** ***structure*** **fl'om** their ***part*** . 
-
-
-0.211475906956
-
-**177** : 
-Usually , the number of ***feature*** in two ***input*** ***structure*** is relatively ***small*** and the **size** of the two ***input*** ***structure*** are often very different . 
-
-
-
-#analysing the annotation 8
-
-##The Citing Sentences : 
-
-At least two **schemes** have been **proposed** **recently** ] ) **a.~ed** Ul ) OU this **observation** ( namely [ **Kogure** . 
-
-###The Corpus Reference Sentences : 
-nan
-
-
-**0** : 
-**Strategic** **Lazy** **Incremental** **Copy** **Graph** **Unification** 
-
-
-###Our Reference Sentences : 
-0.20219855954
-
-**5** : 
-Various **kinds** of **grammatical** **formalisms** without t , **transformation** were ***proposed*** from the **late** 1970s I ; **rough** the 1980s l ( ] **aider** al 85 , l ( **plan** and **Bresnan** 82 , **Kay** 1~5 , **Pollm** 'd and **Sag** 871 . 
-
-
-0.694728131487
-
-**139** : 
-In Section 5 , a method which uses this **generalized** ***strategy*** is ***proposed*** . 
-
-
-0.830750667945
-
-**15** : 
-Several FS ***unification*** **methods** were ***proposed*** in **IKarttunen** 86 , **Ferreira** 85 , **Wroblewski** 871 . 
-
-
-0.872908511451
-
-**20** : 
-**Ile** ***proposed*** an ***incremental*** ***copy*** ***graph*** ***unification*** method to **avoid** over ***copying*** and **early** ***copying*** . 
-
-
-0.907979252388
-
-**50** : 
-That is , an FS ***unification*** method is ***proposed*** that ***introduces*** a ***strategy*** ***called*** the **early** ***failure*** **rinding** ***strategy*** ( the **EFF** ***strategy*** ) to ***make*** FS ***unification*** ***efficient*** , in this method , FS ***unification*** **orders** are not specified **explicitly** by **rule** **wrigglers** but are **controlled** by **learned** ***information*** on **tendencies** of FS ***constraint*** ***application*** ***failure*** . 
-
-
-
-##The Citing Sentences : 
-
-1990 ] and [ **Emele** , 1991 ] ) ; however , both **schemes** are I ) **ased** upon the **increlllent'al** **Col** ) **yiug** **sehellle** all ( l ~-LS ( [ e- **scribed** in [ **Tomal** ) **eehi** , 1991 ] **incremental** **copying** **schemes** **inherently** **suffcr** **fi'om** **Early** **Copying** as **defined** in that article . 
-
-###The Corpus Reference Sentences : 
-nan
-
-
-**0** : 
-**Strategic** **Lazy** **Incremental** **Copy** **Graph** **Unification** 
-
-
-###Our Reference Sentences : 
-0.20219855954
-
-**5** : 
-Various **kinds** of **grammatical** **formalisms** without t , **transformation** were ***proposed*** from the **late** 1970s I ; **rough** the 1980s l ( ] **aider** al 85 , l ( **plan** and **Bresnan** 82 , **Kay** 1~5 , **Pollm** 'd and **Sag** 871 . 
-
-
-0.36676816076
-
-**19** : 
-**Wroblewski** **claims** that ***copying*** is **wrong** when an **algorithm** **copies** too much ( over ***copying*** ) or **copies** too soon ( **early** ***copying*** ) . 
-
-
-0.574818590803
-
-**18** : 
-**Previous** research **identified** DG ***copying*** as a **significant** ***overhead*** . 
-
-
-0.582992736505
-
-**24** : 
-A better method would **minimized** the ***copying*** of **sharable** **arts** . 
-
-
-0.583523287428
-
-**23** : 
-***copying*** **sharable** ***part*** is ***called*** **redundant** ***copying*** . 
-
-
-
-#analysing the annotation 9
-**Not valid annotation**
-
-#analysing the annotation 10
-
-##The Citing Sentences : 
-
-2In the **large-scale** **HPSG-based** **spoken** **Japanese** **analysis** system **developed** at **ATR** , sometimes 98 percent of the **elapsed** **time** is **devoted** to **graph** **unification** ( [ **Kogure** , 1990 ] ) . 
-
-###The Corpus Reference Sentences : 
-0.303782055212
-
-
-**205** : 
-Furthermore , **structure** **sharing** **increases** the **portion** of **token** **identical** **substructures** of **FSs** which **makes** it **efficient** to keep **unification** **results** of **substructures** of **FSs** and **reuse** them . 
-
-
-###Our Reference Sentences : 
-0.0669100814286
-
-**51** : 
-This method is ***called*** the ***strategic*** ij ! ~crementaI ***copy*** ***graph*** ***unification*** method ( the **SING** ***unification*** method ) . 
-
-
-0.0720382218592
-
-**52** : 
-These two **methods** can be ***combined*** into a **single** method ***called*** the ***strategic*** ***lazy*** **ijAcremeatal** ***copy*** ***graph*** ***unification*** method ( the **SLING** ***unification*** method ) . 
-
-
-0.0984371908788
-
-**207** : 
-The **SING** ***unification*** method ***introduces*** the **concept** of ***feature*** ***unification*** ***strategy*** . 
-
-
-0.11670278429
-
-**41** : 
-The method is ***called*** the ***lazy*** i2 ! **excremental** ***copy*** **IFaph** ***unification*** **reel** , **hod** ( the **LING** ***unification*** method for **short** ) . 
-
-
-0.116822108071
-
-**50** : 
-That is , an FS ***unification*** method is ***proposed*** that ***introduces*** a ***strategy*** ***called*** the **early** ***failure*** **rinding** ***strategy*** ( the **EFF** ***strategy*** ) to ***make*** FS ***unification*** ***efficient*** , in this method , FS ***unification*** **orders** are not specified **explicitly** by **rule** **wrigglers** but are **controlled** by **learned** ***information*** on **tendencies** of FS ***constraint*** ***application*** ***failure*** . 
-
-
-
-#analysing the annotation 11
-
-##The Citing Sentences : 
-
-That is , unless some new scheme for **reducing** **excessive** **copying** is **introduced** such as **scucture-sharing** of an **unchanged** **shared-forest** ( [ **Kogure** , 1990 ] ) . 
-
-###The Corpus Reference Sentences : 
-1.0
-
-
-**11** : 
-For example , a **spoken** **Present** . 
-
-1.0
-
-
-**14** : 
-**Japanese** **analysis** system **based** on **llPSG** [ **Kogure** 891 uses 90 % - 98 % of the **elapsed** **time** in FS **unification** . 
-
-
-###Our Reference Sentences : 
-0.0230536672108
-
-**19** : 
-**Wroblewski** **claims** that ***copying*** is **wrong** when an **algorithm** **copies** too much ( over ***copying*** ) or **copies** too soon ( **early** ***copying*** ) . 
-
-
-0.0427120869936
-
-**18** : 
-**Previous** research **identified** DG ***copying*** as a **significant** ***overhead*** . 
-
-
-0.0611160216684
-
-**24** : 
-A better method would **minimized** the ***copying*** of **sharable** **arts** . 
-
-
-0.204761462729
-
-**29** : 
-**Memory** is **wasted** by such **redundant** ***copying*** and this causes **frequent** ***garbage*** ***collection*** and ***page*** ***swapping*** which **decrease** the ***total*** system ***efficiency*** . 
-
-
-0.271312249625
-
-**23** : 
-***copying*** **sharable** ***part*** is ***called*** **redundant** ***copying*** . 
-
-
-
-#analysing the annotation 12
-
-##The Citing Sentences : 
-
-A more **eNcient** **unification** **algorithm** would **avoid** this **redundant** **copying** ( **copying** **structures** that can be **shared** by the **input** and **resultant** **graphs** ) ( **Kogure** , 1990 ) . 
-
-###The Corpus Reference Sentences : 
-0.265370804191
-
-
-**203** : 
-The **LING** **unification** method **achieves** **structure** **sharing** without the O ( **log** d ) data **access** **overhead** of **Pereira** 's method . 
-
-0.902781623994
-
-
-**22** : 
-This is **unnecessary** because there are often **input** **snbgraphs** that can be used as **part** of the result **graph** without any **modification** , or as **sharable** **parts** between one of the **input** **graphs** and the result **graph** . 
-
-0.727152390414
-
-
-**23** : 
-**Copying** **sharable** **parts** is **called** **redundant** **copying** . 
-
-0.707644109181
-
-
-**24** : 
-A better method would **nfinimize** the **copying** of **sharable** **varts** . 
-
-
-###Our Reference Sentences : 
-0.0833477978778
-
-**207** : 
-The **SING** ***unification*** method ***introduces*** the **concept** of ***feature*** ***unification*** ***strategy*** . 
-
-
-0.10111213359
-
-**79** : 
-A ***unification*** example is shown in Fig . 
-
-
-0.101919101234
-
-**41** : 
-The method is ***called*** the ***lazy*** i2 ! **excremental** ***copy*** **IFaph** ***unification*** **reel** , **hod** ( the **LING** ***unification*** method for **short** ) . 
-
-
-0.101947472959
-
-**17** : 
-These **methods** take two **DGs** as their **inputs** and **give** a ***unification*** result DG . 
-
-
-0.106579914268
-
-**50** : 
-That is , an FS ***unification*** method is ***proposed*** that ***introduces*** a ***strategy*** ***called*** the **early** ***failure*** **rinding** ***strategy*** ( the **EFF** ***strategy*** ) to ***make*** FS ***unification*** ***efficient*** , in this method , FS ***unification*** **orders** are not specified **explicitly** by **rule** **wrigglers** but are **controlled** by **learned** ***information*** on **tendencies** of FS ***constraint*** ***application*** ***failure*** . 
-
-
-
-#analysing the annotation 13
-
-##The Citing Sentences : 
-
-**Kogure** ( 1990 ) **proposed** a **lazy** **incremental** **copy** **graph** ( **LING** ) **unification** that uses **dependency-directed** **eol** ) **yiug** 
-
-###The Corpus Reference Sentences : 
-0.772489294434
-
-
-**22** : 
-This is **unnecessary** because there are often **input** **snbgraphs** that can be used as **part** of the result **graph** without any **modification** , or as **sharable** **parts** between one of the **input** **graphs** and the result **graph** . 
-
-1.0
-
-
-**23** : 
-**Copying** **sharable** **parts** is **called** **redundant** **copying** . 
-
-1.0
-
-
-**24** : 
-A better method would **nfinimize** the **copying** of **sharable** **varts** . 
-
-
-###Our Reference Sentences : 
-0.0170630700648
-
-**202** : 
-The ***strategic*** ***lazy*** ***incremental*** ***copy*** ***graph*** ( **SLING** ) ***unification*** method **combines** two ***incremental*** ***copy*** ***graph*** ***unification*** **methods** : the ***lazy*** ***incremental*** ***copy*** ***graph*** ( **LING** ) ***unification*** method and the ***strategic*** ***incremental*** ***copy*** ***graph*** ( **SING** ) ***unification*** method . 
-
-
-0.0606762550156
-
-**52** : 
-These two **methods** can be ***combined*** into a **single** method ***called*** the ***strategic*** ***lazy*** **ijAcremeatal** ***copy*** ***graph*** ***unification*** method ( the **SLING** ***unification*** method ) . 
-
-
-0.0715790234495
-
-**51** : 
-This method is ***called*** the ***strategic*** ij ! ~crementaI ***copy*** ***graph*** ***unification*** method ( the **SING** ***unification*** method ) . 
-
-
-0.097326859913
-
-**41** : 
-The method is ***called*** the ***lazy*** i2 ! **excremental** ***copy*** **IFaph** ***unification*** **reel** , **hod** ( the **LING** ***unification*** method for **short** ) . 
-
-
-0.156621468183
-
-**50** : 
-That is , an FS ***unification*** method is ***proposed*** that ***introduces*** a ***strategy*** ***called*** the **early** ***failure*** **rinding** ***strategy*** ( the **EFF** ***strategy*** ) to ***make*** FS ***unification*** ***efficient*** , in this method , FS ***unification*** **orders** are not specified **explicitly** by **rule** **wrigglers** but are **controlled** by **learned** ***information*** on **tendencies** of FS ***constraint*** ***application*** ***failure*** . 
-
-
-
-#analysing the annotation 14
-
-##The Citing Sentences : 
-
-A better method would **avoid** ( **eliminate** ) such **redundant** **copying** as it is **called** by [ **Kogure** 90 ] . 
-
-###The Corpus Reference Sentences : 
-0.0459813737685
-
-
-**23** : 
-**Copying** **sharable** **parts** is **called** **redundant** **copying** . 
-
-0.207529075583
-
-
-**24** : 
-A better method would **nfinimize** the **copying** of **sharable** **varts** . 
-
-
-###Our Reference Sentences : 
-0.0856160839035
-
-**19** : 
-**Wroblewski** **claims** that ***copying*** is **wrong** when an **algorithm** **copies** too much ( over ***copying*** ) or **copies** too soon ( **early** ***copying*** ) . 
-
-
-0.195879171611
-
-**18** : 
-**Previous** research **identified** DG ***copying*** as a **significant** ***overhead*** . 
-
-
-0.201301129417
-
-**23** : 
-***copying*** **sharable** ***part*** is ***called*** **redundant** ***copying*** . 
-
-
-0.211338457156
-
-**24** : 
-A better method would **minimized** the ***copying*** of **sharable** **arts** . 
-
-
-0.30382028819
-
-**29** : 
-**Memory** is **wasted** by such **redundant** ***copying*** and this causes **frequent** ***garbage*** ***collection*** and ***page*** ***swapping*** which **decrease** the ***total*** system ***efficiency*** . 
-
-
-
-#analysing the annotation 15
-
-##The Citing Sentences : 
-
-**Similarly** , in **Kogure** 's approach , not all **redundant** **copying** is **avoided** in **cases** where there **exists** a **feature** **path** ( a **sequence** of **nodes** **connected** by **arcs** ) to a **node** that needs to be **copied** . 
-
-###The Corpus Reference Sentences : 
-0.883013833032
-
-
-**23** : 
-**Copying** **sharable** **parts** is **called** **redundant** **copying** . 
-
-0.95696997347
-
-
-**141** : 
-5 **disables** **structure** **sharing** , **ttowever** , this whole **copying** is not necessary if a **lazy** **evaluation** method is used . 
-
-0.298315763861
-
-
-**142** : 
-With such a method , it is possible to **delay** **copying** a **node** until either its own **contents** need to change ( e.g. , **node** **G3/Ka** c ! 7 > ) or until it is **found** to have an **arc** ( **sequence** ) to a **node** t , **hat** needs to be **copied** ( e.g. , **node** X **G3/** < a c > in Fig . 
-
-
-###Our Reference Sentences : 
-0.0385869366327
-
-**88** : 
-When a ***node*** ***node*** has a ***node*** ***node*** as its **FORWARD** value , the other **contents** of ***tile*** ***node*** are ignored and **tim** **contents** of ***node*** are used . 
-
-
-0.080623700338
-
-**98** : 
-The **output** ***node*** has been ***created*** only when neither ***input*** ***node*** is ***current*** ; or otherwise the **output** ***node*** is an **existing** ***current*** ***node*** . 
-
-
-0.08287145309
-
-**149** : 
-7 ) : ( 1 ) if ***noel*** , the **dereference** result of ***node*** is ***current*** , then **CopyNode** **Return** ***node*** l '' to indicate that the **ancestor** ***node*** ***node*** must be **coiffed** **immediately** ; ( 2 ) otherwise , **CopyArcs** is ***applied*** to ***node*** and if it **Return** , ~ ; several ***arc*** ***copy*** , **CopyNode** **creates** a new ***copy*** ***node*** . 
-
-
-0.100780776688
-
-**142** : 
-With such a method , it is possible to **delay** ***copying*** a ***node*** until either its own **contents** need to change ( ***erg*** ***node*** **G3/Ka** c ! 7 > ) or until it is **found** to have an ***arc*** ( **sequence** ) to a ***node*** t , **hat** needs to be ***copied*** ( ***erg*** ***node*** X **G3/** < a c > in Fig . 
-
-
-0.101823877046
-
-**163** : 
-IF ***current*** ? ( ***node*** ) THEN **Return** ( ***node*** ) . 
-
-
-
-##The Citing Sentences : 
-
-As it has been **noticed** by [ **Godden** 90 ] and [ **Kogure** 90 ] , the **key** **idea** of **avoiding** `` **redundant** **copying** '' is to do **copying** **lazily** . 
-
-###The Corpus Reference Sentences : 
-0.102131129078
-
-
-**23** : 
-**Copying** **sharable** **parts** is **called** **redundant** **copying** . 
-
-0.585009414352
-
-
-**141** : 
-5 **disables** **structure** **sharing** , **ttowever** , this whole **copying** is not necessary if a **lazy** **evaluation** method is used . 
-
-0.890421433219
-
-
-**142** : 
-With such a method , it is possible to **delay** **copying** a **node** until either its own **contents** need to change ( e.g. , **node** **G3/Ka** c ! 7 > ) or until it is **found** to have an **arc** ( **sequence** ) to a **node** t , **hat** needs to be **copied** ( e.g. , **node** X **G3/** < a c > in Fig . 
-
-
-###Our Reference Sentences : 
-0.028939722218
-
-**19** : 
-**Wroblewski** **claims** that ***copying*** is **wrong** when an **algorithm** **copies** too much ( over ***copying*** ) or **copies** too soon ( **early** ***copying*** ) . 
-
-
-0.0385869366327
-
-**88** : 
-When a ***node*** ***node*** has a ***node*** ***node*** as its **FORWARD** value , the other **contents** of ***tile*** ***node*** are ignored and **tim** **contents** of ***node*** are used . 
-
-
-0.0594231814125
-
-**18** : 
-**Previous** research **identified** DG ***copying*** as a **significant** ***overhead*** . 
-
-
-0.0775058439958
-
-**24** : 
-A better method would **minimized** the ***copying*** of **sharable** **arts** . 
-
-
-0.080623700338
-
-**98** : 
-The **output** ***node*** has been ***created*** only when neither ***input*** ***node*** is ***current*** ; or otherwise the **output** ***node*** is an **existing** ***current*** ***node*** . 
-
-
-
-##The Citing Sentences : 
-
-**Copying** of **nodes** will be **delayed** until a **destructive** change is about to take **place** . 
-
-###The Corpus Reference Sentences : 
-nan
-
-
-**23** : 
-**Copying** **sharable** **parts** is **called** **redundant** **copying** . 
-
-nan
-
-
-**141** : 
-5 **disables** **structure** **sharing** , **ttowever** , this whole **copying** is not necessary if a **lazy** **evaluation** method is used . 
-
-nan
-
-
-**142** : 
-With such a method , it is possible to **delay** **copying** a **node** until either its own **contents** need to change ( e.g. , **node** **G3/Ka** c ! 7 > ) or until it is **found** to have an **arc** ( **sequence** ) to a **node** t , **hat** needs to be **copied** ( e.g. , **node** X **G3/** < a c > in Fig . 
-
-
-###Our Reference Sentences : 
-0.028939722218
-
-**19** : 
-**Wroblewski** **claims** that ***copying*** is **wrong** when an **algorithm** **copies** too much ( over ***copying*** ) or **copies** too soon ( **early** ***copying*** ) . 
-
-
-0.0385869366327
-
-**88** : 
-When a ***node*** ***node*** has a ***node*** ***node*** as its **FORWARD** value , the other **contents** of ***tile*** ***node*** are ignored and **tim** **contents** of ***node*** are used . 
-
-
-0.0594231814125
-
-**18** : 
-**Previous** research **identified** DG ***copying*** as a **significant** ***overhead*** . 
-
-
-0.0775058439958
-
-**24** : 
-A better method would **minimized** the ***copying*** of **sharable** **arts** . 
-
-
-0.080623700338
-
-**98** : 
-The **output** ***node*** has been ***created*** only when neither ***input*** ***node*** is ***current*** ; or otherwise the **output** ***node*** is an **existing** ***current*** ***node*** . 
-
-
-
-##The Citing Sentences : 
-
-**Kogure** uses a **revised** **copynode** **procedure** which **maintains** **copy** **dependency** **information** in order to **avoid** immediate **copying** . 
-
-###The Corpus Reference Sentences : 
-0.7547637381
-
-
-**23** : 
-**Copying** **sharable** **parts** is **called** **redundant** **copying** . 
-
-0.90599152689
-
-
-**141** : 
-5 **disables** **structure** **sharing** , **ttowever** , this whole **copying** is not necessary if a **lazy** **evaluation** method is used . 
-
-0.97623151594
-
-
-**142** : 
-With such a method , it is possible to **delay** **copying** a **node** until either its own **contents** need to change ( e.g. , **node** **G3/Ka** c ! 7 > ) or until it is **found** to have an **arc** ( **sequence** ) to a **node** t , **hat** needs to be **copied** ( e.g. , **node** X **G3/** < a c > in Fig . 
-
-
-###Our Reference Sentences : 
-0.028939722218
-
-**19** : 
-**Wroblewski** **claims** that ***copying*** is **wrong** when an **algorithm** **copies** too much ( over ***copying*** ) or **copies** too soon ( **early** ***copying*** ) . 
-
-
-0.0385869366327
-
-**88** : 
-When a ***node*** ***node*** has a ***node*** ***node*** as its **FORWARD** value , the other **contents** of ***tile*** ***node*** are ignored and **tim** **contents** of ***node*** are used . 
-
-
-0.0594231814125
-
-**18** : 
-**Previous** research **identified** DG ***copying*** as a **significant** ***overhead*** . 
-
-
-0.0775058439958
-
-**24** : 
-A better method would **minimized** the ***copying*** of **sharable** **arts** . 
-
-
-0.080623700338
-
-**98** : 
-The **output** ***node*** has been ***created*** only when neither ***input*** ***node*** is ***current*** ; or otherwise the **output** ***node*** is an **existing** ***current*** ***node*** . 
-
-
-
-#analysing the annotation 17
-**Not valid annotation**

@@ -38,6 +38,9 @@ please notice that we are talking about the dostance, not the **similarity**.
 the bold word is corrected word, beside it, between () you can see the original one.
 This file is the corrected version of C90-2039_TRAIN
 
+- **Elegant Report Of Citation**: This file contains a list of citing sentences and their contexts with the suitable reference ones according to the corpus annotation
+
+
 - **Result**: this file is the first version of our code result.
 
 - **Result1**: We change the threeshold of the contrast to 1.2 instead of 1, i.e reducing the number of significant words.
@@ -48,6 +51,6 @@ This file is the corrected version of C90-2039_TRAIN
 
     - **the number of the words has been reduced is moving from 237 to 198, for words extracted using contrast, and from 163 to 140.**
 
-- **Result3**: After adding the corretion, the xml is in higher quality.
+- **Result3**: After adding the corretion, the xml is in higher quality and the candidate features are in bold and features in italic bold.
 
-- **Result3**: The same results with the candidate feature in bold and features in italic bold.
+- **Result4**: the result after using more accurate calculation of feature maximisation, no matrices anymore.
