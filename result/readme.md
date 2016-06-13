@@ -56,4 +56,4 @@ This file is the corrected version of C90-2039_TRAIN
 - **Result4**: the result after using more accurate calculation of feature maximisation, no matrices anymore.
 
 - **MatchingResults** this file contains a first progress report of the new approche used for finding the span text of a citation inside the reference paper.
-    for each annotation, we list inside those brackets {} the indices of corpus result. then we list on each line a term or a word of the citing sentence who could be part of the principal query and the sentence who contain it. these sentences are sorted according to their feature maximization weight. 
+    for each annotation, we list inside those brackets {} the indices of corpus result. then we list on each line a term or a word of the citing sentence who could be part of the principal query and the first ten sentences who contain it. these sentences are sorted according to their feature maximization weight. 
