@@ -1,3 +1,4 @@
+#Try to read the readme file before reading this file
 #Correction of 196 unrecognized words
 ## section 0
 

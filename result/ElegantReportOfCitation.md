@@ -1,3 +1,5 @@
+#Try to read the readme file before reading this file
+
 #Citing:P99-1061.xml 1
 ###Ref: C90-2039.txt
 ##Citing Sentences: 

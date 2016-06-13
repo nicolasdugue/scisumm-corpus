@@ -1,3 +1,4 @@
+#Try to read the readme file before reading this file
 #241/138 Pertinent Words/Terms: 
 
 ##Section  0:

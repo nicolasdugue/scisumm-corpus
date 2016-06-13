@@ -1,4 +1,4 @@
-
+#Try to read the readme file before reading this file
 
 ## section 1
 The strategic lazy incremental copy graph unification method is a combination of two methods for unifying **mature**( hmture ) structures .
